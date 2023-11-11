@@ -1,0 +1,2 @@
+export const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF0aXlqZmhwbG53bHJ5d3F5YmptIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTk2OTM3MzcsImV4cCI6MjAxNTI2OTczN30.X9HOlPBm46U3QWaYb6QIdl_8zASn6hr1puhVxxS-v4c";
+export const ENDPOINT = "https://atiyjfhplnwlrywqybjm.supabase.co/rest/v1/ProgressBar";
