@@ -43,7 +43,7 @@ const ProgressBar = () => {
     // Extract the first element from the array if it's an array
     const sliderValue = Array.isArray(selectedSliderValue) ? selectedSliderValue[0] : selectedSliderValue;
 
-    // Pusher input data til supabase
+    // Push input data til supabase
     try {
       const { data, error } = await supabase.from("progress").upsert([
         {
@@ -66,7 +66,7 @@ const ProgressBar = () => {
 
   return (
     <div className="bg-white flex justify-center items-center w-screen h-screen">
-      <div className="bg-green-800 h-[40vh] p-4">
+      <div className="bg-green-800 h-auto w-[20vw] min-w-[250px] md:min-w-[300px]   p-4">
         {fetchError && <p>{fetchError}</p>}
         {data && (
           <div>
@@ -75,7 +75,7 @@ const ProgressBar = () => {
               {totalAmount} kvm købt ud af 10000
             </p>
             <Progress.Root
-              className="relative overflow-hidden bg-white rounded-full w-[300px] h-[25px]"
+              className="relative overflow-hidden bg-white rounded-full w-auto h-[25px]"
               style={{
                 transform: "translateZ(0)",
               }}
@@ -89,7 +89,7 @@ const ProgressBar = () => {
           <h3>Vælg antal kvm du vil redde</h3>
         </div>
         <div className="pt-3">
-          <Slider.Root className="relative flex items-center select-none touch-none w-[200px] h-5" defaultValue={[50]} onValueChange={handleSliderChange} max={10000} step={1}>
+          <Slider.Root className="relative flex items-center select-none touch-none  h-5" defaultValue={[50]} onValueChange={handleSliderChange} max={10000} step={1}>
             <Slider.Track className="bg-white relative grow rounded-full h-[3px]">
               <Slider.Range className="absolute bg-white rounded-full h-full" />
             </Slider.Track>
@@ -99,8 +99,8 @@ const ProgressBar = () => {
         </div>
         <div className="flex flex-col gap-3">
           <input className="p-1 pt-3 text-black" placeholder="name" type="text" onChange={(e) => setName(e.target.value)} />
-          <input className="p-1 pt-3 text-black" placeholder="phonenumber" type="text" onChange={(e) => setPhoneNumber(e.target.value)} />
-          <input className="p-1 pt-3 text-black" placeholder="email" type="text" onChange={(e) => setEmail(e.target.value)} />
+          <input className="p-1 pt-3 text-black" placeholder="phonenumber" type="phone" onChange={(e) => setPhoneNumber(e.target.value)} />
+          <input className="p-1 pt-3 text-black" placeholder="email" type="email" onChange={(e) => setEmail(e.target.value)} />
         </div>
         <div className="pt-3"></div>
         <button className="p-2 bg-green-500 text-white" onClick={handleSupportClick}>
