@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../../components/Card";
+import { NavigationMenuBar } from "../../components/NavigationMenuBar";
 
 function page() {
   return (
     <>
-      <Card />
+      <NavigationMenuBar />
     </>
   );
 }
