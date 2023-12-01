@@ -1,7 +1,12 @@
 import React from "react";
+import Navigation from "../../components/Navigation.jsx";
 
 function page() {
-  return <div>page</div>;
+  return (
+    <>
+      <Navigation />
+    </>
+  );
 }
 
 export default page;
