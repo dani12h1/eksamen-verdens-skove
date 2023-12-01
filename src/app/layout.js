@@ -12,11 +12,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html className="bg-hvid" lang="en">
       <Navigation />
       <Footer />
-
-      <body className="bg-hvid">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
