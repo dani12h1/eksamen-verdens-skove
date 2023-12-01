@@ -18,10 +18,32 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+@font-face {
+  font-family: "forma-djr-banner";
+  src: url("https://use.typekit.net/gwv0bgb.css");
+}
+
+h1 {
+  font-family: "forma-djr-banner";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "h1", sans-serif;
+  font-weight: "regular";
+}
+
+p {
+  font-family: "news-gothic-std", sans-serif;
+  font-weight: "regular";
+}
+
+button {
+  font-family: "news-gothic-std", sans-serif;
+  font-weight: "regular";
 }
