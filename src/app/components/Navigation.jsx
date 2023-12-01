@@ -14,7 +14,7 @@ const Navigation = () => {
   };
 
   return (
-    <header className="h-26 bg-[#507D66]">
+    <header className="h-26 bg-[#507D66] text-hvid">
       <nav className="relative px-2 py-6">
         <div className="container mx-auto flex justify-between items-center">
           <Image src={Logo} width="200" height="150" alt="Logo" />
