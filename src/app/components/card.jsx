@@ -12,6 +12,10 @@ const Card = () => {
   return (
     <>
       <section>
+        <h1>Hvem er Verdens Skove? </h1>
+        <p>Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
+      </section>
+      <section>
         <h1>Sådan kan du støtte vores arbejde</h1>
         <div className='m-3 flex-col justify-center'>
           <div className='bg-slate-300 shadow-sm'>
