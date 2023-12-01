@@ -28,7 +28,7 @@ const Footer = () => {
 
         <div class='flex'>
           <input className='border-2' type='text'></input>
-          <input className='bg-orange-600 w-20' type='submit' value='Tilsend' />
+          <input className='bg-orange w-20 text-white' type='submit' value='Tilmeld' />
         </div>
 
         <p>Modtag vores månedlige nyhedsbrev med fortællinger fra vores arbejde og skovnyheder fra hele verden.</p>
