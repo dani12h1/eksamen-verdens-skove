@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className='gap-7 m-4 leading-7 p-4' text-grå>
+    <footer className='gap-7 m-4 leading-7 p-4 text-grå'>
       <div>
         <h3 className='pb-4 pt-4'>Verdens Skove</h3>
         <p>Adresse:</p>
