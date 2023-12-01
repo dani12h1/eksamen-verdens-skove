@@ -17,7 +17,7 @@ module.exports = {
         hvid: "#FFFFFF",
         skrift_sort: "#454545f",
         grøn: "#507D66",
-        grå: "#F7F7F7",
+        grå: "#454545",
         hover_orange: "#C77638",
       },
     },
