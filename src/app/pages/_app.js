@@ -11,3 +11,5 @@
 // }
 
 // export default MyApp;
+
+// pages/_app.js or pages/_app.jsx
