@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap");
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -22,10 +23,16 @@ body {
 }
 
 h1 {
+  font-family: "Sintony", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 h2 {
+  font-family: "Sintony", sans-serif;
+  font-weight: 400;
 }
 
 p {
+  font-family: "Sintony", sans-serif;
 }
