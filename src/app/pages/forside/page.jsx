@@ -21,19 +21,19 @@ const Card = () => {
           <section className='w-full h-full border-t-2 border-black'>
             <div className='m-3 flex-col justify-center'>
               <h1>Sådan kan du støtte vores arbejde</h1>
-              <div>
+              <div className='shadow-xl p-3'>
                 <Image src={truck} width={500} height={500} alt='Picture of workers' />
                 <h3>Doner til vores arbejde</h3>
                 <p className='p-2'>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
                 <button className='text-orange p-2'>Doner her →</button>
               </div>
-              <div>
+              <div className='shadow-xl p-3'>
                 <Image src={totebag} width={500} height={500} alt='Picture of totebag' />
                 <h3>Besøg vores webshop</h3>
                 <p>Støt os ved køb af plakater, kaffe og meget mere..</p>
                 <button className='text-orange'>Gå til webshop →</button>
               </div>
-              <div>
+              <div className='shadow-xl p-3'>
                 <Image src={certificat} width={500} height={500} alt='Picture of certificate' />
                 <h3>Regnskovscertifikat</h3>
                 <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
@@ -53,48 +53,57 @@ const Card = () => {
               </div>
             </div>
           </section>
-          <section className=''>
-            <div className='m-3 flex-col justify-center'>
-              <h1>Aktuelt nyt</h1>
-              <div className='shadow-xl p-3'>
-                <Image src={pink} width={500} height={500} alt='Picture of origin people' />
-                <div className='flex'>
-                  <p>6 NOVEMBER 2023</p>
-                  <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
-                    <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
-                  </svg>
-                  <p>Pico Bonito </p>
+          <section>
+            <h1>Aktuelt nyt</h1>
+            <div className='flex overflow-scroll gap-4'>
+              <div className=' flex justify-center'>
+                <div className='shadow-xl w-80'>
+                  <Image src={pink} alt='Picture of origin people' />
+                  <div className='flex p-4 justify-between'>
+                    <p>6 NOVEMBER 2023</p>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
+                      <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
+                    </svg>
+                    <p>Pico Bonito </p>
+                  </div>
+                  <div className='p-4'>
+                    <h3>Støtte af tolupanfolket</h3>
+                    <p> Oprindelige folk og civilsamfundet i Honduras blev ikke kun udfordret af sundhedsrelateret pres under COVID-19 pandemien.</p>
+                    <button className='text-orange pt-2'>Læs mere →</button>
+                  </div>
                 </div>
-                <h3>Støtte af tolupanfolket</h3>
-                <p> Oprindelige folk og civilsamfundet i Honduras blev ikke kun udfordret af sundhedsrelateret pres under COVID-19 pandemien.</p>
-                <button className='text-orange pt-2'>Læs mere →</button>
-              </div>
-              <div className='shadow-xl p-3'>
-                <Image src={people} width={500} height={500} alt='Picture of people in the forest' />
-                <div className='flex'>
-                  <p>20 NOVEMBER 2023</p>
-                  <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
-                    <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
-                  </svg>
-                  <p>Etiopien</p>
-                </div>
-                <h3>Nyt initiativ: forbedring af skovovervågning</h3>
-                <p>Verdens Skove arbejder på et projekt i det sydvestlige Etiopien.</p>
-                <button className='text-orange pt-2'>Læs mere →</button>
-              </div>
+                <div className='shadow-xl w-80'>
+                  <Image src={people} alt='Picture of people in the forest' />
+                  <div className='flex p-4 justify-between'>
+                    <p>20 NOVEMBER 2023</p>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
+                      <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
+                    </svg>
+                    <p>Etiopien</p>
+                  </div>
+                  <div className='p-4'>
+                    <h3>Nyt initiativ: forbedring af skovovervågning</h3>
+                    <p>Verdens Skove arbejder på et projekt i det sydvestlige Etiopien.</p>
 
-              <div className='shadow-xl p-3'>
-                <Image src={foresttruck} width={500} height={500} alt='Picture of forest and truck' />
-                <div className='flex'>
-                  <p>18 SEPTEMBER 2023</p>
-                  <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
-                    <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
-                  </svg>
-                  <p>Bolivia</p>
+                    <button className='text-orange pt-2'>Læs mere →</button>
+                  </div>
                 </div>
-                <h3>Tropiske skove forsvinder</h3>
-                <p>Nye tal viser en bekymrende udvikling i tab af skovdække i Bolivia. </p>
-                <button className='text-orange pt-2'>Læs mere →</button>
+
+                <div className='shadow-xl w-80 '>
+                  <Image src={foresttruck} alt='Picture of forest and truck' />
+                  <div className='flex p-4 justify-between'>
+                    <p>18 SEPTEMBER 2023</p>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
+                      <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
+                    </svg>
+                    <p>Bolivia</p>
+                  </div>
+                  <div className='p-4'>
+                    <h3>Tropiske skove forsvinder</h3>
+                    <p>Nye tal viser en bekymrende udvikling i tab af skovdække i Bolivia. </p>
+                    <button className='text-orange pt-2'>Læs mere →</button>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
