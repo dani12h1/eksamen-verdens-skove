@@ -25,7 +25,9 @@ body {
 h1 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding-bottom: 3%;
+  padding-top: 3%;
 }
 
 h2 {
@@ -33,6 +35,17 @@ h2 {
   font-weight: 400;
 }
 
+h3 {
+  font-family: "Sintony", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 p {
   font-family: "Sintony", sans-serif;
+}
+
+button {
+  padding-bottom: 3%;
+  padding-top: 3%;
 }

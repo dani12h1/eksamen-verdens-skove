@@ -14,7 +14,7 @@ const Card = () => {
       <main className='leading-7'>
         <div className='bg-white p-4'>
           <section className='p-3 text-black'>
-            <h1 className='font-bold text-xl'>Hvem er Verdens Skove? </h1>
+            <h1 className=''>Hvem er Verdens Skove? </h1>
             <p>Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
             <button className=' text-orange pt-2'>Læs mere →</button>
           </section>
