@@ -14,12 +14,16 @@ h1 {
   font-weight: 700;
   font-size: 1.5rem;
   padding-bottom: 3%;
-  padding-top: 3%;
+  padding-top: 15%;
 }
 
 h2 {
   font-family: "Sintony", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
+  padding-top: 15%;
+  font-size: 1.5rem;
+  padding-bottom: 3%;
+  padding-top: 15%;
 }
 
 h3 {
