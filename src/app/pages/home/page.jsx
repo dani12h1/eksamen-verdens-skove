@@ -4,7 +4,9 @@ import ProgressBar from "../../components/progressBar";
 function page() {
   return (
     <>
-      <div></div>
+      <div>
+        <ProgressBar />
+      </div>
     </>
   );
 }
