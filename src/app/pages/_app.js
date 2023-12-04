@@ -1,10 +1,15 @@
-// _app.js
-import "../styles/globals.css";
+import "../styles/globals.css"; // Import global styles
+import { Sintony } from "@next/font/google";
 
-function MyApp({ Component, pageProps }) {
-  // Additional logic or context providers can be added here
+const sintony = Sintony({
+  weight: ["700", "400"],
+  subsets: ["latin"],
+});
 
-  return <Component {...pageProps} />;
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <main className={sintony.className}>
+      <Component {...pageProps} />
+    </main>
+  );
 }
-
-export default MyApp;
