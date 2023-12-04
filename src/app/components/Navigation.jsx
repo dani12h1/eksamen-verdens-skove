@@ -14,19 +14,19 @@ const Navigation = () => {
   };
 
   return (
-    <header className="h-26 bg-[#507D66] text-hvid ">
+    <header className="h-26 bg-[#507D66] text-hvid z-[1000]">
       <nav className="relative px-2 py-6">
         <div className="container mx-auto flex justify-between items-center">
-          <Image src={Logo} width="200" height="150" alt="Logo" />
+          <Image className="" src={Logo} width="200" height="150" alt="Logo" />
 
-          <ul className="hidden md:flex space-x-6">
+          <ul className="hidden md:flex space-x-6 pl-[20vw]">
             <li className="flex relative group">
               <Link href="#" className="mr-1">
                 Om os
               </Link>
               {/* Submenu starter */}
               <ul className="absolute bg-[#507D66] p-3 w-52 top-[7.1vh] transform scale-0 group-hover:scale-100 transition duration-500⁄ ease-in-out origin-top shadow-lg text-white border-t-8 border-[#E6863B]">
-                <li className="text-sm hover:text-[#E6863B] leading-8">
+                <li className="text-lg hover:text-[#E6863B] leading-8">
                   <Link href="#">Hvem er Verdens Skove?</Link>
                 </li>
                 <li className="text-sm hover:text-[#E6863B]  leading-8">
@@ -61,7 +61,7 @@ const Navigation = () => {
             </li>
           </ul>
 
-          <Link href="#" className="bg-[#E6863B] px-5 py-3 rounded-lg hover:bg-red-500 text-white hidden md:flex font-bold" role="button">
+          <Link href="#" className="bg-[#E6863B] px-5 py-3 rounded-lg hover:bg-hover_orange text-white hidden md:flex font-bold text-[1.5rem]" role="button">
             STØT NU
           </Link>
 
