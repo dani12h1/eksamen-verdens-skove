@@ -15,19 +15,23 @@ import Footer from "../../components/Footer";
 const Card = () => {
   return (
     <>
-      <Navigation />
-      <main className="leading-7 ">
+      <main className="leading-12">
+        <Navigation />
         <section className="relative">
-          <h1 className="absolute text-white p-5 pt-10 z-50 text-[2rem]">Red skovene, før planeten mister pusten </h1>
-          <div className="relative  ">
-            <Image className="h-[62vh] lg:h-auto" src={hero} alt="Picture of workers" />
-            <div className="absolute md:top-6 top-44 w-full h-full flex justify-center items-center lg:w-[30vh]">
+          <div className="relative lg:top-[40vh]">
+            <h1 className="absolute text-white p-5 pt-10 z-50 text-[2rem] lg:text-[3.5rem] lg:max-w-[50vw] md:max-w-[50vw] lg:pl-[8vw] lg:pt-48 ">Red skovene, før planeten mister pusten </h1>
+          </div>
+          <div className="relative">
+            <Image className="h-[62vh] lg:h-full lg:w-full" src={hero} alt="Picture of workers" />
+          </div>
+          <div className="lg:flex">
+            <div className="absolute top-52 lg:top-32 w-full h-full flex justify-center lg:justify-end md:justify-end md:pr-40   lg:pr-52  items-center">
               <ProgressBar className="" />
             </div>
           </div>
         </section>
 
-        <div className="bg-white p-4 pt-40 lg:p-10">
+        <div className="bg-white p-4 pt-40 lg:p-32">
           <section className="p-3 text-black">
             <h1 className="">Hvem er Verdens Skove? </h1>
             <p>Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
@@ -38,7 +42,7 @@ const Card = () => {
               <h1>Sådan kan du støtte vores arbejde</h1>
             </div>
 
-            <div className="grid gap-4 ">
+            <div className="grid gap-4 lg:flex md:flex sm:justify-center">
               <div className="shadow-xl">
                 <Image src={truck} width={500} height={500} alt="Picture of workers" />
                 <div className="p-6">
@@ -70,17 +74,19 @@ const Card = () => {
           <section className="mb-12"></section>
           <section>
             <div>
-              <div className="bg-gray-200 p-5">
-                <Image src={bw} width={500} height={500} alt="Picture of the old days" />
-                <h1>Hvordan arbejder vi? </h1>
-                <p>Vi samarbejde med folk, som lever i og af skoven. Vi arbejder i områder med særlig høj biodiversitet. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
-                <button className=" text-orange pt-2">Læs mere →</button>
+              <div className="bg-gray-200 p-5 lg:flex md:flex md:p-10 lg:p-10">
+                <Image className="h-auto w-auto" src={bw} alt="Picture of the old days" />
+                <div className=" md:p-8">
+                  <h1 className="pt-12 md:pt-6 lg:pt-6">Hvordan arbejder vi? </h1>
+                  <p>Vi samarbejde med folk, som lever i og af skoven. Vi arbejder i områder med særlig høj biodiversitet. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
+                  <button className="text-orange pt-2 md:pt-10 lg:pt-10">Læs mere →</button>
+                </div>
               </div>
             </div>
           </section>
-          <section>
+          <section className="">
             <h2 className="flex justify-center">Aktuelt nyt</h2>
-            <div className="flex overflow-scroll ">
+            <div className="flex overflow-scroll lg:justify-center">
               <div className=" flex justify-center gap-4">
                 <div className=" w-80 shadow-xl">
                   <Image src={pink} alt="Picture of origin people" />
@@ -139,8 +145,8 @@ const Card = () => {
             </div>
           </section>
         </div>
+        <Footer className="p-0" />
       </main>
-      <Footer />
     </>
   );
 };

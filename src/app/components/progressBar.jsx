@@ -58,7 +58,7 @@ const ProgressBar = () => {
 
   return (
     <div className="">
-      <div className="bg-grøn h-auto w-[80vw] min-w-[320px] md:min-w-[320px] p-4 rounded-md text-white bg-opacity-80">
+      <div className="bg-grøn h-auto w-[80vw] min-w-[320px] max-w-[320px]  lg:min-w-[25vw] md:min-w-[30vw] lg:min-h-[65vh] p-4 lg:p-8 rounded-md text-white bg-opacity-80">
         <h1 className="pb-0">Skriv under nu</h1>
         <p className="pb-2">Og stop kaffe, der rydder regnskov</p>
         {fetchError && <p>{fetchError}</p>}
@@ -69,7 +69,7 @@ const ProgressBar = () => {
               <p>Underskrevet</p>
               <p>Vores mål</p>
             </div>
-            <Progress.Root className="relative overflow-hidden bg-white rounded-full w-auto h-[25px]" style={{ transform: "translateZ(0)" }} value={progressPercentage}>
+            <Progress.Root className="relative overflow-hidden bg-white rounded-full w-auto h-[2.5vh] lg:h-[3.5vh]" style={{ transform: "translateZ(0)" }} value={progressPercentage}>
               <Progress.Indicator className="bg-orange w-full h-full transition-transform duration-[660ms] ease-[cubic-bezier(0.65, 0, 0.35, 1)]" style={{ transform: `translateX(-${100 - progressPercentage}%)` }} />
             </Progress.Root>
           </div>
