@@ -11,7 +11,7 @@ import foresttruck from "../billeder/treesandtruck.png";
 const Card = () => {
   return (
     <>
-      <div className="bg-red-white">
+      <div className="bg-white">
         <section className="p-3 text-black">
           <h1>Hvem er Verdens Skove? </h1>
           <p>Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
