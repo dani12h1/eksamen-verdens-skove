@@ -11,10 +11,10 @@ import foresttruck from "../../billeder/treesandtruck.png";
 const Card = () => {
   return (
     <>
-      <main className=' leading-7'>
+      <main className='leading-7'>
         <div className='bg-white p-4'>
           <section className='p-3 text-black'>
-            <h1>Hvem er Verdens Skove? </h1>
+            <h1 className='font-bold text-xl'>Hvem er Verdens Skove? </h1>
             <p>Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
             <button className=' text-orange pt-2'>Læs mere →</button>
           </section>
@@ -45,7 +45,7 @@ const Card = () => {
           <section className='mb-12'></section>
           <section>
             <div>
-              <div className='bg-slate-400'>
+              <div className='bg-gray-200 p-5'>
                 <Image src={bw} width={500} height={500} alt='Picture of the old days' />
                 <h1>Hvordan arbejder vi? </h1>
                 <p>Vi samarbejde med folk, som lever i og af skoven. Vi arbejder i områder med særlig høj biodiversitet. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
