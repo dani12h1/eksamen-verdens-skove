@@ -19,7 +19,7 @@ const Card = () => {
         <Navigation />
         <section className='relative '>
           <div className='relative lg:top-[40vh] md:top-[30vh] '>
-            <h1 className='absolute text-white p-5 pt-10 z-50 lg:max-w-[50vw] md:max-w-[45vw] lg:pl-[8vw] lg:pt-48 '>Red skovene, før planeten mister pusten </h1>
+            <h1 className='absolute text-white p-5 pt-10 z-[1] lg:max-w-[50vw] md:max-w-[45vw] lg:pl-[8vw] lg:pt-0 md:pt-0'>Red skovene, før planeten mister pusten </h1>
           </div>
           <div className='relative'>
             <Image className='h-[62vh] lg:h-full lg:w-full' src={hero} alt='Picture of workers' />
@@ -43,20 +43,20 @@ const Card = () => {
             </div>
 
             <div className='grid gap-4 lg:flex md:flex sm:justify-center'>
-              <div className='shadow-xl'>
+              <div className='shadow-xl lg:min-h-[400px]'>
                 <Image src={truck} width={500} height={500} alt='Picture of workers' />
                 <div className='p-6'>
                   <h3>Doner til vores arbejde</h3>
                   <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
-                  <button className='text-orange pt-16'>Doner her →</button>
+                  <button className='text-orange'>Doner her →</button>
                 </div>
               </div>
               <div className='shadow-xl'>
                 <Image src={totebag} width={500} height={500} alt='Picture of totebag' />
                 <div className='p-6'>
                   <h3>Besøg vores webshop</h3>
-                  <p>Støt os ved køb af plakater, kaffe og meget mere..</p>
-                  <button className='text-orange pt-16'>Gå til webshop →</button>
+                  <p>Støt os ved køb af plakater, kaffe og meget mere bla bla</p>
+                  <button className='text-orange'>Gå til webshop →</button>
                 </div>
               </div>
               <div className='shadow-xl '>
@@ -64,7 +64,7 @@ const Card = () => {
                 <div className='p-6'>
                   <h3>Regnskovscertifikat</h3>
                   <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
-                  <button className='text-orange pt-16'>Køb her →</button>
+                  <button className='text-orange '>Køb her →</button>
                 </div>
               </div>
             </div>
@@ -84,10 +84,10 @@ const Card = () => {
             </div>
           </section>
           <section className='lg:pb-28'>
-            <h2 className='flex justify-center pt-12 lg:pt-28'>Aktuelt nyt</h2>
-            <div className='flex overflow-scroll lg:justify-center'>
-              <div className=' flex justify-center gap-4'>
-                <div className=' w-80 shadow-xl'>
+            <h2 className='flex pt-12 lg:pt-28'>Aktuelt nyt</h2>
+            <div className='flex overflow-scroll'>
+              <div className=' flex gap-4'>
+                <div className=' w-[21rem]  border shadow-xl'>
                   <Image src={pink} alt='Picture of origin people' />
                   <div className='flex p-4 justify-between'>
                     <p>6 NOVEMBER 2023</p>
@@ -104,7 +104,7 @@ const Card = () => {
                     <button className='text-orange pt-2'>Læs mere →</button>
                   </div>
                 </div>
-                <div className=' w-80 shadow-xl'>
+                <div className='w-[21rem]  border shadow-lg'>
                   <Image src={people} alt='Picture of people in the forest' />
                   <div className='flex p-4 justify-between'>
                     <p>20 NOVEMBER 2023</p>
@@ -123,7 +123,7 @@ const Card = () => {
                   </div>
                 </div>
 
-                <div className='w-80 shadow-xl'>
+                <div className='w-[21rem] border shadow-xl'>
                   <Image src={foresttruck} alt='Picture of forest and truck' />
                   <div className='flex p-4 justify-between'>
                     <p>18 SEPTEMBER 2023</p>
@@ -140,10 +140,10 @@ const Card = () => {
                     <button className='text-orange pt-2'>Læs mere →</button>
                   </div>
                 </div>
-                <div className='w-80 shadow-xl'>
+                <div className='w-[21rem]  border shadow-xl'>
                   <Image src={foresttruck} alt='Picture of forest and truck' />
                   <div className='flex p-4 justify-between'>
-                    <p>27 OKTOBER 2023</p>
+                    <p>18 SEPTEMBER 2023</p>
                     <div className='flex'>
                       <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
                         <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
