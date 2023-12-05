@@ -59,7 +59,7 @@ const ProgressBar = () => {
   return (
     <div className="">
       <div className="bg-grøn h-auto w-[80vw]  max-w-[320px] min-w-[25vw]  lg:min-w-[400px] lg:gap-3 grid lg:max-w-[30vw] md:min-w-[35vw] lg:min-h-[65vh] p-4 lg:p-8 rounded-md text-white bg-opacity-80">
-        <h1 className="pb-0">Skriv under nu</h1>
+        <h2 className="pb-0">Skriv under nu</h2>
         <p className="pb-3">Og stop kaffe, der rydder regnskov</p>
         {fetchError && <p>{fetchError}</p>}
         {data && (
