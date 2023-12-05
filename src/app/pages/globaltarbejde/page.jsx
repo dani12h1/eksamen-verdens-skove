@@ -54,23 +54,26 @@ function globaltarbejde() {
             </div>
           </section>
           <section>
-            <div>
-              <Image src={skov} alt='Picture of reainforest' />
+            <div className='lg:flex lg:p-10 md:flex md:p-10'>
+              <div className='lg:order-2 md:order-2'>
+                <Image src={skov} alt='Picture of reainforest' />
+              </div>
+              <div className='lg:flex lg:flex-col lg:justify-center lg:p-9 lg:order- md:flex md:flex-col md:justify-center md:p-9 md:order-1'>
+                <h2 className='pt-5'>Hvorfor er regnskovene vigtige?</h2>
+                <p>Regnskove er afgørende for planetens sundhed og menneskers overlevelse. De huser en unik biodiversitet, med over halvdelen af verdens arter, og er en kilde til medicin og fødevarer. Regnskovene regulerer lokalt og globalt klima ved at producere regn, binde CO2 og forhindre drivhusgasudledning. Desuden er de nøglen til ferskvand, og millioner af mennesker afhænger af dem for deres levebrød. Skovrydning truer ikke kun arter, men destabiliserer også økosystemer og påvirker klimaet. </p>
+                <button className='text-orange pt-5 lg:flex lg:justify-start md:flex md:justify-start'>Læs mere →</button>
+              </div>
             </div>
-            <div className='lg:'>
-              <h2 className='pt-5'>Hvorfor er regnskovene vigtige?</h2>
-              <p>Regnskove er afgørende for planetens sundhed og menneskers overlevelse. De huser en unik biodiversitet, med over halvdelen af verdens arter, og er en kilde til medicin og fødevarer. Regnskovene regulerer lokalt og globalt klima ved at producere regn, binde CO2 og forhindre drivhusgasudledning. Desuden er de nøglen til ferskvand, og millioner af mennesker afhænger af dem for deres levebrød. Skovrydning truer ikke kun arter, men destabiliserer også økosystemer og påvirker klimaet. </p>
-              <button className='text-orange pt-5'>Læs mere →</button>
-            </div>
-          </section>
-          <section>
-            <div>
-              <Image src={mandiflod} alt='Picture of man in boat' />
-            </div>
-            <div>
-              <h2 className='pt-5'>Hvordan vi støtter de oprindelige folk</h2>
-              <p>Oprindelige folk er afgørende samarbejdspartnere for Verdens Skoves bevaringsarbejde i regnskovene. De bebor mange af verdens tilbageværende regnskove, og forskning viser, at skove bevares bedre, hvor oprindelige folk har jordrettigheder. Deres livsstil, mindre afhængig af industriel produktion og vækst, spiller en nøglerolle. Verdens Skove arbejder for at sikre juridiske rettigheder til skovene for oprindelige folk og presse for respekt fra nybyggere, virksomheder og myndigheder. </p>
-              <button className='text-orange pt-5'>Læs mere →</button>
+            <div className='lg:flex lg:p-10 md:flex md:p-10'>
+              <div>
+                <Image src={mandiflod} alt='Picture of man in boat' />
+              </div>
+
+              <div className='lg:flex lg:flex-col lg:justify-center lg:p-9 md:flex md:flex-col md:justify-center md:p-9'>
+                <h2> Hvordan vi støtter de oprindelige folk</h2>
+                <p>Oprindelige folk er afgørende samarbejdspartnere for Verdens Skoves bevaringsarbejde i regnskovene. De bebor mange af verdens tilbageværende regnskove, og forskning viser, at skove bevares bedre, hvor oprindelige folk har jordrettigheder. Deres livsstil, mindre afhængig af industriel produktion og vækst, spiller en nøglerolle. Verdens Skove arbejder for at sikre juridiske rettigheder til skovene for oprindelige folk og presse for respekt fra nybyggere, virksomheder og myndigheder. </p>
+                <button className='text-orange pt-5 lg:flex lg:justify-start md:flex md:justify-start'>Læs mere →</button>
+              </div>
             </div>
           </section>
         </section>
