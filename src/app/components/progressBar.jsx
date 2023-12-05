@@ -58,14 +58,14 @@ const ProgressBar = () => {
 
   return (
     <div className="">
-      <div className="bg-grøn h-auto w-[80vw] min-w-[320px] max-w-[320px]  lg:min-w-[25vw] md:min-w-[30vw] lg:min-h-[65vh] p-4 lg:p-8 rounded-md text-white bg-opacity-80">
+      <div className="bg-grøn h-auto w-[80vw]  max-w-[320px] min-w-[25vw]  lg:min-w-[400px] lg:gap-3 grid lg:max-w-[30vw] md:min-w-[35vw] lg:min-h-[65vh] p-4 lg:p-8 rounded-md text-white bg-opacity-80">
         <h1 className="pb-0">Skriv under nu</h1>
-        <p className="pb-2">Og stop kaffe, der rydder regnskov</p>
+        <p className="pb-3">Og stop kaffe, der rydder regnskov</p>
         {fetchError && <p>{fetchError}</p>}
         {data && (
           <div className="font-bold">
             <p>{totalNames}/10000</p>
-            <div className="flex text-sm font-thin justify-between">
+            <div className="flex text-sm font-thin justify-between pb-1">
               <p>Underskrevet</p>
               <p>Vores mål</p>
             </div>
@@ -76,11 +76,11 @@ const ProgressBar = () => {
         )}
         <p className="py-3">Der ryddes årligt omkring 120.000 hektar skov på grund af kaffedyrkning. Støt vores appel for at stoppe skadelig kaffedyrkning og redde regnskovene.</p>
         <div className="flex flex-col gap-3 pt-3">
-          <input className="p-1 pt-3 text-black" placeholder="Navn" type="text" onChange={(e) => setName(e.target.value)} />
-          <input className="p-1 pt-3 text-black" placeholder="E-mail" type="email" onChange={(e) => setEmail(e.target.value)} />
+          <input className="p-1 pt-3 lg:h-14 lg:text-lg text-black" placeholder="Navn" type="text" onChange={(e) => setName(e.target.value)} />
+          <input className="p-1 pt-3 lg:h-14 lg:text-lg text-black" placeholder="E-mail" type="email" onChange={(e) => setEmail(e.target.value)} />
         </div>
         <div className="py-4 pt-5">
-          <button className="p-2 -2 bg-orange rounded text-white" onClick={handleSupportClick}>
+          <button className="p-2 -2 bg-orange rounded text-md lg:text-2xl text-white" onClick={handleSupportClick}>
             Indsend
           </button>
         </div>
