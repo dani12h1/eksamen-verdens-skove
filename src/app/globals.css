@@ -20,8 +20,7 @@ h1 {
 h2 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 2.5vw, 1rem);
   padding-bottom: 3%;
 }
 
