@@ -16,7 +16,7 @@ function globaltarbejde() {
     <>
       <main className='leading-7 '>
         <section className='relative'>
-          <Image src={cover} width={500} height={500} alt='Picture of global work' />
+          <Image src={cover} className='w-full h-full' alt='Picture of global work' />
           <h1 className='text-white absolute top-[7rem] left-2 '>Globlat Arbejde</h1>
         </section>
         <section className='p-6'>
@@ -24,32 +24,32 @@ function globaltarbejde() {
             <h2>Verdens Skove globalt</h2>
             <p>Gennem 30 år har Verdens Skove sammen med 200.000 danskere bevaret 88.300.000 m2, eller hvad der svarer til 12.362 fodboldbaner af regnskov i Costa Rica, Ecuador og Nicaragua. Dermed har Verdens Skove været med til at afværge den katastrofe, der truede regnskovene i slutningen af 80’erne.</p>
           </section>
-          <section className=' bg-lys_grå'>
+          <section className='bg-lys_grå'>
             <h2 className='p-3'>Her arbejder vi</h2>
-            <div className='flex overflow-scroll p-6 gap-5 '>
-              <div>
-                <Image className='rounded-full mb-4 border-gray border-2 ' src={honduras} alt='Picture of Honduras' />
-                <p>Honduras</p>
+            <div className='flex overflow-scroll p-6 gap-5'>
+              <div className='rounded-full'>
+                <Image className='rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px]  ' src={honduras} alt='Picture of Honduras' />
+                <p className='flex justify-center'>Honduras</p>
               </div>
               <div>
-                <Image className='rounded-full mb-4border-gray border-2' src={bolivia} alt='Picture of Bolivia' />
-                <p>Bolivia</p>
+                <Image className='rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] ' src={bolivia} alt='Picture of Bolivia' />
+                <p className='flex justify-center'> Bolivia</p>
               </div>
               <div>
-                <Image className='rounded-full mb-4 border-gray border-2' src={etiopien} alt='Picture of Etiopien' />
-                <p>Etiopien</p>
+                <Image className='rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] ' src={etiopien} alt='Picture of Etiopien' />
+                <p className='flex justify-center'>Etiopien</p>
               </div>
               <div>
-                <Image className='rounded-full mb-4 border-gray border-2' src={Nicaragua} alt='Picture of Nicaragua' />
-                <p>Nicaragua</p>
+                <Image className='rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] ' src={Nicaragua} alt='Picture of Nicaragua' />
+                <p className='flex justify-center'>Nicaragua</p>
               </div>
               <div>
-                <Image className='rounded-full mb-4 border-gray border-2' src={Uganda} alt='Picture of Uganda' />
-                <p>Uganda</p>
+                <Image className='rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] ' src={Uganda} alt='Picture of Uganda' />
+                <p className='flex justify-center'>Uganda</p>
               </div>
               <div>
-                <Image className='rounded-full mb-4 border-gray border-2' src={panama} alt='Picture of Panama' />
-                <p>Panama</p>
+                <Image className='rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] ' src={panama} alt='Picture of Panama' />
+                <p className='flex justify-center'>Panama</p>
               </div>
             </div>
           </section>
