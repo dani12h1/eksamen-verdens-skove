@@ -85,7 +85,7 @@ const Card = () => {
           </section>
           <section className='lg:pb-28'>
             <h2 className='flex pt-12 lg:pt-28'>Aktuelt nyt</h2>
-            <div className='flex overflow-scroll'>
+            <div className='flex overflow-scroll h-100%'>
               <div className=' flex gap-4'>
                 <div className=' w-[21rem]  border shadow-xl'>
                   <Image src={pink} alt='Picture of origin people' />
@@ -123,18 +123,18 @@ const Card = () => {
                   </div>
                 </div>
 
-                <div className='w-[21rem] border shadow-xl'>
+                <div className='w-[21rem] border shadow-xl  '>
                   <Image src={foresttruck} alt='Picture of forest and truck' />
                   <div className='flex p-4 justify-between'>
                     <p>18 SEPTEMBER 2023</p>
-                    <div className='flex'>
+                    <div className='flex '>
                       <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
                         <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
                       </svg>
                       <p>Bolivia</p>
                     </div>
                   </div>
-                  <div className='p-4'>
+                  <div className='p-4 '>
                     <h3>Tropiske skove forsvinder</h3>
                     <p>Nye tal viser en bekymrende udvikling i tab af skovdække i Bolivia. </p>
                     <button className='text-orange pt-2'>Læs mere →</button>
