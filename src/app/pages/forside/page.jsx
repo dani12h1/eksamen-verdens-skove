@@ -31,7 +31,7 @@ const Card = () => {
           </div>
         </section>
 
-        <div className="bg-white p-4 pt-20 lg:p-32">
+        <div className="bg-white p-4 pt-20 lg:p-32 md:p-4">
           <section className="p-2 pt-40 lg:pt-0 pb-10 text-black">
             <h2 className="">Hvem er Verdens Skove? </h2>
             <p className="max-w-[1000px]">Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
@@ -83,7 +83,7 @@ const Card = () => {
               </div>
             </div>
           </section>
-          <section className="">
+          <section className="lg:pb-28">
             <h2 className="flex justify-center pt-12 lg:pt-28">Aktuelt nyt</h2>
             <div className="flex overflow-scroll lg:justify-center">
               <div className=" flex justify-center gap-4">
