@@ -23,7 +23,8 @@ const Navigation = () => {
     <header className="h-26 bg-[#507D66] text-hvid z-[10000]">
       <nav className="relative px-2 py-6">
         <div className="container mx-auto flex justify-between items-center">
-          <Image className="" src={Logo} width="200" height="150" alt="Logo" />
+          <Image src={Logo} width="200" height="150" alt="Logo" href="forside" />
+          <Link href="forside"></Link>
 
           <ul className="hidden md:hidden lg:flex space-x-6 pl-[20vw]">
             <li className="flex relative group">
@@ -33,7 +34,7 @@ const Navigation = () => {
               {/* Submenu starter */}
               <ul className={`submenu absolute bg-[#507D66] p-6 w-[350px] h-62 top-[7.9vh] transform ${openMenu === 0 ? "scale-100" : "scale-0"} transition duration-200 ease-in-out origin-top shadow-lg text-white border-t-8 border-orange z-[100001]`}>
                 <li className="text-lg hover:text-orange leading-8">
-                  <Link href="#">Hvem er Verdens Skove?</Link>
+                  <Link href="globaltarbejde">Hvem er Verdens Skove?</Link>
                 </li>
                 <li className="text-lg hover:text-orange leading-10">
                   <Link href="#">Hvad gør vi?</Link>
