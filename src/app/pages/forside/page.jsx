@@ -19,7 +19,7 @@ const Card = () => {
         <Navigation />
         <section className="relative ">
           <div className="relative lg:top-[40vh] md:top-[30vh] ">
-            <h1 className="absolute text-white p-5 pt-10 z-[1] lg:max-w-[50vw] md:max-w-[45vw] lg:pl-[8vw] lg:pt-48 ">Red skovene, før planeten mister pusten </h1>
+            <h1 className="absolute text-white p-5 pt-10 z-[1] lg:max-w-[50vw] md:max-w-[45vw] lg:pl-[8vw] lg:pt-0 md:pt-0">Red skovene, før planeten mister pusten </h1>
           </div>
           <div className="relative">
             <Image className="h-[62vh] lg:h-full lg:w-full" src={hero} alt="Picture of workers" />
