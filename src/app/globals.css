@@ -12,7 +12,7 @@
 h1 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-bottom: 3%;
   padding-top: 3%;
 }
@@ -29,12 +29,12 @@ h2 {
 h3 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 p {
   font-family: "Sintony", sans-serif;
-  font-size: 1.125;
+  font-size: 1.125rem;
 }
 
 button {
