@@ -32,13 +32,13 @@ const Card = () => {
         </section>
 
         <div className="bg-white p-4 pt-40 lg:p-32">
-          <section className="p-3 text-black">
+          <section className="p-2 pt-16 pb-10 text-black">
             <h1 className="">Hvem er Verdens Skove? </h1>
             <p>Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
             <button className=" text-orange pt-2">Læs mere →</button>
           </section>
           <section className="w-full h-full border-t-2 border-black">
-            <div className=" flex-col justify-center ">
+            <div className=" flex-col justify-center pt-10 ">
               <h1>Sådan kan du støtte vores arbejde</h1>
             </div>
 
@@ -75,7 +75,7 @@ const Card = () => {
           <section>
             <div>
               <div className="bg-gray-200 p-5 lg:flex md:flex md:p-10 lg:p-10">
-                <Image className="h-auto w-auto" src={bw} alt="Picture of the old days" />
+                <Image className="h-auto w-full" src={bw} alt="Picture of the old days" />
                 <div className=" md:p-8">
                   <h1 className="pt-12 md:pt-6 lg:pt-6">Hvordan arbejder vi? </h1>
                   <p>Vi samarbejde med folk, som lever i og af skoven. Vi arbejder i områder med særlig høj biodiversitet. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
