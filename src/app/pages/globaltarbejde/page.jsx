@@ -10,19 +10,21 @@ import panama from "../../billeder/panama.png";
 import skov from "../../billeder/globalrarb1.png";
 import mandiflod from "../../billeder/flodmand.png";
 import Footer from "../../components/Footer";
+import Navigation from "../../components/Navigation";
 
 function globaltarbejde() {
   return (
     <>
+      <Navigation />
       <main className="leading-7 ">
         <section className="relative">
           <Image src={cover} className="w-full h-full" alt="Picture of global work" />
           <h1 className="text-white absolute top-[7rem] lg:pl-[6vw] pl-[6vw] lg:pt-[25vw]  md:pl-[6vw] md:pt-[20vw]">Globlat Arbejde</h1>
         </section>
-        <section className="p-6">
-          <section className=" pb-6">
-            <h2>Verdens Skove globalt</h2>
-            <p className="lg:max-w-[1500px] md:max-w-[1000px]">Gennem 30 år har Verdens Skove sammen med 200.000 danskere bevaret 88.300.000 m2, eller hvad der svarer til 12.362 fodboldbaner af regnskov i Costa Rica, Ecuador og Nicaragua. Dermed har Verdens Skove været med til at afværge den katastrofe, der truede regnskovene i slutningen af 80’erne.</p>
+        <section className="p-6 mx-22 my-14">
+          <section className=" pb-6 ">
+            <h2 className="flex justify-center">Verdens Skove globalt</h2>
+            <p className="flex text-center pb-10">Gennem 30 år har Verdens Skove sammen med 200.000 danskere bevaret 88.300.000 m2, eller hvad der svarer til 12.362 fodboldbaner af regnskov i Costa Rica, Ecuador og Nicaragua. Dermed har Verdens Skove været med til at afværge den katastrofe, der truede regnskovene i slutningen af 80’erne.</p>
           </section>
           <section className="bg-lys_grå">
             <h2 className="p-3">Her arbejder vi</h2>
@@ -54,7 +56,7 @@ function globaltarbejde() {
             </div>
           </section>
           <section>
-            <div className="lg:flex lg:p-10 md:flex md:p-10">
+            <div className="lg:flex lg:p-10 md:flex md:p-10  pt-10">
               <div className="lg:order-2 md:order-2">
                 <Image src={skov} alt="Picture of reainforest" />
               </div>
@@ -70,7 +72,7 @@ function globaltarbejde() {
               </div>
 
               <div className="lg:flex lg:flex-col lg:justify-center lg:p-9 md:flex md:flex-col md:justify-center md:p-9 lg:max-w-[1000px]">
-                <h2> Hvordan vi støtter de oprindelige folk</h2>
+                <h2 className="pt-5"> Hvordan vi støtter de oprindelige folk</h2>
                 <p className="lg:max-w-[1500px]">Oprindelige folk er afgørende samarbejdspartnere for Verdens Skoves bevaringsarbejde i regnskovene. De bebor mange af verdens tilbageværende regnskove, og forskning viser, at skove bevares bedre, hvor oprindelige folk har jordrettigheder. Deres livsstil, mindre afhængig af industriel produktion og vækst, spiller en nøglerolle. Verdens Skove arbejder for at sikre juridiske rettigheder til skovene for oprindelige folk og presse for respekt fra nybyggere, virksomheder og myndigheder. </p>
                 <button className="text-orange pt-5 lg:flex lg:justify-start md:flex md:justify-start">Læs mere →</button>
               </div>
