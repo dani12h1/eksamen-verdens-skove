@@ -17,12 +17,13 @@ function page() {
   return (
     <>
       <Navigation />
-      <main className='leading-7'>
+      <main className='leading-7 '>
         <section className='relative'>
           <Image src={cover1} className='w-full h-full' alt='Picture of global work' />
           <h1 className='text-white absolute top-[7rem] lg:pl-[6vw] pl-[6vw] lg:pt-[25vw]  md:pl-[6vw] md:pt-[20vw]'>Hvad gør vi</h1>
         </section>
-        <div className=' pb-6 lg:m-28 md:m-22'>
+
+        <div className=' pb-4  md:m-22'>
           <section className='' style={{ textAlign: "center" }}>
             <h2 className='pt-7 p-7'>Hvordan arbejder vi? </h2>
             <p className='mx-auto lg:pb-10 lg:max-w-[800px] md:max-w-[800px] p-7'>Vi samarbejder med folk, som lever i og af skoven. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
@@ -104,9 +105,9 @@ function page() {
         </section>
 
         <div className=' pb-6 lg:m-28 md:m-22'>
-          <section className='w-full h-full  mx-auto  lg:pt-20 '>
-            <div className=' flex-col justify-center pt-10 '>
-              <h2 className='flex justify-center'>Kampagner</h2>
+          <section className='  mx-auto   '>
+            <div className=' flex-col justify-center pt-3 '>
+              <h2 className='flex justify-center lg:pb-20'>Kampagner</h2>
             </div>
 
             <div className='grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
