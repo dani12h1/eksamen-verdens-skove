@@ -19,10 +19,10 @@ function globaltarbejde() {
       <main className="leading-7 ">
         <section className="relative">
           <Image src={cover} className="w-full h-full" alt="Picture of global work" />
-          <h1 className="text-white absolute top-[7rem] lg:pl-[6vw] pl-[6vw] lg:pt-[25vw]  md:pl-[6vw] md:pt-[20vw]">Globlat Arbejde</h1>
+          <h1 className="text-white absolute top-[7rem] lg:pl-[6vw] pl-[6vw] lg:pt-[25vw]  md:pl-[6vw] md:pt-[20vw] pb-4">Globalt Arbejde</h1>
         </section>
         <section className="p-6 mx-22 my-14">
-          <section className=" pb-6 ">
+          <section className="pb-6 ">
             <h2 className="flex justify-center">Verdens Skove globalt</h2>
             <p className="flex text-center pb-10">Gennem 30 år har Verdens Skove sammen med 200.000 danskere bevaret 88.300.000 m2, eller hvad der svarer til 12.362 fodboldbaner af regnskov i Costa Rica, Ecuador og Nicaragua. Dermed har Verdens Skove været med til at afværge den katastrofe, der truede regnskovene i slutningen af 80’erne.</p>
           </section>
