@@ -1,7 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import Navigation from "../../components/Navigation";
 import cover1 from "../../billeder/Hvadgørvi.png";
 import blad from "../../billeder/Iconawesome-leaf.svg";
+import politik from "../../billeder/politik.png";
+import vild from "../../billeder/dansk.png";
+import klima from "../../billeder/klima.png";
+import globalt from "../../billeder/globalt.png";
+import planetb from "../../billeder/planetb.png";
+import hand from "../../billeder/hand.png";
+import karlo from "../../billeder/karlo.png";
+import plakat from "../../billeder/plakat.png";
+import Footer from "../../components/Footer";
 
 function page() {
   return (
@@ -44,32 +54,72 @@ function page() {
 
             <div className='grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
               <div className='shadow-xl rounded-[20px]'>
-                <Image className='rounded-t-lg' src={blad} width={500} height={500} alt='Picture of workers ' />
+                <Image className='rounded-t-lg' src={vild} width={500} height={500} alt='Picture of nature ' />
                 <div className='p-6'>
-                  <h3>Doner til vores arbejde</h3>
-                  <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
-                  <button className='text-orange'>Doner her →</button>
+                  <h3>Vild Dansk Natur</h3>
+                  <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
               <div className='shadow-xl rounded-[20px]'>
-                <Image className='rounded-t-lg' src={blad} width={500} height={500} alt='Picture of totebag' />
+                <Image className='rounded-t-lg' src={politik} width={500} height={500} alt='Picture of politics' />
                 <div className='p-6'>
-                  <h3>Besøg vores webshop</h3>
-                  <p>Støt os ved køb af plakater, kaffe og meget mere bla bla</p>
-                  <button className='text-orange'>Gå til webshop →</button>
+                  <h3>Politisk Udvikling</h3>
+                  <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
               <div className='shadow-xl rounded-[20px] '>
-                <Image className='rounded-t-lg' src={blad} width={500} height={500} alt='Picture of certificate' />
+                <Image className='rounded-t-lg' src={klima} width={500} height={500} alt='Picture of poster' />
                 <div className='p-6'>
-                  <h3>Regnskovscertifikat</h3>
-                  <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
-                  <button className='text-orange '>Køb her →</button>
+                  <h3>Klima</h3>
+                  <button className='text-orange '>Læs mere →</button>
                 </div>
               </div>
             </div>
-            <div className='flex justify-center'>
-              <button className='text-orange pt-6'>Se flere støttemuligheder →</button>
+          </section>
+        </div>
+        <section>
+          <div>
+            <div className='bg-gray-200 p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 '>
+              <Image className='h-full w-full lg:max-w-[400px] md:max-w-[500px] mx-auto' src={planetb} alt='Picture of the old days' />
+              <div className=' md:p-20 flex justify-center flex-col'>
+                <h2 className='pt-12 md:pt-6 lg:pt-6'>Hvad kan du gøre? </h2>
+                <p className=''>De menneskeskabte klimaforandringer er resultatet af overdreven ressourceforbrug, der overstiger planetens kapacitet, og CO2-udledning, der overbelaster atmosfæren. En gennemsnitsdansker kræver tre jordkloder. For at reducere klimapåvirkningen anbefales alternativer som cykling eller offentlig transport.</p>
+                <div>
+                  <button className='text-orange pt-2 md:pt-10 lg:pt-10 flex justify-start'>Læs mere →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div className=' pb-6 lg:m-28 md:m-22'>
+          <section className='w-full h-full  mx-auto  lg:pt-20 '>
+            <div className=' flex-col justify-center pt-10 '>
+              <h2 className='flex justify-center'>Kampagner</h2>
+            </div>
+
+            <div className='grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
+              <div className='shadow-xl rounded-[20px]'>
+                <Image className='rounded-t-lg' src={hand} width={500} height={500} alt='Picture of hand ' />
+                <div className='p-6'>
+                  <h3>KANALSAGEN</h3>
+                  <button className='text-orange'>Læs mere →</button>
+                </div>
+              </div>
+              <div className='shadow-xl rounded-[20px]'>
+                <Image className='rounded-t-lg' src={karlo} width={500} height={500} alt='Picture of development' />
+                <div className='p-6'>
+                  <h3>STOP KAFFE, DER RYDDER REGNSKOV</h3>
+                  <button className='text-orange'>Læs mere →</button>
+                </div>
+              </div>
+              <div className='shadow-xl rounded-[20px] '>
+                <Image className='rounded-t-lg' src={plakat} width={500} height={500} alt='Picture of climate' />
+                <div className='p-6'>
+                  <h3>Regnskoven om søerne</h3>
+                  <button className='text-orange '>Læs mere →</button>
+                </div>
+              </div>
             </div>
           </section>
         </div>
