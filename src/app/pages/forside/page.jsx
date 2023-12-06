@@ -31,7 +31,7 @@ const Card = () => {
           </div>
         </section>
 
-        <div className='bg-white m-4 lg:m-28 md:m-22 custom-margin'>
+        <div className='bg-white m-4 lg:m-28 md:m-22'>
           <section className='p-2 pt-40 lg:pt-0 pb-10 text-black flex flex-col'>
             <h2 className='mx-auto text-3xl pt-14'>Hvem er Verdens Skove? </h2>
             <p className='max-w-[1000px] mx-auto mb-5'>Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
