@@ -44,7 +44,7 @@ const Card = () => {
 
             <div className="grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center ">
               <div className="shadow-xl rounded-[20px]">
-                <Image className="rounded-t-lg" src={truck} width={500} height={500} alt="Picture of workers " />
+                <Image className="rounded-t-lg lg:max-h-[400px]" src={truck} width={500} height={500} alt="Picture of workers " />
                 <div className="p-6">
                   <h3>Doner til vores arbejde</h3>
                   <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
