@@ -2,6 +2,11 @@ import React from "react";
 import Image from "next/image";
 import cover1 from "../../billeder/Hvadgørvi.png";
 import blad from "../../billeder/Iconawesome-leaf.svg";
+import politik from "../../billeder/politik.png";
+import vild from "../../billeder/dansk.png";
+import klima from "../../billeder/klima.png";
+import globalt from "../../billeder/globalt.png";
+import Footer from "../../components/Footer";
 
 function page() {
   return (
@@ -44,27 +49,33 @@ function page() {
 
             <div className='grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
               <div className='shadow-xl rounded-[20px]'>
-                <Image className='rounded-t-lg' src={blad} width={500} height={500} alt='Picture of workers ' />
+                <Image className='rounded-t-lg' src={vild} width={500} height={500} alt='Picture of nature ' />
                 <div className='p-6'>
-                  <h3>Doner til vores arbejde</h3>
-                  <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
-                  <button className='text-orange'>Doner her →</button>
+                  <h3>Vild Dansk Natur</h3>
+                  <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
               <div className='shadow-xl rounded-[20px]'>
-                <Image className='rounded-t-lg' src={blad} width={500} height={500} alt='Picture of totebag' />
+                <Image className='rounded-t-lg' src={politik} width={500} height={500} alt='Picture of development' />
                 <div className='p-6'>
-                  <h3>Besøg vores webshop</h3>
-                  <p>Støt os ved køb af plakater, kaffe og meget mere bla bla</p>
-                  <button className='text-orange'>Gå til webshop →</button>
+                  <h3>Politisk Udvikling</h3>
+                  <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
               <div className='shadow-xl rounded-[20px] '>
-                <Image className='rounded-t-lg' src={blad} width={500} height={500} alt='Picture of certificate' />
+                <Image className='rounded-t-lg' src={klima} width={500} height={500} alt='Picture of climate' />
                 <div className='p-6'>
-                  <h3>Regnskovscertifikat</h3>
-                  <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
-                  <button className='text-orange '>Køb her →</button>
+                  <h3>Klima</h3>
+                  <button className='text-orange '>Læs mere →</button>
+                </div>
+              </div>
+
+              <div className='shadow-xl rounded-[20px]'>
+                <Image className='rounded-t-lg' src={globalt} width={500} height={500} alt='Picture of workers ' />
+                <div className='p-6'>
+                  <h3>Globalt Arbejderbejde</h3>
+
+                  <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
             </div>
