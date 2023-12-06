@@ -80,9 +80,9 @@ const Card = () => {
                 <div className=" md:p-20 flex justify-center flex-col">
                   <h2 className="pt-12 md:pt-6 lg:pt-6">Hvordan arbejder vi? </h2>
                   <p className="">Vi samarbejde med folk, som lever i og af skoven. Vi arbejder i områder med særlig høj biodiversitet. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
-                </div>
-                <div>
-                  <button className="text-orange pt-2 md:pt-10 lg:pt-10 flex justify-start">Læs mere →</button>
+                  <div>
+                    <button className="text-orange pt-2 md:pt-10 lg:pt-10 flex justify-start">Læs mere →</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ const Card = () => {
               </div>
             </div>
             <div>
-              <button className="text-orange pt-7">Læs mere →</button>
+              <button className="text-orange pt-7">Flere artikler →</button>
             </div>
           </section>
         </div>
