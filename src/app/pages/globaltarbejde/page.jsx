@@ -27,7 +27,7 @@ function globaltarbejde() {
             <p className="flex text-center pb-10">Gennem 30 år har Verdens Skove sammen med 200.000 danskere bevaret 88.300.000 m2, eller hvad der svarer til 12.362 fodboldbaner af regnskov i Costa Rica, Ecuador og Nicaragua. Dermed har Verdens Skove været med til at afværge den katastrofe, der truede regnskovene i slutningen af 80’erne.</p>
           </section>
           <section className="bg-lys_grå">
-            <h2 className="p-3">Her arbejder vi</h2>
+            <h2 className="p-6">Her arbejder vi</h2>
             <div className="flex overflow-scroll p-6 gap-5">
               <div className="rounded-full">
                 <Image className="rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px]  " src={honduras} alt="Picture of Honduras" />
@@ -56,7 +56,7 @@ function globaltarbejde() {
             </div>
           </section>
           <section>
-            <div className="lg:flex lg:p-10 md:flex md:p-10  pt-10">
+            <div className="lg:flex lg:p-10 md:flex md:p-10 md:pt-16 pt-10">
               <div className="lg:order-2 md:order-2">
                 <Image src={skov} alt="Picture of reainforest" />
               </div>
