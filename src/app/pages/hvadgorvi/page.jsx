@@ -16,15 +16,19 @@ import Footer from "../../components/Footer";
 function page() {
   return (
     <>
-      <main className='leading-7'>
+      <Navigation />
+      <main className='leading-7 '>
         <section className='relative'>
           <Image src={cover1} className='w-full h-full' alt='Picture of global work' />
           <h1 className='text-white absolute top-[7rem] lg:pl-[6vw] pl-[6vw] lg:pt-[25vw]  md:pl-[6vw] md:pt-[20vw]'>Hvad gør vi</h1>
         </section>
-        <div className=' pb-6 lg:m-28 md:m-22'>
+
+        <div className=' pb-4  md:m-22'>
+          <section className='' style={{ textAlign: "center" }}>
+            <h2 className='pt-7 p-7'>Hvordan arbejder vi? </h2>
+            <p className='mx-auto lg:pb-10 lg:max-w-[800px] md:max-w-[800px] p-7'>Vi samarbejder med folk, som lever i og af skoven. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
+          </section>
           <section>
-            <h2 className='pt-7'>Hvordan arbejder vi? </h2>
-            <p className='lg:max-w-[1500px] md:max-w-[1000px] p-7'>Vi samarbejder med folk, som lever i og af skoven. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
             <div className='bg-gray-200 p-5 rounded-2xl '>
               <div className='flex flex-col  items-center lg:flex-row '>
                 <Image src={blad} className='w-8 h-18 ' alt='leafsvg' />
@@ -49,28 +53,36 @@ function page() {
           </section>
           <section className='w-full h-full  mx-auto  lg:pt-20 '>
             <div className=' flex-col justify-center pt-10 '>
-              <h2 className='flex justify-center'>Sådan kan du støtte vores arbejde</h2>
+              <h2 className='flex justify-center'>Vores arbejdsområder</h2>
             </div>
 
-            <div className='grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
-              <div className='shadow-xl rounded-[20px]'>
+            <div className='grid gap-6 md:gap-3 lg:gap-10 lg:flex lg:flex-wrap md:flex-wrap md:flex sm:justify-center '>
+              <div className='shadow-xl rounded-lg'>
                 <Image className='rounded-t-lg' src={vild} width={500} height={500} alt='Picture of nature ' />
                 <div className='p-6'>
                   <h3>Vild Dansk Natur</h3>
                   <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
-              <div className='shadow-xl rounded-[20px]'>
+              <div className='shadow-xl rounded-lg'>
                 <Image className='rounded-t-lg' src={politik} width={500} height={500} alt='Picture of politics' />
                 <div className='p-6'>
                   <h3>Politisk Udvikling</h3>
                   <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
-              <div className='shadow-xl rounded-[20px] '>
+              <div className='shadow-xl rounded-lg '>
                 <Image className='rounded-t-lg' src={klima} width={500} height={500} alt='Picture of poster' />
                 <div className='p-6'>
                   <h3>Klima</h3>
+                  <button className='text-orange '>Læs mere →</button>
+                </div>
+              </div>
+
+              <div className='shadow-xl rounded-lg '>
+                <Image className='rounded-t-lg' src={globalt} width={500} height={500} alt='Picture of global work' />
+                <div className='p-6'>
+                  <h3>Globalt Arbejde</h3>
                   <button className='text-orange '>Læs mere →</button>
                 </div>
               </div>
@@ -93,9 +105,9 @@ function page() {
         </section>
 
         <div className=' pb-6 lg:m-28 md:m-22'>
-          <section className='w-full h-full  mx-auto  lg:pt-20 '>
-            <div className=' flex-col justify-center pt-10 '>
-              <h2 className='flex justify-center'>Kampagner</h2>
+          <section className='  mx-auto   '>
+            <div className=' flex-col justify-center pt-3 '>
+              <h2 className='flex justify-center lg:pb-20'>Kampagner</h2>
             </div>
 
             <div className='grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
@@ -124,6 +136,7 @@ function page() {
           </section>
         </div>
       </main>
+      <Footer />
     </>
   );
 }
