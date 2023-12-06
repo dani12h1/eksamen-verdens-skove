@@ -20,7 +20,7 @@ h1 {
 h2 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-  font-size: clamp(1.5rem, 2.5vw, 1rem);
+  font-size: clamp(1.9rem, 2.5vw, 1rem);
   padding-bottom: 3%;
 }
 
@@ -45,3 +45,15 @@ a {
   font-size: 1.5rem;
   font-family: "Sintony", sans-serif;
 }
+
+/* Apply margin of 4rem for screens between 1024px and 1300px */
+/* @media only screen and (min-width: 1024px) and (max-width: 1300px) {
+  .custom-margin {
+    margin: 4rem;
+    background-color: red; /* Change the background color as needed */
+
+/* Apply margin of 2rem for screens 1300px or less */
+/* @media only screen and (max-width: 1300px) {
+  .custom-margin {
+    margin: 2rem;
+    background-color: blue; /* Change the background color as needed */
