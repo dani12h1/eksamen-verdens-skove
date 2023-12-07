@@ -23,27 +23,27 @@ const Page = () => {
             <section className='p-3 lg:mx-44 lg:my-20 flex'>
               <div className='lg:max-w-[1000px] mx-auto'>
                 <h2 className=' text-center leading-8'>VERDENS SKOVE SIDEN 1983 </h2>
-                <p className='flex text-center pb-10 p-3 md:pb-10 lg:pb-3'>I år, 2023, er det 40 år siden, at Verdens Skove blev grundlagt. I dag er det velkendt, at afskovning skader klimaet, koster oprindelige folk og andre lokale deres hjem, og at det er en af de væsentligste årsager til den hurtigste udryddelse af arter, siden meteoren ramte jorden for 66 millioner år siden. I 1983 var problemerne med rydning af de tropiske skove derimod ikke kendt blandt danskerne. En gruppe entusiastiske og modige biologistuderende fra Aarhus ønskede derfor at sætte rydning af regnskove på dagsordenen og øge indsatsen for at bevare verdens skove. De grundlagde derfor foreningen og lige siden har vi kæmpet for artsrige skove kloden over..</p>
+                <p className='flex lg:text-center pb-3 p-3 md:pb-10 lg:pb-3'>I år, 2023, er det 40 år siden, at Verdens Skove blev grundlagt. I dag er det velkendt, at afskovning skader klimaet, koster oprindelige folk og andre lokale deres hjem, og at det er en af de væsentligste årsager til den hurtigste udryddelse af arter, siden meteoren ramte jorden for 66 millioner år siden. I 1983 var problemerne med rydning af de tropiske skove derimod ikke kendt blandt danskerne. En gruppe entusiastiske og modige biologistuderende fra Aarhus ønskede derfor at sætte rydning af regnskove på dagsordenen og øge indsatsen for at bevare verdens skove. De grundlagde derfor foreningen og lige siden har vi kæmpet for artsrige skove kloden over..</p>
               </div>
             </section>
           </div>
           <div>
-            <section className='pb-3'>
-              <div className='p-16 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 rounded-2xl lg:justify-center items-center'>
-                <Image className='h-full w-full lg:max-w-[400px] md:max-w-[500px] mx-auto lg:order-2 ' src={Strategi} alt='Picture of the old days' />
-                <div className=' md:p-20 flex justify-center flex-col lg:order-1  '>
+            <section className='pb-3 lg:p-16 justify-center'>
+              <div className='p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 rounded-2xl lg:justify-center items-center'>
+                <Image className='h-full w-full lg:max-w-[600px] md:max-w-[500px] mx-auto lg:order-2 ' src={Strategi} alt='Picture of strategy' />
+                <div className=' flex justify-center flex-col lg:order-1  '>
                   <h2 className='pt-12 md:pt-6 lg:pt-6'>Verden Skoves mission og vision</h2>
-                  <p className='lg:max-w-[800px]'>Den vision vil vi gerne arbejde for og derfor er vi stolte af at kunne præsentere en ny strategi, der skal sikre, at vi, de næste fem år, fortsat kan styrke skovens rolle og kæmpe for de mennesker, der lever i og med skoven. Verdens Skoves nye strategi har tre strategiske prioriteter: Grønne handlinger, et stærkt civilsamfund og politisk forandring. Grønne løsninger for mere klimahandling, global lighed og biodiversitet kræver, at vi mobiliserer civilsamfundet og skaber politisk velvilje. De tre strategiske prioriteter hænger uløseligt sammen og vil undervejs i strategiperioden gensidigt styrke hinanden. Det gælder i alle de lande, Verdens Skove arbejder i, inklusiv Danmark </p>
+                  <p className='lg:max-w-[700px]'>Den vision vil vi gerne arbejde for og derfor er vi stolte af at kunne præsentere en ny strategi, der skal sikre, at vi, de næste fem år, fortsat kan styrke skovens rolle og kæmpe for de mennesker, der lever i og med skoven. Verdens Skoves nye strategi har tre strategiske prioriteter: Grønne handlinger, et stærkt civilsamfund og politisk forandring. Grønne løsninger for mere klimahandling, global lighed og biodiversitet kræver, at vi mobiliserer civilsamfundet og skaber politisk velvilje. De tre strategiske prioriteter hænger uløseligt sammen og vil undervejs i strategiperioden gensidigt styrke hinanden. Det gælder i alle de lande, Verdens Skove arbejder i, inklusiv Danmark </p>
                 </div>
               </div>
             </section>
 
-            <section className='pb-16 lg:p-20'>
+            <section className='pb-16 lg:p-10'>
               <div className='p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 rounded-2xl items-center'>
-                <Image className='h-full w-full lg:max-w-[400px] md:max-w-[500px] mx-auto order-1' src={Tree} alt='Picture of the old days' />
-                <div className='md:p-10 flex justify-center flex-col order-2 pt-1'>
+                <Image className='h-full w-full lg:max-w-[600px] md:max-w-[500px] mx-auto order-1' src={Tree} alt='Picture of tree' />
+                <div className='md:p-10 flex justify-center flex-col order-2 pt-5'>
                   <h2 className='pt-10 md:pt-6 '>Verdens Skove internationalt og lokalt </h2>
-                  <p className='max-w-[800px]'>
+                  <p className='max-w-[700px]'>
                     Vi arbejder i områder med særlig høj biodiversitet sammen med vores partnere i Honduras, Nicaragua, Panama og Bolivia forsvarer vi regnskoven. Logikken bag vores løsninger er, at vi ser regnskoven som en ressource, der gennem bæredygtig anvendelse kan sikre, at regnskoven bliver bevaret for fremtidige generationer. I Danmark kæmper vi for at stoppe tabet af skovenes biologiske mangfoldighed. Vi vil skabe et nyt dansk landskab med mere vild skovnatur, der er rig på biologisk mangfoldighed. Vi hjælper virksomheder, stater og forbrugere med at tage ansvar ude og hjemme og sikrer derved en bæredygtig anvendelse af skovens ressourcer. Vi sætter skoven på den politiske dagsorden og oplyser om de problemer, der opstår - særligt i forhold til klimaet - når skovene ødelægges, og
                     den vilde natur forsvinder.{" "}
                   </p>
@@ -52,7 +52,7 @@ const Page = () => {
             </section>
           </div>
         </div>
-        <section className='pb-20 p-5'>
+        <section className='lg:pb-20 lg:p-16'>
           <iframe className='lg:h-[80vh] md:h-[60vh] md:p-3 h-[30vh] w-full p-3   lg:p-8 mute' src='https://www.youtube.com/embed/xrN8A2zsf4Y'></iframe>
         </section>
       </main>
