@@ -46,7 +46,7 @@ const Navigation = () => {
               {/* Submenu slutter */}
             </li>
             <li className='flex relative group'>
-              <Link href='stot' className='mr-1' onClick={() => handleToggle(1)}>
+              <Link href='#' className='mr-1' onClick={() => handleToggle(1)}>
                 Støt
               </Link>
               {/* Submenu starter */}
@@ -124,7 +124,7 @@ const Navigation = () => {
                     </Link>
                   </li>
                   <li className='text-sm leading-8 font-normal hover:text-[#E6863B]'>
-                    <Link className='block pl-16' href='stot'>
+                    <Link className='block pl-16' href='#'>
                       Støt som virksomhed
                     </Link>
                   </li>
