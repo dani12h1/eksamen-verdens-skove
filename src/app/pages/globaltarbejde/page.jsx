@@ -57,14 +57,14 @@ function globaltarbejde() {
               </div>
             </div>
           </section>
-          <section className='p-3 lg:mx-22 '>
+          <section className='p-3 lg:mx-32 '>
             <div className='lg:flex lg:p-10 md:flex md:p-10 md:pt-16 pt-10'>
               <div className='lg:order-2 md:order-2 lg:max-w-[500px] md:max-w-[400px]'>
-                <Image src={skov} alt='Picture of reainforest' />
+                <Image src={skov} alt='Picture of rainforest' />
               </div>
-              <div className='lg:flex lg:flex-col lg:justify-center lg:p-9 lg:order- md:flex md:flex-col md:justify-center md:p-9 md:order-1 max-'>
-                <h2 className='pt-5'>Hvorfor er regnskovene vigtige?</h2>
-                <p className='lg:max-w-[1500px]'>Regnskove er afgørende for planetens sundhed og menneskers overlevelse. De huser en unik biodiversitet, med over halvdelen af verdens arter, og er en kilde til medicin og fødevarer. Regnskovene regulerer lokalt og globalt klima ved at producere regn, binde CO2 og forhindre drivhusgasudledning. Desuden er de nøglen til ferskvand, og millioner af mennesker afhænger af dem for deres levebrød. Skovrydning truer ikke kun arter, men destabiliserer også økosystemer og påvirker klimaet. </p>
+              <div className='lg:flex lg:flex-col lg:justify-center lg:p-9 lg:order- md:flex md:flex-col md:justify-center md:p-9 md:order-1'>
+                <h2 className='pt-5 pb-5'>Hvorfor er regnskovene vigtige?</h2>
+                <p className='lg:max-w-[1500px] lg:pr-8'>Regnskove er afgørende for planetens sundhed og menneskers overlevelse. De huser en unik biodiversitet, med over halvdelen af verdens arter, og er en kilde til medicin og fødevarer. Regnskovene regulerer lokalt og globalt klima ved at producere regn, binde CO2 og forhindre drivhusgasudledning. Desuden er de nøglen til ferskvand, og millioner af mennesker afhænger af dem for deres levebrød. Skovrydning truer ikke kun arter, men destabiliserer også økosystemer og påvirker klimaet. </p>
                 <button className='text-orange pt-5 lg:flex lg:justify-start md:flex md:justify-start'>Læs mere →</button>
               </div>
             </div>
@@ -73,10 +73,10 @@ function globaltarbejde() {
                 <Image src={mandiflod} alt='Picture of man in boat' />
               </div>
 
-              <div className='lg:flex lg:flex-col lg:justify-center lg:p-9 md:flex md:flex-col md:justify-center md:p-9 lg:max-w-[1000px]'>
-                <h2 className='pt-5'> Hvordan vi støtter de oprindelige folk</h2>
-                <p className='lg:max-w-[1500px]'>Oprindelige folk er afgørende samarbejdspartnere for Verdens Skoves bevaringsarbejde i regnskovene. De bebor mange af verdens tilbageværende regnskove, og forskning viser, at skove bevares bedre, hvor oprindelige folk har jordrettigheder. Deres livsstil, mindre afhængig af industriel produktion og vækst, spiller en nøglerolle. Verdens Skove arbejder for at sikre juridiske rettigheder til skovene for oprindelige folk og presse for respekt fra nybyggere, virksomheder og myndigheder. </p>
-                <button className='text-orange pt-5 lg:flex lg:justify-start md:flex md:justify-start'>Læs mere →</button>
+              <div className='lg:flex lg:flex-col lg:justify-center lg:p-9 md:flex md:flex-col md:justify-center md:p-9 lg:max-w-[1000px] '>
+                <h2 className='pt-5  lg:pl-8'> Hvordan vi støtter de oprindelige folk</h2>
+                <p className='lg:max-w-[1500px] lg:pl-8'>Oprindelige folk er afgørende samarbejdspartnere for Verdens Skoves bevaringsarbejde i regnskovene. De bebor mange af verdens tilbageværende regnskove, og forskning viser, at skove bevares bedre, hvor oprindelige folk har jordrettigheder. Deres livsstil, mindre afhængig af industriel produktion og vækst, spiller en nøglerolle. Verdens Skove arbejder for at sikre juridiske rettigheder til skovene for oprindelige folk og presse for respekt fra nybyggere, virksomheder og myndigheder. </p>
+                <button className='text-orange pt-5 lg:flex lg:justify-start md:flex md:justify-start lg:pl-8'>Læs mere →</button>
               </div>
             </div>
           </section>
