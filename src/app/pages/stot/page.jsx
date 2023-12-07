@@ -17,23 +17,16 @@ const Stot = () => {
   // Return the JSX structure
   return (
     <>
-      {/* Include the Navigation component */}
       <Navigation />
 
-      {/* Main content */}
       <div className="relative">
-        {/* Image */}
         <Image src={hero} className="w-full h-[100vh]" alt="Picture of global work" />
-
-        {/* Text */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
           <h1 className="text-4xl font-bold">STØT VERDENS SKOVE</h1>
           <p className="text-lg">Dit bidrag gør en forskel</p>
         </div>
 
-        {/* Box */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-8 bg-white shadow-md max-w-[600px] w-[80vw] h-[50vh] rounded-md">
-          {/* Box content */}
           <p className="text-black pb-4">Vælg hvordan du vil støtte</p>
           <div className="">
             <label className="flex flex-row gap-2">
@@ -46,7 +39,6 @@ const Stot = () => {
             </label>
           </div>
           <div className="flex gap-4 pt-5 justify-center">
-            {/* Corrected button tags */}
             <button className={`border border-1 rounded-md p-1 w-20 text-center text-grå ${selectedButton === 100 ? "bg-lys_grå text-grå" : "bg-white"}`} onClick={() => handleButtonClick(100)}>
               100 kr
             </button>
@@ -83,5 +75,4 @@ const Stot = () => {
   );
 };
 
-// Export your component
 export default Stot;
