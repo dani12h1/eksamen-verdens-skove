@@ -18,10 +18,10 @@ const Stot = () => {
     <>
       <Navigation />
       {/* bg */}
-      <main className="bg-gray-400 h-[auto] w-[100vw] ">
+      <main className="bg-gray-400 h-[auto] w-[100vw] flex items-center justify-center">
         {/* wrap om container 1 og 2 */}
-        <div className="grid lg:grid-rows-2 lg:grid-cols-2 justify-center grid-cols-1 grid-rows-1 lg: ">
-          {/* container 1 */}
+        <div className="grid lg:grid-rows-2 lg:grid-cols-2 grid-cols-1 grid-rows-1">
+          {/* Your content goes here */}
           <div className="lg:flex lg:flex-col grid grid-rows lg:items-center mt-22">
             {/* boks 1 */}
             <div className="bg-gray-400  mt-20">
@@ -75,7 +75,7 @@ const Stot = () => {
             </div>
           </div>
           {/* container 2 */}
-          <div className="lg:flex lg:flex-col grid grid-rows  mt-22 ">
+          <div className="lg:flex lg:flex-col grid grid-rows  mt-22 lg:justify-start pr-[20vw] ">
             {/* boks 1 */}
             <div className=" p-8 bg-white shadow-md rounded-lg bg-opacity-80 flex flex-col justify-center mx-8 my-2 lg:mt-28 h-[30vh] lg:w-[350px]">
               <h3>Enkelt donation</h3>
