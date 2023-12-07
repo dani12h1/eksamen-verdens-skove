@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../components/Navigation";
 import Image from "next/image";
-import cover2 from "../../billeder/unsplash.jpg";
+import cover2 from "../../billeder/unsplash.png";
 import truck from "../../billeder/truck.png";
 import totebag from "../../billeder/totebag.png";
 import certificat from "../../billeder/certifikat.png";
@@ -9,6 +9,7 @@ import testamente from "../../billeder/testamenter.png";
 import mobil from "../../billeder/mobil.png";
 import hsnds from "../../billeder/hands.png";
 import Footer from "../../components/Footer";
+import Link from "next/link";
 
 function page() {
   return (
@@ -29,12 +30,17 @@ function page() {
           </section>
         </div>
         <div className='m-9 grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
-          <div className='shadow-xl rounded-[20px]'>
+          <div className='shadow-xl rounded-[20px] '>
             <Image className='rounded-t-lg lg:max-h-[400px]' src={truck} width={500} height={500} alt='Picture of workers ' />
             <div className='p-6'>
               <h3>Doner til vores arbejde</h3>
               <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
-              <button className='text-orange'>Doner her →</button>
+
+              <div className='mx-auto '>
+                <Link href='stot' className='text-orange text-lg '>
+                  Doner her →
+                </Link>
+              </div>
             </div>
           </div>
           <div className='shadow-xl rounded-[20px]'>
@@ -42,7 +48,10 @@ function page() {
             <div className='p-6'>
               <h3>Besøg vores webshop</h3>
               <p>Støt os ved køb af plakater, kaffe og meget mere bla bla</p>
-              <button className='text-orange'>Gå til webshop →</button>
+
+              <Link href='#' className='text-orange text-lg '>
+                Gå til webshop →
+              </Link>
             </div>
           </div>
           <div className='shadow-xl rounded-[20px] '>
@@ -50,7 +59,10 @@ function page() {
             <div className='p-6'>
               <h3>Regnskovscertifikat</h3>
               <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
-              <button className='text-orange '>Køb her →</button>
+
+              <Link href='#' className='text-orange text-lg '>
+                Køb her →
+              </Link>
             </div>
           </div>
         </div>
@@ -58,26 +70,32 @@ function page() {
         <div className='m-9 pt-20 pb-20 grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
           <div className='shadow-xl rounded-[20px]'>
             <Image className='rounded-t-lg lg:max-h-[400px]' src={mobil} width={500} height={500} alt='Picture of greenspeak ' />
-            <div className='p-6 '>
+            <div className='p-6 min-w-[300px]'>
               <h3>Greenspeak</h3>
               <p>Støt skoven gennem dit mobilregning med Greenspeak</p>
-              <button className='text-orange'>Læs mere →</button>
+              <Link href='#' className='text-orange text-lg '>
+                Læs mere →
+              </Link>
             </div>
           </div>
           <div className='shadow-xl rounded-[20px] '>
             <Image className='rounded-t-lg' src={hsnds} width={500} height={500} alt='Picture of hands' />
-            <div className='p-6 '>
+            <div className='p-6 min-w-[300px]'>
               <h3>Skriv under</h3>
-              <p>Støt os ved køb af plakater, kaffe og meget mere bla bla</p>
-              <button className='text-orange pt-9'>Læs mere →</button>
+              <p>Støt os ved køb af plakater, kaffe og meget mere bla bla tøt os ved køb af plakater, kaffe og meget me</p>
+              <Link href='#' className='text-orange text-lg '>
+                Læs mere →
+              </Link>
             </div>
           </div>
           <div className='shadow-xl rounded-[20px] '>
             <Image className='rounded-t-lg' src={testamente} width={500} height={500} alt='Picture of testamente' />
-            <div className='p-6 '>
+            <div className='p-6 min-w-[300px]'>
               <h3>Testamenter penge</h3>
               <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
-              <button className='text-orange pt-9'>Læs mere→</button>
+              <Link href='#' className='text-orange text-lg '>
+                Læs mere →
+              </Link>
             </div>
           </div>
         </div>
