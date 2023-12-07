@@ -29,49 +29,50 @@ function page() {
             <p className='mx-auto lg:pb-10 lg:max-w-[800px] md:max-w-[800px] p-7'>Vi samarbejder med folk, som lever i og af skoven. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
           </section>
           <section>
-            <div className='bg-gray-200 p-5 rounded-2xl '>
-              <div className='flex flex-col  items-center lg:flex-row '>
+            <div className='bg-gray-200 p-7 '>
+              <div className='flex flex-col  items-center lg:flex-row lg:pl-12'>
                 <Image src={blad} className='w-8 h-18 ' alt='leafsvg' />
-                <p className='ml-5 pb-4  mt-5'>Vi bremser den enorme CO2-forurening, der kommer fra skovrydning.</p>
+                <p className='ml-5 pb-4 mt-5'>Vi bremser den enorme CO2-forurening, der kommer fra skovrydning.</p>
               </div>
 
-              <div className='flex flex-col items-center lg:flex-row '>
+              <div className='flex flex-col items-center lg:flex-row lg:pl-12'>
                 <Image src={blad} className='w-8 h-18 ' alt='leafsvg' />
                 <p className='ml-5 pb-4  mt-5'>Vi bevare regnskoven sammen med de mennesker, der bor i og omkring skoven.</p>
               </div>
 
-              <div className='flex flex-col items-center lg:flex-row '>
+              <div className='flex flex-col items-center lg:flex-row lg:pl-12'>
                 <Image src={blad} className='w-8 h-18' alt='leafsvg' />
                 <p className='ml-5 pb-4  mt-5'>Vi redde de tusindvis af dyre- og plantearter, der lever i regnskoven.</p>
               </div>
 
-              <div className='flex flex-col items-center lg:flex-row  '>
+              <div className='flex flex-col items-center lg:flex-row lg:pl-12'>
                 <Image src={blad} className='w-8 h-18' alt='leafsvg' />
                 <p className='ml-5 pb-4  mt-5'>Vi skaber større rigdom af dyr og planter i Danmark.</p>
               </div>
             </div>
           </section>
-          <section className='w-full h-full  mx-auto  lg:pt-20 '>
+          <section className='w-full h-full  mx-auto  lg:pt-20 p-12 mb-12 pb-10'>
             <div className=' flex-col justify-center pt-10 '>
               <h2 className='flex justify-center'>Vores arbejdsområder</h2>
             </div>
 
-            <div className='grid gap-6 md:gap-3 lg:gap-10 lg:flex lg:flex-wrap md:flex-wrap md:flex sm:justify-center '>
-              <div className='shadow-xl rounded-lg'>
+            <div className='gap-9 md:gap-3 lg:gap-10 lg:flex md:grid md:grid-cols-2 md:grid-rows-2 '>
+              <div className='shadow-xl rounded-lg mb-10'>
                 <Image className='rounded-t-lg' src={vild} width={500} height={500} alt='Picture of nature ' />
-                <div className='p-6'>
+                <div className='p-6 '>
                   <h3>Vild Dansk Natur</h3>
                   <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
-              <div className='shadow-xl rounded-lg'>
+
+              <div className='shadow-xl rounded-lg mb-10'>
                 <Image className='rounded-t-lg' src={politik} width={500} height={500} alt='Picture of politics' />
                 <div className='p-6'>
                   <h3>Politisk Udvikling</h3>
                   <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
-              <div className='shadow-xl rounded-lg '>
+              <div className='shadow-xl rounded-lg mb-10'>
                 <Image className='rounded-t-lg' src={klima} width={500} height={500} alt='Picture of poster' />
                 <div className='p-6'>
                   <h3>Klima</h3>
@@ -79,7 +80,7 @@ function page() {
                 </div>
               </div>
 
-              <div className='shadow-xl rounded-lg '>
+              <div className='shadow-xl rounded-lg mb-10'>
                 <Image className='rounded-t-lg' src={globalt} width={500} height={500} alt='Picture of global work' />
                 <div className='p-6'>
                   <h3>Globalt Arbejde</h3>
@@ -92,7 +93,7 @@ function page() {
         <section>
           <div>
             <div className='bg-gray-200 p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 '>
-              <Image className='h-full w-full lg:max-w-[400px] md:max-w-[500px] mx-auto' src={planetb} alt='Picture of the old days' />
+              <Image className='h-full w-full lg:max-w-[400px] md:max-w-[500px] mx-auto' src={planetb} alt='Picture of there is not planet b' />
               <div className=' md:p-20 flex justify-center flex-col'>
                 <h2 className='pt-12 md:pt-6 lg:pt-6'>Hvad kan du gøre? </h2>
                 <p className=''>De menneskeskabte klimaforandringer er resultatet af overdreven ressourceforbrug, der overstiger planetens kapacitet, og CO2-udledning, der overbelaster atmosfæren. En gennemsnitsdansker kræver tre jordkloder. For at reducere klimapåvirkningen anbefales alternativer som cykling eller offentlig transport.</p>
@@ -110,22 +111,22 @@ function page() {
               <h2 className='flex justify-center lg:pb-20'>Kampagner</h2>
             </div>
 
-            <div className='grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
-              <div className='shadow-xl rounded-[20px]'>
+            <div className='grid gap-10 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
+              <div className='shadow-xl rounded-lg'>
                 <Image className='rounded-t-lg' src={hand} width={500} height={500} alt='Picture of hand ' />
                 <div className='p-6'>
                   <h3>KANALSAGEN</h3>
                   <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
-              <div className='shadow-xl rounded-[20px]'>
+              <div className='shadow-xl rounded-lg'>
                 <Image className='rounded-t-lg' src={karlo} width={500} height={500} alt='Picture of development' />
                 <div className='p-6'>
                   <h3>STOP KAFFE, DER RYDDER REGNSKOV</h3>
                   <button className='text-orange'>Læs mere →</button>
                 </div>
               </div>
-              <div className='shadow-xl rounded-[20px] '>
+              <div className='shadow-xl rounded-lg '>
                 <Image className='rounded-t-lg' src={plakat} width={500} height={500} alt='Picture of climate' />
                 <div className='p-6'>
                   <h3>Regnskoven om søerne</h3>

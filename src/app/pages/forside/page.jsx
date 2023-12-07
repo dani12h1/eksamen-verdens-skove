@@ -12,6 +12,7 @@ import ProgressBar from "../../components/progressBar";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import Link from "next/link";
+import Head from "next/head";
 
 const Card = () => {
   return (
