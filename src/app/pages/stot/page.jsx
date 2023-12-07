@@ -21,12 +21,12 @@ const Stot = () => {
 
       <div className="relative">
         <Image src={hero} className="w-full h-[100vh]" alt="Picture of global work" />
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-          <h1 className="text-4xl font-bold">STØT VERDENS SKOVE</h1>
+        <div className="absolute top-[14vh] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white pb-20 pt-16">
+          <h1 className="text-1xl font-bold">STØT VERDENS SKOVE</h1>
           <p className="text-lg">Dit bidrag gør en forskel</p>
         </div>
 
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-8 bg-white shadow-md max-w-[600px] w-[80vw] h-[50vh] rounded-md">
+        <div className="absolute left-1/2 top-1/2 p-8 bg-white shadow-md max-w-[600px] w-[80vw] h-[50vh] rounded-md bg-opacity-80 flex flex-col justify-center items-center space-y-4 -ml-[40vw] -mt-[25vh]">
           <p className="text-black pb-4">Vælg hvordan du vil støtte</p>
           <div className="">
             <label className="flex flex-row gap-2">
@@ -70,6 +70,7 @@ const Stot = () => {
             <button className="bg-orange px-2 py-2 rounded-lg hover:bg-hover_orange text-white ">STØT NU</button>
           </div>
         </div>
+        <div className="absolute left-1/2 top-1/2 p-8 bg-white shadow-md max-w-[600px] w-[80vw] h-[50vh] rounded-md bg-opacity-80 flex flex-col justify-center items-center space-y-4 -ml-[40vw] -mt-[50vh]"></div>
       </div>
     </>
   );
