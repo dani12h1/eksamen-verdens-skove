@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Navigation from "../../components/Navigation";
-import hero from "../../billeder/herosplashphoto.jpeg";
+import hero from "../../billeder/stot.png";
 
 // Your functional component
 const Stot = () => {
@@ -19,26 +19,26 @@ const Stot = () => {
     <>
       <Navigation />
 
-      <div className="relative">
-        <Image src={hero} className="w-full h-[100vh]" alt="Picture of global work" />
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-          <h1 className="text-4xl font-bold">STØT VERDENS SKOVE</h1>
-          <p className="text-lg">Dit bidrag gør en forskel</p>
+      <div className=' '>
+        <Image src={hero} className='max-w-full max-h-full' alt='Picture of rainforest' />
+        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white'>
+          <h1 className='text-4xl font-bold'>STØT VERDENS SKOVE</h1>
+          <p className='text-lg'>Dit bidrag gør en forskel</p>
         </div>
 
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-8 bg-white shadow-md max-w-[600px] w-[80vw] h-[50vh] rounded-md">
-          <p className="text-black pb-4">Vælg hvordan du vil støtte</p>
-          <div className="">
-            <label className="flex flex-row gap-2">
-              <input className="accent-grå" type="radio" name="supportType" value="option1" />
+        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-8 bg-white shadow-md max-w-[600px] w-[80vw] h-[50vh] rounded-md'>
+          <p className='text-black pb-4'>Vælg hvordan du vil støtte</p>
+          <div className=''>
+            <label className='flex flex-row gap-2'>
+              <input className='accent-grå' type='radio' name='supportType' value='option1' />
               Enkelt donation
             </label>
-            <label className="flex flex-row gap-2">
-              <input className="accent-grå" type="radio" name="supportType" value="option2" />
+            <label className='flex flex-row gap-2'>
+              <input className='accent-grå' type='radio' name='supportType' value='option2' />
               Støt fast
             </label>
           </div>
-          <div className="flex gap-4 pt-5 justify-center">
+          <div className='flex gap-4 pt-5 justify-center'>
             <button className={`border border-1 rounded-md p-1 w-20 text-center text-grå ${selectedButton === 100 ? "bg-lys_grå text-grå" : "bg-white"}`} onClick={() => handleButtonClick(100)}>
               100 kr
             </button>
@@ -49,25 +49,25 @@ const Stot = () => {
               300 kr
             </button>
           </div>
-          <div className="pt-4 ">
+          <div className='pt-4 '>
             <label>
-              <input className="border border-1 rounded-md p-2 w-56 text-grå" placeholder="Valgfrit beløb" type="text" />
+              <input className='border border-1 rounded-md p-2 w-56 text-grå' placeholder='Valgfrit beløb' type='text' />
             </label>
           </div>
           <form>
-            <div className="flex gap-2 pt-4 ">
-              <label className="flex flex-row gap-2">
-                <input className="accent-grå" type="radio" name="supportType" value="option1" />
+            <div className='flex gap-2 pt-4 '>
+              <label className='flex flex-row gap-2'>
+                <input className='accent-grå' type='radio' name='supportType' value='option1' />
                 Betalingskort
               </label>
-              <label className="flex flex-row gap-2">
-                <input className="accent-grå" type="radio" name="supportType" value="option2" />
+              <label className='flex flex-row gap-2'>
+                <input className='accent-grå' type='radio' name='supportType' value='option2' />
                 Mobilepay
               </label>
             </div>
           </form>
-          <div className="pt-4">
-            <button className="bg-orange px-2 py-2 rounded-lg hover:bg-hover_orange text-white ">STØT NU</button>
+          <div className='pt-4'>
+            <button className='bg-orange px-2 py-2 rounded-lg hover:bg-hover_orange text-white '>STØT NU</button>
           </div>
         </div>
       </div>
