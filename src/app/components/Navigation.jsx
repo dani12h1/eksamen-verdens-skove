@@ -46,7 +46,7 @@ const Navigation = () => {
               {/* Submenu slutter */}
             </li>
             <li className='flex relative group'>
-              <Link href='#' className='mr-1' onClick={() => handleToggle(1)}>
+              <Link href='stot' className='mr-1' onClick={() => handleToggle(1)}>
                 Støt
               </Link>
               {/* Submenu starter */}

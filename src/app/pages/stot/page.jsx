@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Navigation from "../../components/Navigation";
-import hero from "../../billeder/herosplashphoto.jpeg";
+import hero from "../../billeder/stot.png";
 
 // Your functional component
 const Stot = () => {
