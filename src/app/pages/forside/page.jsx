@@ -43,7 +43,7 @@ const Card = () => {
             <h2 className=' text-3xl pt-14'>Hvem er Verdens Skove? </h2>
             <p className='max-w-[1000px]  mb-5'>Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
             <div className=''>
-              <Link href='hvadgorvi' className='text-orange text-lg '>
+              <Link href='hvemervi' className='text-orange text-lg '>
                 Læs mere →
               </Link>
             </div>
@@ -142,7 +142,7 @@ const Card = () => {
                       <button className='text-orange text-lg '>Læs mere →</button>
                     </div>
                   </div>
-                  <div className='w-[23rem]   border shadow-lg rounded-[20px]'>
+                  <div className='w-[23rem]  relative border shadow-lg rounded-[20px]'>
                     <Image className='rounded-t-lg' src={people} alt='Picture of people in the forest' />
                     <div className='flex p-4 justify-between'>
                       <p>20 NOVEMBER 2023</p>
@@ -157,11 +157,11 @@ const Card = () => {
                       <h3>Nyt initiativ: forbedring af skovovervågning</h3>
                       <p>Verdens Skove arbejder på et projekt i det sydvestlige Etiopien.</p>
 
-                      <button className='text-orange text-lg'>Læs mere →</button>
+                      <button className='text-orange text-lg absolute bottom-4'>Læs mere →</button>
                     </div>
                   </div>
 
-                  <div className='w-[23rem]  border shadow-xl rounded-[20px] '>
+                  <div className='w-[23rem] relative border shadow-xl rounded-[20px] '>
                     <Image className='rounded-t-lg' src={foresttruck} alt='Picture of forest and truck' />
                     <div className='flex p-4 justify-between'>
                       <p>18 SEPTEMBER 2023</p>
@@ -172,13 +172,13 @@ const Card = () => {
                         <p>Bolivia</p>
                       </div>
                     </div>
-                    <div className='p-4 '>
+                    <div className='p-4  '>
                       <h3>Tropiske skove forsvinder</h3>
                       <p>Nye tal viser en bekymrende udvikling i tab af skovdække i Bolivia. </p>
-                      <button className='text-orange text-lg'>Læs mere →</button>
+                      <button className='text-orange absolute bottom-4 text-lg '>Læs mere →</button>
                     </div>
                   </div>
-                  <div className='w-[23rem]   border shadow-xl rounded-[20px]'>
+                  <div className='w-[23rem] relative  border shadow-xl rounded-[20px]'>
                     <Image className='rounded-t-lg' src={foresttruck} alt='Picture of forest and truck' />
                     <div className='flex p-4 justify-between'>
                       <p>18 SEPTEMBER 2023</p>
@@ -191,8 +191,8 @@ const Card = () => {
                     </div>
                     <div className='p-4'>
                       <h3>”Danskernes regnskov”</h3>
-                      <p>Nye tal viser en bekymrende udvikling i tab af skovdække i Bolivia. Landet er et af de steder i verden, kun overgået af Brasilien og Den Demokratiske Republik Congo. </p>
-                      <button className='text-orange  text-lg'>Læs mere →</button>
+                      <p>Nye tal viser en bekymrende udvikling i tab af skovdække i Bolivia. Landet er et af de steder i verden, kun overgået af Brasilien. </p>
+                      <button className='text-orange absolute bottom-4 justify-end text-lg'>Læs mere →</button>
                     </div>
                   </div>
                 </div>

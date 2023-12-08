@@ -12,6 +12,7 @@ import hand from "../../billeder/hand.png";
 import karlo from "../../billeder/karlo.png";
 import plakat from "../../billeder/plakat.png";
 import Footer from "../../components/Footer";
+import Link from "next/link";
 
 function page() {
   return (
@@ -61,7 +62,9 @@ function page() {
                 <Image className='rounded-t-lg' src={vild} width={500} height={500} alt='Picture of nature ' />
                 <div className='p-6 '>
                   <h3>Vild Dansk Natur</h3>
-                  <button className='text-orange'>Læs mere →</button>
+                  <Link href='#' className='text-orange text-lg  '>
+                    Læs mere →
+                  </Link>
                 </div>
               </div>
 
@@ -69,14 +72,18 @@ function page() {
                 <Image className='rounded-t-lg' src={politik} width={500} height={500} alt='Picture of politics' />
                 <div className='p-6'>
                   <h3>Politisk Udvikling</h3>
-                  <button className='text-orange'>Læs mere →</button>
+                  <Link href='' className='text-orange text-lg  '>
+                    Læs mere →
+                  </Link>{" "}
                 </div>
               </div>
               <div className='shadow-xl rounded-lg mb-10'>
                 <Image className='rounded-t-lg' src={klima} width={500} height={500} alt='Picture of poster' />
                 <div className='p-6'>
                   <h3>Klima</h3>
-                  <button className='text-orange '>Læs mere →</button>
+                  <Link href='#' className='text-orange text-lg  '>
+                    Læs mere →
+                  </Link>
                 </div>
               </div>
 
@@ -84,7 +91,9 @@ function page() {
                 <Image className='rounded-t-lg' src={globalt} width={500} height={500} alt='Picture of global work' />
                 <div className='p-6'>
                   <h3>Globalt Arbejde</h3>
-                  <button className='text-orange '>Læs mere →</button>
+                  <Link href='globaltarbejde' className='text-orange text-lg  '>
+                    Læs mere →
+                  </Link>
                 </div>
               </div>
             </div>
@@ -108,7 +117,7 @@ function page() {
         <div className=' pb-6 lg:m-28 md:m-22'>
           <section className='  mx-auto   '>
             <div className=' flex-col justify-center pt-3 '>
-              <h2 className='flex justify-center lg:pb-20'>Kampagner</h2>
+              <h2 className='flex justify-center pt-16 lg:pb-20'>Kampagner</h2>
             </div>
 
             <div className='grid gap-10 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
