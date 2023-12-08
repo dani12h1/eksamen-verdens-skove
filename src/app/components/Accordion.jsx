@@ -5,8 +5,8 @@ import * as Accordion from "@radix-ui/react-accordion";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 
 const AccordionDemo = () => (
-  <div className="flex justify-center items-center leading-7 text-[18px]">
-    <Accordion.Root className="lg:w-[50vw] w-[80vw]  rounded-md" defaultValue="item-1" collapsible>
+  <div className="flex justify-center items-center leading-7 text-[18px] font-[font:var(--font-sintony)]">
+    <Accordion.Root className="lg:w-[50vw] w-[80vw]  rounded-md" collapsible>
       <Accordion.Item value="item-1" className="flex flex-col mb-4 bg-lys_grå text-grå rounded-xl">
         <Accordion.Trigger className="flex p-4 justify-between">
           Lokalgrupper i Aarhus, Odense og København <ChevronDownIcon className="" />
