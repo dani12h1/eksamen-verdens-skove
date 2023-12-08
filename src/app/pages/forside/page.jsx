@@ -17,11 +17,6 @@ import Head from "next/head";
 const Card = () => {
   return (
     <>
-      <Head>
-        <title>Thunderstrike Metal Festival</title>
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
-
       <main className='leading-12 '>
         <Navigation />
         <section className='relative '>
