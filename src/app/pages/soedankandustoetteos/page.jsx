@@ -82,7 +82,7 @@ function page() {
             <Image className="rounded-t-lg max-h-[250px] max-w-[500px]" src={hsnds} width={500} height={500} alt="Picture of hands" />
             <div className="p-6 ">
               <h3>Skriv under</h3>
-              <p>Støt os ved køb af plakater, kaffe og meget mere bla bla tøt os ved køb af plakater, kaffe og meget mere. </p>
+              <p>Din underskrift er afgørende. Med flere underskrifter kan vi øge presset på politikerne sammen. </p>
               <Link href="#" className="text-orange text-lg ">
                 Læs mere →
               </Link>
