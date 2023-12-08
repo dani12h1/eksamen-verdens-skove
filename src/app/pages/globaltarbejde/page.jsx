@@ -18,7 +18,7 @@ function globaltarbejde() {
       <Navigation />
       <main className='leading-7 '>
         <section className='relative'>
-          <Image src={cover} className='w-full h-full' alt='Picture of global work' />
+          <Image src={cover} className='w-full h-full  brightness-[0.7]' alt='Picture of global work' />
           <h1 className='text-white absolute top-[7rem] lg:pl-[6vw] pl-[6vw] lg:pt-[25vw]  md:pl-[6vw] md:pt-[20vw] pb-4'>Globalt Arbejde</h1>
         </section>
         <div className=' lg:p-0 mx-22 my-14'>
