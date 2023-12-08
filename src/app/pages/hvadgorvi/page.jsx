@@ -99,17 +99,13 @@ function page() {
             </div>
           </section>
         </div>
-        <section>
-          <div>
-            <div className='bg-gray-200 p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 '>
-              <Image className='h-full w-full lg:max-w-[400px] md:max-w-[500px] mx-auto' src={planetb} alt='Picture of there is not planet b' />
-              <div className=' md:p-20 flex justify-center flex-col'>
-                <h2 className='pt-12 md:pt-6 lg:pt-6'>Hvad kan du gøre? </h2>
-                <p className=''>De menneskeskabte klimaforandringer er resultatet af overdreven ressourceforbrug, der overstiger planetens kapacitet, og CO2-udledning, der overbelaster atmosfæren. En gennemsnitsdansker kræver tre jordkloder. For at reducere klimapåvirkningen anbefales alternativer som cykling eller offentlig transport.</p>
-                <div>
-                  <button className='text-orange pt-2 md:pt-10 lg:pt-10 flex justify-start'>Læs mere →</button>
-                </div>
-              </div>
+
+        <section className='bg-gray-200 lg:justify-center p-5 lg:flex lg:flex-row md:flex-col md:p-10 mx-0 pb-16 lg:p-10'>
+          <div className='p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 rounded-2xl items-center'>
+            <Image className='h-full w-full  lg:max-w-[400px] md:max-w-[500px] mx-auto' src={planetb} alt='Picture of there is not planet b' />
+            <div className='md:p-8 flex justify-center flex-col order-2 '>
+              <h2 className='pt-10 md:pt-6 '>Hvad kan du gøre? </h2>
+              <p className='max-w-[700px] '>ressourceforbrug, der overstiger planetens kapacitet, og CO2-udledning, der overbelaster atmosfæren. En gennemsnitsdansker kræver tre jordkloder. For at reducere klimapåvirkningen anbefales alternativer som cykling eller offentlig transport.</p>
             </div>
           </div>
         </section>
