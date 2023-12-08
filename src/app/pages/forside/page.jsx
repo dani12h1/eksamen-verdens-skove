@@ -17,6 +17,11 @@ import Head from "next/head";
 const Card = () => {
   return (
     <>
+      <Head>
+        <title>Thunderstrike Metal Festival</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <main className="leading-12 ">
         <Navigation />
         <section className="relative ">
@@ -37,7 +42,7 @@ const Card = () => {
           <section className="p-2 pt-40 lg:pt-0 pb-10 text-black flex flex-col">
             <h2 className=" text-3xl pt-14">Hvem er Verdens Skove? </h2>
             <p className="max-w-[1000px]  mb-5">Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
-            <div className=" ">
+            <div className="">
               <Link href="hvadgorvi" className="text-orange text-lg ">
                 Læs mere →
               </Link>
@@ -90,7 +95,7 @@ const Card = () => {
               </div>
             </div>
 
-            <div className=" p-8">
+            <div className="py-10 text-center">
               <Link href="soedankandustoetteos" className="text-orange text-lg ">
                 Se flere støttemuligheder →
               </Link>
@@ -193,7 +198,7 @@ const Card = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className=" text-center">
               <button className="text-orange pt-14 text-lg">Flere artikler →</button>
             </div>
           </section>
