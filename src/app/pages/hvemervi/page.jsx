@@ -45,7 +45,7 @@ const Page = () => {
 
             <section className='pb-16 lg:p-10'>
               <div className='p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 rounded-2xl items-center'>
-                <Image className='h-full w-full lg:max-w-[600px] md:max-w-[500px] mx-auto order-1' src={Tree} alt='Picture of tree' />
+                <Image className='h-full w-full lg:max-w-[600px] md:max-w-[500px] mx-auto order-1' src={Tree} alt='Picture of trees' />
                 <div className='md:p-10 flex justify-center flex-col order-2 pt-5'>
                   <h2 className='pt-10 md:pt-6 '>Verdens Skove internationalt og lokalt </h2>
                   <p className='max-w-[700px]'>
