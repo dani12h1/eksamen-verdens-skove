@@ -12,6 +12,7 @@ import hand from "../../billeder/hand.png";
 import karlo from "../../billeder/karlo.png";
 import plakat from "../../billeder/plakat.png";
 import Footer from "../../components/Footer";
+import Link from "next/link";
 
 function page() {
   return (
@@ -61,7 +62,9 @@ function page() {
                 <Image className='rounded-t-lg' src={vild} width={500} height={500} alt='Picture of nature ' />
                 <div className='p-6 '>
                   <h3>Vild Dansk Natur</h3>
-                  <button className='text-orange'>Læs mere →</button>
+                  <Link href='#' className='text-orange text-lg  '>
+                    Læs mere →
+                  </Link>
                 </div>
               </div>
 
@@ -69,14 +72,18 @@ function page() {
                 <Image className='rounded-t-lg' src={politik} width={500} height={500} alt='Picture of politics' />
                 <div className='p-6'>
                   <h3>Politisk Udvikling</h3>
-                  <button className='text-orange'>Læs mere →</button>
+                  <Link href='' className='text-orange text-lg  '>
+                    Læs mere →
+                  </Link>{" "}
                 </div>
               </div>
               <div className='shadow-xl rounded-lg mb-10'>
                 <Image className='rounded-t-lg' src={klima} width={500} height={500} alt='Picture of poster' />
                 <div className='p-6'>
                   <h3>Klima</h3>
-                  <button className='text-orange '>Læs mere →</button>
+                  <Link href='#' className='text-orange text-lg  '>
+                    Læs mere →
+                  </Link>
                 </div>
               </div>
 
@@ -84,23 +91,21 @@ function page() {
                 <Image className='rounded-t-lg' src={globalt} width={500} height={500} alt='Picture of global work' />
                 <div className='p-6'>
                   <h3>Globalt Arbejde</h3>
-                  <button className='text-orange '>Læs mere →</button>
+                  <Link href='globaltarbejde' className='text-orange text-lg  '>
+                    Læs mere →
+                  </Link>
                 </div>
               </div>
             </div>
           </section>
         </div>
-        <section>
-          <div>
-            <div className='bg-gray-200 p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 '>
-              <Image className='h-full w-full lg:max-w-[400px] md:max-w-[500px] mx-auto' src={planetb} alt='Picture of there is not planet b' />
-              <div className=' md:p-20 flex justify-center flex-col'>
-                <h2 className='pt-12 md:pt-6 lg:pt-6'>Hvad kan du gøre? </h2>
-                <p className=''>De menneskeskabte klimaforandringer er resultatet af overdreven ressourceforbrug, der overstiger planetens kapacitet, og CO2-udledning, der overbelaster atmosfæren. En gennemsnitsdansker kræver tre jordkloder. For at reducere klimapåvirkningen anbefales alternativer som cykling eller offentlig transport.</p>
-                <div>
-                  <button className='text-orange pt-2 md:pt-10 lg:pt-10 flex justify-start'>Læs mere →</button>
-                </div>
-              </div>
+
+        <section className='bg-gray-200 lg:justify-center p-5 lg:flex lg:flex-row md:flex-col md:p-10 mx-0 pb-16 lg:p-10'>
+          <div className='p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 rounded-2xl items-center'>
+            <Image className='h-full w-full  lg:max-w-[400px] md:max-w-[500px] mx-auto' src={planetb} alt='Picture of there is not planet b' />
+            <div className='md:p-8 flex justify-center flex-col order-2 '>
+              <h2 className='pt-10 md:pt-6 '>Hvad kan du gøre? </h2>
+              <p className='max-w-[700px] '>ressourceforbrug, der overstiger planetens kapacitet, og CO2-udledning, der overbelaster atmosfæren. En gennemsnitsdansker kræver tre jordkloder. For at reducere klimapåvirkningen anbefales alternativer som cykling eller offentlig transport.</p>
             </div>
           </div>
         </section>
@@ -108,7 +113,7 @@ function page() {
         <div className=' pb-6 lg:m-28 md:m-22'>
           <section className='  mx-auto   '>
             <div className=' flex-col justify-center pt-3 '>
-              <h2 className='flex justify-center lg:pb-20'>Kampagner</h2>
+              <h2 className='flex justify-center pt-16 lg:pb-20'>Kampagner</h2>
             </div>
 
             <div className='grid gap-10 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center '>
