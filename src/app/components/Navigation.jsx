@@ -29,7 +29,7 @@ const Navigation = () => {
 
   //toogle submenu i web
   const handleToggle = (index) => {
-    setOpenMenuMobile((prevOpenMenu) => (prevOpenMenu === index ? null : index));
+    setOpenMenu((prevOpenMenu) => (prevOpenMenu === index ? null : index));
   };
 
   useEffect(() => {
