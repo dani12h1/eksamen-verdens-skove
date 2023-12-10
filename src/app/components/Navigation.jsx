@@ -13,6 +13,18 @@ const Navigation = () => {
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+    setOpenMenu(null);
+  };
+
+  const handleMobileToggle = (index) => {
+    if (isMobileMenuOpen) {
+      // If the same submenu is clicked again, close it
+      setOpenMenu((prevOpenMenu) => (prevOpenMenu === index ? null : index));
+    } else {
+      // If mobile menu is closed, toggle the mobile menu and set the submenu
+      setIsMobileMenuOpen(true);
+      setOpenMenu(index);
+    }
   };
 
   const handleToggle = (index) => {
@@ -21,7 +33,7 @@ const Navigation = () => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      // Close the submenu if the click is outside of it
+      // Lukker submenu, hvis der klikkes ved siden af
       if (submenuRef.current && !submenuRef.current.contains(event.target)) {
         setOpenMenu(null);
       }
@@ -106,10 +118,10 @@ const Navigation = () => {
           <div className="mobile-menu absolute top-23 w-full z-[100001]">
             <ul className="bg-gray-100 shadow-lg leading-9 h-screen text-black">
               <li className="border-b-2 border-white">
-                <Link href="hvadgorvi" className="block pl-11">
+                <Link href="hvadgorvi" className="block pl-11" onClick={() => handleMobileToggle(0)}>
                   Om os
                 </Link>
-                <ul className="bg-white text-gray-800 w-full">
+                <ul className={`bg-white text-gray-800 w-full ${openMenu === 1 ? "block" : "hidden"}`}>
                   <li className="text-sm leading-8 font-normal hover:text-[#E6863B]">
                     <Link className="block pl-16 p-3" href="hvemervi">
                       Hvem er Verdens Skove?
@@ -130,10 +142,10 @@ const Navigation = () => {
               </li>
 
               <li className="border-b-2 border-white ">
-                <Link href="#" className="block pl-11">
+                <Link href="#" className="block pl-11" onClick={() => handleMobileToggle(1)}>
                   Støt
                 </Link>
-                <ul className="bg-white text-gray-800 w-full">
+                <ul className={`bg-white text-gray-800 w-full ${openMenu === 1 ? "block" : "hidden"}`}>
                   <li className="text-sm leading-8 font-normal hover:text-[#E6863B]">
                     <Link className="block pl-16 p-3" href="såedankandustoetteos">
                       Sådan kan du støtte os
