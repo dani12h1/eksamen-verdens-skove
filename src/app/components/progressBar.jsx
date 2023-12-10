@@ -37,7 +37,7 @@ const ProgressBar = () => {
     fetchData();
   }, []);
 
-  const progressPercentage = (totalNames / 10000) * 100;
+  const progressPercentage = (totalNames / 50) * 100;
 
   const handleSupportClick = async () => {
     try {
@@ -79,7 +79,7 @@ const ProgressBar = () => {
         <p className="pb-3e  text-hvid">Og stop kaffe, der rydder regnskov</p>
         {data && (
           <div className="font-bold ">
-            <p className=" text-hvid">{totalNames}/10000</p>
+            <p className=" text-hvid">{totalNames}/50</p>
             <div className="flex text-sm font-thin justify-between pb-1 ">
               <p className=" text-hvid">Underskrevet</p>
               <p className=" text-hvid">Vores mål</p>
