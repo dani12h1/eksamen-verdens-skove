@@ -4,8 +4,8 @@ import cover from "../../billeder/Globaltarbejde.png";
 import honduras from "../../billeder/honduras.png";
 import bolivia from "../../billeder/bolivia.png";
 import etiopien from "../../billeder/etiopien.png";
-import nicaragua from "../../billeder/nicaragua.png";
-import uganda from "../../billeder/uganda.png";
+// import nicaragua from "../../billeder/nicaragua.png";
+// import uganda from "../../billeder/uganda.png";
 import panama from "../../billeder/panama.png";
 import skov from "../../billeder/globalrarb1.png";
 import mandiflod from "../../billeder/flodmand.png";
@@ -44,11 +44,11 @@ function globaltarbejde() {
                 <p className="flex justify-center">Etiopien</p>
               </div>
               <div>
-                <Image className="rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] lg:max-w-[150px] p-3 bg-hvid   " src={nicaragua} alt="Picture of Nicaragua" />
+                <Image className="rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] lg:max-w-[150px] p-3 bg-hvid   " src={bolivia} alt="Picture of Nicaragua" />
                 <p className="flex justify-center">Nicaragua</p>
               </div>
               <div>
-                <Image className="rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] lg:max-w-[150px] p-3 bg-hvid   " src={uganda} alt="Picture of Uganda" />
+                <Image className="rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] lg:max-w-[150px] p-3 bg-hvid   " src={bolivia} alt="Picture of Uganda" />
                 <p className="flex justify-center">Uganda</p>
               </div>
               <div>
