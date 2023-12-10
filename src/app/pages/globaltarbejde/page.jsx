@@ -4,8 +4,6 @@ import cover from "../../billeder/Globaltarbejde.png";
 import honduras from "../../billeder/honduras.png";
 import bolivia from "../../billeder/bolivia.png";
 import etiopien from "../../billeder/etiopien.png";
-// import nicaragua from "../../billeder/nicaragua.png";
-// import uganda from "../../billeder/uganda.png";
 import panama from "../../billeder/panama.png";
 import skov from "../../billeder/globalrarb1.png";
 import mandiflod from "../../billeder/flodmand.png";
