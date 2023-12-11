@@ -73,12 +73,12 @@ const ProgressBar = () => {
   };
 
   return (
-    <div className=" ">
-      <div className="bg-grøn h-auto w-[80vw] max-w-[320px] min-w-[25vw] lg:min-w-[400px]  grid lg:max-w-[25vw] md:min-w-[35vw] lg:min-h-[65vh] p-4 lg:p-8 rounded-lg text-hvid bg-opacity-80 ">
+    <div className="">
+      <div className="bg-grøn h-auto w-[80vw] max-w-[320px] min-w-[25vw] lg:min-w-[400px] grid lg:max-w-[25vw] md:min-w-[35vw] lg:min-h-[65vh] p-4 lg:p-8 rounded-lg text-hvid bg-opacity-80">
         <h2 className=" text-hvid lg:text-4xl">Skriv under nu</h2>
-        <p className="pb-3e  text-hvid">Og stop kaffe, der rydder regnskov</p>
+        <p className="pb-3 text-hvid">Og stop kaffe, der rydder regnskov</p>
         {data && (
-          <div className="font-bold ">
+          <div className="font-bold">
             <p className=" text-hvid">{totalNames}/50</p>
             <div className="flex text-sm font-thin justify-between pb-1 ">
               <p className=" text-hvid">Underskrevet</p>

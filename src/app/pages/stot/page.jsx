@@ -19,7 +19,7 @@ const Stot = () => {
       <body>
         <Navigation />
         {/* bg */}
-        <main className="bg-gray-400 h-[full] w-[100vw] flex justify-center items-center" style={{ backgroundImage: `url(${hero.src})`, backgroundSize: "cover", backgroundPosition: "center" }}>
+        <main className="bg-gray-400 h-full w-screen flex justify-center items-center" style={{ backgroundImage: `url(${hero.src})`, backgroundSize: "cover", backgroundPosition: "center" }}>
           {/* wrap om container 1 og 2 */}
           <div className="grid lg:grid-rows-2 lg:grid-cols-2 grid-cols-1 grid-rows-1 lg:ml-[15vw] ">
             {/* Your content goes here */}
@@ -31,7 +31,7 @@ const Stot = () => {
                 <p className="text-center ">Dit bidrag gør en forskel</p>
               </div>
               {/* boks 2 */}
-              <div className=" p-10 bg-white rounded-lg bg-opacity-80 mx-8 my-10 lg:w-[450px] lg:h-[500px] max-w-[500px] text-[20px]">
+              <div className=" p-10 bg-white rounded-lg bg-opacity-80 mx-8 my-10 lg:w-[450px] lg:h-[500px] lg:max-w-[500px] max-w-[310px] text-[20px]">
                 <p className="text-black pb-4">Vælg hvordan du vil støtte</p>
                 <div className="">
                   <label className="flex flex-row gap-2">
@@ -60,7 +60,7 @@ const Stot = () => {
                   </label>
                 </div>
                 <form>
-                  <div className="flex gap-2 pt-4 ">
+                  <div className="lg:flex-row md:flex flex-col gap-2 pt-4 ">
                     <label className="flex flex-row gap-2">
                       <input className="accent-grå" type="radio" name="supportType" value="option1" />
                       Betalingskort
@@ -84,7 +84,7 @@ const Stot = () => {
                 <p>Alle donationer tæller, selv de helt små beløb. </p>
               </div>
               {/* boks 2 */}
-              <div className=" p-8 bg-white shadow-md rounded-lg bg-opacity-80 flex flex-col justify-center mx-8  my-10 h-[30vh] lg:w-[300px] w-[85vw] max-w-[450px] ">
+              <div className=" p-8 bg-white shadow-md rounded-lg bg-opacity-80 flex flex-col justify-center mx-8  my-10 lg:h-[30vh] h-[40vh] lg:w-[300px] w-[85vw] max-w-[450px] ">
                 <h3>Støt fast</h3>
                 <p>Dit faste bidrag betyder, at vi kan lægge langsigtede strategier for vores indsats. På den måde er du med til at skabe et stærkt grundlag for vores arbejde.</p>
               </div>

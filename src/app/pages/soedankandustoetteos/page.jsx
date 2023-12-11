@@ -24,8 +24,8 @@ function page() {
         <div className=" lg:p-0 mx-22 my-14">
           <section className="p-3 lg:mx-44 lg:my-20">
             <div className="mx-auto lg:max-w-[1000px]">
-              <h2 className="flex justify-center text-center ">Dine penge gør en kæmpe forskel </h2>
-              <p className="flex text-center pb-10 p-8 md:pb-10">Brænder du for Når du støtter os, er du med til at bremse den enorme CO2-forurening, der kommer fra skovrydning, bevare regnskoven sammen med de mennesker, der bor i og omkring skoven, redde de tusindvis af dyre- og plantearter, der lever i regnskoven og skaber større rigdom af dyr og planter i Danmark.</p>
+              <h2 className=" ">Dine penge gør en kæmpe forskel </h2>
+              <p className="flex  pb-10  md:pb-10 lg:text-[1.4rem]">Brænder du for Når du støtter os, er du med til at bremse den enorme CO2-forurening, der kommer fra skovrydning, bevare regnskoven sammen med de mennesker, der bor i og omkring skoven, redde de tusindvis af dyre- og plantearter, der lever i regnskoven og skaber større rigdom af dyr og planter i Danmark.</p>
             </div>
           </section>
         </div>

@@ -27,8 +27,8 @@ const Page = () => {
           <div className=" lg:p-0 mx-auto my-14 ">
             <section className="p-3 lg:mx-44 lg:my-20 flex">
               <div className="lg:max-w-[1000px] mx-auto">
-                <h2 className=" text-center leading-8">VERDENS SKOVE SIDEN 1983 </h2>
-                <p className="flex lg:text-center pb-3 p-3 md:pb-10 lg:pb-3">I år, 2023, er det 40 år siden, at Verdens Skove blev grundlagt. I dag er det velkendt, at afskovning skader klimaet, koster oprindelige folk og andre lokale deres hjem, og at det er en af de væsentligste årsager til den hurtigste udryddelse af arter, siden meteoren ramte jorden for 66 millioner år siden. I 1983 var problemerne med rydning af de tropiske skove derimod ikke kendt blandt danskerne. En gruppe entusiastiske og modige biologistuderende fra Aarhus ønskede derfor at sætte rydning af regnskove på dagsordenen og øge indsatsen for at bevare verdens skove. De grundlagde derfor foreningen og lige siden har vi kæmpet for artsrige skove kloden over.</p>
+                <h2 className="">Verdens Skove siden 1983 </h2>
+                <p className="flex pb-3  md:pb-10 lg:pb-3 lg:text-[1.4rem]">I år, 2023, er det 40 år siden, at Verdens Skove blev grundlagt. I dag er det velkendt, at afskovning skader klimaet, koster oprindelige folk og andre lokale deres hjem, og at det er en af de væsentligste årsager til den hurtigste udryddelse af arter, siden meteoren ramte jorden for 66 millioner år siden. I 1983 var problemerne med rydning af de tropiske skove derimod ikke kendt blandt danskerne. En gruppe entusiastiske og modige biologistuderende fra Aarhus ønskede derfor at sætte rydning af regnskove på dagsordenen og øge indsatsen for at bevare verdens skove. De grundlagde derfor foreningen og lige siden har vi kæmpet for artsrige skove kloden over.</p>
               </div>
             </section>
           </div>
