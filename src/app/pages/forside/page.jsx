@@ -174,8 +174,8 @@ const Card = () => {
                       <button className="text-orange absolute bottom-4 text-lg ">Læs mere →</button>
                     </div>
                   </div>
-                  <div className="w-[23rem] relative  border shadow-xl rounded-[20px]">
-                    <Image className="rounded-t-lg" src={danskernes} alt="Picture of animal" />
+                  <div className="w-[23rem] relative  border-2 shadow-xl rounded-[20px]">
+                    <Image className="rounded-t-[20px]" src={danskernes} alt="Picture of animal" />
                     <div className="flex p-4 justify-between">
                       <p>03 AUGUST 2023</p>
                       <div className="flex">
