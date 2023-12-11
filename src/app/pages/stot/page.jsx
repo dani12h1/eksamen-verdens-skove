@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Navigation from "../../components/Navigation";
 import hero from "../../billeder/stot.png";
+import Head from "next/head";
 
 // Your functional component
 const Stot = () => {
@@ -23,6 +24,10 @@ const Stot = () => {
   return (
     <>
       <body>
+        <Head>
+          <title>hej</title>
+        </Head>
+
         <Navigation />
         {/* bg */}
         <main className="bg-gray-400 h-full w-screen flex justify-center items-center" style={{ backgroundImage: `url(${hero.src})`, backgroundSize: "cover", backgroundPosition: "center" }}>

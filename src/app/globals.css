@@ -52,15 +52,3 @@ a {
 a:hover {
   color: #c77638;
 }
-
-/* Apply margin of 4rem for screens between 1024px and 1300px */
-/* @media only screen and (min-width: 1024px) and (max-width: 1300px) {
-  .custom-margin {
-    margin: 4rem;
-    background-color: red; /* Change the background color as needed */
-
-/* Apply margin of 2rem for screens 1300px or less */
-/* @media only screen and (max-width: 1300px) {
-  .custom-margin {
-    margin: 2rem;
-    background-color: blue; /* Change the background color as needed */
