@@ -124,7 +124,7 @@ const Card = () => {
                   <div className=' w-[23rem]  border shadow-xl rounded-[20px]'>
                     <Image className='rounded-t-lg' src={pink} alt='Picture of origin people' />
                     <div className='flex p-4 justify-between'>
-                      <p>6 NOVEMBER 2023</p>
+                      <p>20 NOVEMBER 2023</p>
                       <div className='flex'>
                         <svg className='' xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
                           <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
@@ -141,7 +141,7 @@ const Card = () => {
                   <div className='w-[23rem]  relative border shadow-lg rounded-[20px]'>
                     <Image className='rounded-t-lg' src={people} alt='Picture of people in the forest' />
                     <div className='flex p-4 justify-between'>
-                      <p>20 NOVEMBER 2023</p>
+                      <p>06 NOVEMBER 2023</p>
                       <div className='flex'>
                         <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'>
                           <path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' />
