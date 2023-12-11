@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import Logo from "../billeder/logoskyggenyggetygge.svg";
+import Logo from "../billeder/skygge.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navigation = () => {

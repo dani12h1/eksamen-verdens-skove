@@ -30,7 +30,6 @@ function page() {
 
         <div className='lg:flex flex-row  justify-center pb-20 p-3'>
           <Image src={Frivillig_2} className='mb-2 lg:mx-4' alt='Picture of global work' />
-          <Image src={Frivillig_2} className='mb-2 lg:mx-4' alt='Picture of global work' />
         </div>
       </main>
       <Footer />

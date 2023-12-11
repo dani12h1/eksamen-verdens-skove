@@ -106,6 +106,9 @@ function page() {
             <div className='md:p-8 flex justify-center flex-col order-2 '>
               <h2 className='pt-10 md:pt-6 '>Hvad kan du gøre? </h2>
               <p className='max-w-[700px] '>ressourceforbrug, der overstiger planetens kapacitet, og CO2-udledning, der overbelaster atmosfæren. En gennemsnitsdansker kræver tre jordkloder. For at reducere klimapåvirkningen anbefales alternativer som cykling eller offentlig transport.</p>
+              <Link href='globaltarbejde' className='text-orange text-lg pt-4'>
+                Læs mere →
+              </Link>
             </div>
           </div>
         </section>
