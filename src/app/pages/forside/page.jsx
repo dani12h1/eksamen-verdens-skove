@@ -8,6 +8,7 @@ import pink from "../../billeder/pinkpeople.png";
 import people from "../../billeder/peopleinforest.png";
 import foresttruck from "../../billeder/treesandtruck.png";
 import hero from "../../billeder/herosplashphoto.jpeg";
+import danskernes from "../../billeder/danskernes.jpeg";
 import ProgressBar from "../../components/progressBar";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
@@ -173,10 +174,10 @@ const Card = () => {
                       <button className="text-orange absolute bottom-4 text-lg ">Læs mere →</button>
                     </div>
                   </div>
-                  <div className="w-[23rem] relative  border-2  rounded-[20px]">
-                    <Image className="rounded-t-[20px]" src={foresttruck} alt="Picture of forest and truck" />
+                  <div className="w-[23rem] relative  border shadow-xl rounded-[20px]">
+                    <Image className="rounded-t-lg" src={danskernes} alt="Picture of animal" />
                     <div className="flex p-4 justify-between">
-                      <p>18 SEPTEMBER 2023</p>
+                      <p>03 AUGUST 2023</p>
                       <div className="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                           <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
