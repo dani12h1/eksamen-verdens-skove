@@ -74,7 +74,7 @@ const ProgressBar = () => {
 
   return (
     <div className="">
-      <div className="bg-grøn h-auto w-[80vw] max-w-[320px] min-w-[25vw] lg:min-w-[400px] grid lg:max-w-[25vw] md:min-w-[35vw] lg:min-h-[65vh] p-4 lg:p-8 rounded-lg text-hvid bg-opacity-80">
+      <div className="bg-grøn h-auto w-[80vw] max-w-[320px] min-w-[25vw] lg:min-w-[400px] grid lg:max-w-[25vw] md:min-w-[40vw] lg:min-h-[65vh] p-4 lg:p-8 rounded-lg text-hvid bg-opacity-80">
         <h2 className=" text-hvid lg:text-4xl">Skriv under nu</h2>
         <p className="pb-3 text-hvid">Og stop kaffe, der rydder regnskov</p>
         {data && (
@@ -96,7 +96,7 @@ const ProgressBar = () => {
           <input className="p-1 pt-3 lg:h-14 lg:text-lg text-black" value={email} placeholder="E-mail" type="email" onChange={(e) => setEmail(e.target.value)} />
         </div>
         <div className="py-4 pt-5">
-          <button className="p-2 -2 bg-orange rounded text-md lg:text-2xl text-hvid" onClick={handleSupportClick} disabled={isSubmitting}>
+          <button className="p-2 -2 bg-orange hover:bg-hover_orange hover:text-hvid rounded text-md lg:text-2xl text-hvid" onClick={handleSupportClick} disabled={isSubmitting}>
             {isSubmitting ? "Indsender..." : "Indsend"}
           </button>
         </div>

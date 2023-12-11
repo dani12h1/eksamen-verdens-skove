@@ -76,7 +76,7 @@ function page() {
               <Image className="rounded-t-lg" src={politik} width={500} height={500} alt="Picture of politics" />
               <div className="p-6">
                 <h3>Politisk Udvikling</h3>
-                <Link href="" className="text-orange text-lg  ">
+                <Link href="" className="text-orange  text-lg  ">
                   Læs mere →
                 </Link>{" "}
               </div>
@@ -127,21 +127,21 @@ function page() {
                 <Image className="rounded-t-lg" src={hand} width={500} height={500} alt="Picture of hand " />
                 <div className="p-6">
                   <h3>KANALSAGEN</h3>
-                  <button className="text-orange">Læs mere →</button>
+                  <button className="text-orange hover:text-hover_orange">Læs mere →</button>
                 </div>
               </div>
               <div className="shadow-xl rounded-lg">
                 <Image className="rounded-t-lg" src={karlo} width={500} height={500} alt="Picture of development" />
                 <div className="p-6">
                   <h3>STOP KAFFE, DER RYDDER REGNSKOV</h3>
-                  <button className="text-orange">Læs mere →</button>
+                  <button className="text-orange hover:text-hover_orange">Læs mere →</button>
                 </div>
               </div>
               <div className="shadow-xl rounded-lg ">
                 <Image className="rounded-t-lg" src={plakat} width={500} height={500} alt="Picture of climate" />
                 <div className="p-6">
                   <h3>REGNSKOVEN OM SØERNE</h3>
-                  <button className="text-orange ">Læs mere →</button>
+                  <button className="text-orange hover:text-hover_orange ">Læs mere →</button>
                 </div>
               </div>
             </div>

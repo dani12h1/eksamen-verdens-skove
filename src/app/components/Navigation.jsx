@@ -100,7 +100,7 @@ const Navigation = () => {
             </li>
           </ul>
 
-          <Link href="stot" className="bg-orange px-5 py-3 rounded-lg hover:bg-hover_orange text-white hidden lg:flex font-bold text-[1.5rem]" role="button">
+          <Link href="stot" className="bg-orange px-5 py-3 rounded-lg hover:bg-hover_orange hover:text-hvid text-white hidden lg:flex font-bold text-[1.5rem]" role="button">
             STØT NU
           </Link>
 

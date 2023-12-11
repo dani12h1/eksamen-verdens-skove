@@ -49,6 +49,10 @@ a {
   font-family: "Sintony", sans-serif;
 }
 
+a:hover {
+  color: #c77638;
+}
+
 /* Apply margin of 4rem for screens between 1024px and 1300px */
 /* @media only screen and (min-width: 1024px) and (max-width: 1300px) {
   .custom-margin {
