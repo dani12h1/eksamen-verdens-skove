@@ -14,6 +14,12 @@ const Stot = () => {
     setSelectedButton(button === setSelectedButton ? null : button);
   };
 
+  // Add an onChange event handler to the input field to handle the removal of the toggle
+  const handleInputFieldChange = () => {
+    // Remove the toggle by setting selectedButton to null
+    setSelectedButton(null);
+  };
+
   return (
     <>
       <body>
@@ -44,19 +50,19 @@ const Stot = () => {
                   </label>
                 </div>
                 <div className="flex gap-4 pt-5 ">
-                  <button className={`border border-1 rounded-lg p-1 w-20 text-center text-grå ${selectedButton === 100 ? "bg-lys_grå text-grå" : "bg-white"}`} onClick={() => handleButtonClick(100)}>
+                  <button className={`border border-1 rounded-lg p-1 w-20 text-center text-grå ${selectedButton === 100 ? "bg-orange text-hvid" : "bg-white"}`} onClick={() => handleButtonClick(100)}>
                     100 kr
                   </button>
-                  <button className={`border border-1 rounded-lg p-1 w-20 text-center text-grå ${selectedButton === 200 ? "bg-lys_grå text-grå" : "bg-white"}`} onClick={() => handleButtonClick(200)}>
+                  <button className={`border border-1 rounded-lg p-1 w-20 text-center text-grå ${selectedButton === 200 ? "bg-orange text-hvid" : "bg-white"}`} onClick={() => handleButtonClick(200)}>
                     200 kr
                   </button>
-                  <button className={`border border-1 rounded-lg p-1 w-20 text-center text-grå ${selectedButton === 300 ? "bg-lys_grå text-grå" : "bg-white"}`} onClick={() => handleButtonClick(300)}>
+                  <button className={`border border-1 rounded-lg p-1 w-20 text-center text-grå ${selectedButton === 300 ? "bg-orange text-hvid" : "bg-white"}`} onClick={() => handleButtonClick(300)}>
                     300 kr
                   </button>
                 </div>
                 <div className="pt-4 ">
                   <label>
-                    <input className="border border-1 rounded-lg p-2 w-56 text-grå" placeholder="Valgfrit beløb" type="text" />
+                    <input className="border border-1 rounded-lg p-2 w-56 text-grå" placeholder="Valgfrit beløb" type="text" onChange={handleInputFieldChange} />
                   </label>
                 </div>
                 <form>
