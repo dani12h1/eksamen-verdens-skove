@@ -120,8 +120,8 @@ const Card = () => {
             <div className="flex justify-center">
               <div className="flex overflow-scroll h-[100%]">
                 <div className=" flex gap-4 justify-center ">
-                  <div className=" w-[23rem]  border shadow-xl rounded-[20px]">
-                    <Image className="rounded-t-lg" src={pink} alt="Picture of origin people" />
+                  <div className=" w-[23rem] border-2  rounded-[20px]">
+                    <Image className="rounded-t-[20px]" src={pink} alt="Picture of origin people" />
                     <div className="flex p-4 justify-between">
                       <p>6 NOVEMBER 2023</p>
                       <div className="flex">
@@ -137,8 +137,8 @@ const Card = () => {
                       <button className="text-orange text-lg ">Læs mere →</button>
                     </div>
                   </div>
-                  <div className="w-[23rem]  relative border shadow-lg rounded-[20px]">
-                    <Image className="rounded-t-lg" src={people} alt="Picture of people in the forest" />
+                  <div className="w-[23rem]  relative border-2  rounded-[20px]">
+                    <Image className="rounded-t-[20px]" src={people} alt="Picture of people in the forest" />
                     <div className="flex p-4 justify-between">
                       <p>20 NOVEMBER 2023</p>
                       <div className="flex">
@@ -156,8 +156,8 @@ const Card = () => {
                     </div>
                   </div>
 
-                  <div className="w-[23rem] relative border shadow-xl rounded-[20px] ">
-                    <Image className="rounded-t-lg" src={foresttruck} alt="Picture of forest and truck" />
+                  <div className="w-[23rem] relative border-2  rounded-[20px] ">
+                    <Image className="rounded-t-[20px]" src={foresttruck} alt="Picture of forest and truck" />
                     <div className="flex p-4 justify-between">
                       <p>18 SEPTEMBER 2023</p>
                       <div className="flex ">
@@ -173,8 +173,8 @@ const Card = () => {
                       <button className="text-orange absolute bottom-4 text-lg ">Læs mere →</button>
                     </div>
                   </div>
-                  <div className="w-[23rem] relative  border shadow-xl rounded-[20px]">
-                    <Image className="rounded-t-lg" src={foresttruck} alt="Picture of forest and truck" />
+                  <div className="w-[23rem] relative  border-2  rounded-[20px]">
+                    <Image className="rounded-t-[20px]" src={foresttruck} alt="Picture of forest and truck" />
                     <div className="flex p-4 justify-between">
                       <p>18 SEPTEMBER 2023</p>
                       <div className="flex">
