@@ -16,7 +16,7 @@ const Stot = () => {
 
   return (
     <>
-      <body style={{ overflow: "hidden" }}>
+      <body>
         <Navigation />
         {/* bg */}
         <main className="bg-gray-400 h-[full] w-[100vw] flex justify-center items-center" style={{ backgroundImage: `url(${hero.src})`, backgroundSize: "cover", backgroundPosition: "center" }}>
