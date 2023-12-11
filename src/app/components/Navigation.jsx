@@ -152,7 +152,7 @@ const Navigation = () => {
                 {/* mobile submenu 2*/}
                 <ul className={`bg-white text-gray-800 w-full ${openMenuMobile2 === 1 ? "block" : "hidden"}`}>
                   <li className="text-sm leading-8 font-normal hover:text-[#E6863B]">
-                    <Link className="block pl-16 p-3" href="såedankandustoetteos">
+                    <Link className="block pl-16 p-3" href="soedankandustoetteos">
                       Sådan kan du støtte os
                     </Link>
                   </li>
