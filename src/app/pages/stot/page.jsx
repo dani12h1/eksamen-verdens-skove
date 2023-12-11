@@ -31,7 +31,7 @@ const Stot = () => {
                 <p className="text-center ">Dit bidrag gør en forskel</p>
               </div>
               {/* boks 2 */}
-              <div className=" p-10 bg-white rounded-lg bg-opacity-80 mx-8 my-10 lg:w-[450px] lg:h-[500px] max-w-[500px] ">
+              <div className=" p-10 bg-white rounded-lg bg-opacity-80 mx-8 my-10 lg:w-[450px] lg:h-[500px] max-w-[500px] text-[20px]">
                 <p className="text-black pb-4">Vælg hvordan du vil støtte</p>
                 <div className="">
                   <label className="flex flex-row gap-2">
