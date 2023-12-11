@@ -2,36 +2,66 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-import Logo from "../billeder/skygge.svg";
+import { useEffect, useRef, useState } from "react";
+import Logo from "../billeder/logoskyggenyggetygge.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [openMenu, setOpenMenu] = useState(null);
+  const [openMenuMobile1, setOpenMenuMobile1] = useState(null);
+  const [openMenuMobile2, setOpenMenuMobile2] = useState(null);
+  const submenuRef = useRef(null);
 
+  //Toogler burger menu
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+    setOpenMenu(null);
   };
 
-  const [openMenu, setOpenMenu] = useState(null);
+  //toogle submenu i mobile
+  const handleMobileToggle = (index) => {
+    console.log("Before Toggle:", openMenuMobile1, openMenuMobile2);
+    setOpenMenuMobile1((prevOpenMenuMobile1) => (prevOpenMenuMobile1 === index ? null : index));
+    setOpenMenuMobile2((prevOpenMenuMobile2) => (prevOpenMenuMobile2 === index ? null : index));
+    console.log("After Toggle:", openMenuMobile1, openMenuMobile2);
+  };
 
+  //toogle submenu i web
   const handleToggle = (index) => {
-    setOpenMenu((prevOpenMenu) => (prevOpenMenu === index ? null : index));
+    setOpenMenuMobile((prevOpenMenu) => (prevOpenMenu === index ? null : index));
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Lukker submenu, hvis der klikkes ved siden af
+      if (submenuRef.current && !submenuRef.current.contains(event.target)) {
+        setOpenMenu(null);
+      }
+    };
+
+    // Attach the event listener to the document body
+    document.body.addEventListener("click", handleClickOutside);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      document.body.removeEventListener("click", handleClickOutside);
+    };
+  }, [submenuRef]);
 
   return (
-    <header className='h-26 bg-[#507D66] text-hvid z-[10000]'>
+    <header className='h-26 bg-[#507D66] text-white z-[10000]'>
       <nav className='relative px-2 py-6'>
         <div className='container mx-auto flex justify-between items-center'>
           <Link href='forside'>
             <Image src={Logo} width={200} height={150} alt='Logo' />
           </Link>
+
           <ul className='hidden md:hidden lg:flex space-x-6 pl-[20vw]'>
-            <li className='flex relative group'>
+            <li className='flex relative group' ref={submenuRef}>
               <Link href='#' className='mr-1' onClick={() => handleToggle(0)}>
                 Om os
               </Link>
-              {/* Submenu starter */}
               <ul className={`submenu absolute bg-[#507D66] space-y-4 p-6 w-[350px] h-62 top-[240%] transform ${openMenu === 0 ? "scale-100" : "scale-0"} transition duration-200 ease-in-out origin-top shadow-lg text-white border-t-8 border-orange z-[100001]`}>
                 <li className='text-lg hover:text-orange leading-8'>
                   <Link href='hvemervi'>Hvem er Verdens Skove?</Link>
@@ -45,13 +75,12 @@ const Navigation = () => {
                   </Link>
                 </li>
               </ul>
-              {/* Submenu slutter */}
             </li>
-            <li className='flex relative group'>
+
+            <li className='flex relative group' ref={submenuRef}>
               <Link href='#' className='mr-1' onClick={() => handleToggle(1)}>
                 Støt
               </Link>
-              {/* Submenu starter */}
               <ul className={`submenu absolute bg-[#507D66] space-y-4 p-6 w-[350px] h-62 top-[240%] transform ${openMenu === 1 ? "scale-100" : "scale-0"} transition duration-200 ease-in-out origin-top shadow-lg text-white border-t-8 border-orange z-[100001]`}>
                 <li className='text-lg leading-8 hover:text-orange '>
                   <Link href='soedankandustoetteos'>Sådan kan du støtte os</Link>
@@ -60,20 +89,21 @@ const Navigation = () => {
                   <Link href='#'>Støt som virksomhed</Link>
                 </li>
               </ul>
-              {/* Submenu slutter */}
             </li>
+
             <li>
               <Link href='blivfrivillig'>Bliv frivillig</Link>
             </li>
+
             <li>
               <Link href='#'>Webshop</Link>
             </li>
           </ul>
+
           <Link href='stot' className='bg-orange px-5 py-3 rounded-lg hover:bg-hover_orange text-white hidden lg:flex font-bold text-[1.5rem]' role='button'>
             STØT NU
           </Link>
 
-          {/* Mobile menu icon */}
           <button id='mobile-icon' className='lg:hidden' onClick={toggleMobileMenu}>
             {isMobileMenuOpen ? (
               <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' className='bi bi-x w-14 h-14' viewBox='0 0 16 16'>
@@ -85,16 +115,17 @@ const Navigation = () => {
           </button>
         </div>
 
-        {/* Mobile menu */}
+        {/* menu navagiation */}
+
         <div className={`lg:hidden ${isMobileMenuOpen ? "block " : "hidden"} flex justify-center mt-3 w-full`}>
           <div className='mobile-menu absolute top-23 w-full z-[100001]'>
-            <ul className='bg-gray-100 shadow-lg leading-9  h-screen text-black'>
+            <ul className='bg-gray-100 shadow-lg leading-9 h-screen text-black'>
               <li className='border-b-2 border-white'>
-                <Link href='hvadgorvi' className='block pl-11'>
+                <Link href='hvadgorvi' className='block pl-7' onClick={() => handleMobileToggle(0)}>
                   Om os
                 </Link>
-                {/* Submenu starter */}
-                <ul className='bg-white  text-gray-800 w-full'>
+                {/* mobile submenu 1 */}
+                <ul className={`bg-white text-gray-800 w-full ${openMenuMobile1 === 0 ? "block" : "hidden"}`}>
                   <li className='text-sm leading-8 font-normal hover:text-[#E6863B]'>
                     <Link className='block pl-16 p-3' href='hvemervi'>
                       Hvem er Verdens Skove?
@@ -112,14 +143,14 @@ const Navigation = () => {
                     </Link>
                   </li>
                 </ul>
-                {/* Submenu slutter */}
               </li>
+
               <li className='border-b-2 border-white '>
-                <Link href='#' className='block pl-11'>
+                <Link href='#' className='block pl-7' onClick={() => handleMobileToggle(1)}>
                   Støt
                 </Link>
-                {/* Submenu starter */}
-                <ul className='bg-white text-gray-800 w-full'>
+                {/* mobile submenu 2*/}
+                <ul className={`bg-white text-gray-800 w-full ${openMenuMobile2 === 1 ? "block" : "hidden"}`}>
                   <li className='text-sm leading-8 font-normal hover:text-[#E6863B]'>
                     <Link className='block pl-16 p-3' href='såedankandustoetteos'>
                       Sådan kan du støtte os
@@ -131,13 +162,14 @@ const Navigation = () => {
                     </Link>
                   </li>
                 </ul>
-                {/* Submenu slutter */}
               </li>
+
               <li className='border-b-2 border-white '>
                 <Link href='blivfrivillig' className='block pl-7'>
                   Bliv Frivillig
                 </Link>
               </li>
+
               <li className='border-b-2 border-white'>
                 <Link href='#' className='block pl-7 '>
                   Webshop
