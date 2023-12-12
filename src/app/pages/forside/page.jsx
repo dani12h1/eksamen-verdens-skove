@@ -36,10 +36,10 @@ const Card = () => {
 
         <div className="bg-white m-4 lg:m-28 md:m-22">
           <section className="p-2 pt-18 lg:pt-0 pb-10 text-black flex flex-col">
-            <h2 className=" text-3xl lg:pt-6 pt-[24rem] md:pt-[6rem]  md:pt[6rem]">Hvem er Verdens Skove? </h2>
+            <h2 className="lg:pt-6 pt-[24rem] md:pt-[6rem]  md:pt[6rem]">Hvem er Verdens Skove? </h2>
             <p className="max-w-[1000px] lg:text-[1.4rem]  mb-5">Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
             <div className="">
-              <Link href="hvemervi" className="text-orange text-lg ">
+              <Link href="hvemervi" className="text-orange text-lg">
                 Læs mere →
               </Link>
             </div>
@@ -56,7 +56,7 @@ const Card = () => {
                   <h3>Doner til vores arbejde</h3>
                   <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
 
-                  <div className="mx-auto ">
+                  <div className="mx-auto pt-10 ">
                     <Link href="stot" className="text-orange text-lg ">
                       Doner her →
                     </Link>
@@ -67,9 +67,9 @@ const Card = () => {
                 <Image className="rounded-t-lg" src={totebag} width={500} height={500} alt="Picture of totebag" />
                 <div className="p-6">
                   <h3>Besøg vores webshop</h3>
-                  <p>Støt os ved køb af plakater, kaffe og meget mere bla bla</p>
+                  <p>Støt os ved køb af plakater, kaffe og meget mere</p>
 
-                  <div className="mx-auto ">
+                  <div className="mx-auto pt-10 ">
                     <Link href="#" className="text-orange text-lg ">
                       Gå til webshop →
                     </Link>
@@ -82,7 +82,7 @@ const Card = () => {
                   <h3>Regnskovscertifikat</h3>
                   <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
 
-                  <div className="mx-auto ">
+                  <div className="mx-auto pt-10 ">
                     <Link href="#" className="text-orange text-lg ">
                       Køb her →
                     </Link>

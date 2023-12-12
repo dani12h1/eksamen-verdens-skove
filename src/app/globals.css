@@ -13,7 +13,7 @@
 h1 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-  font-size: clamp(2rem, 3vw, 5rem);
+  font-size: clamp(2.5rem, 5vw, 4rem);
   padding-bottom: 3%;
   padding-top: 3%;
 }
@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-  font-size: clamp(1.9rem, 2.5vw, 1rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   padding-bottom: 3%;
 }
 
@@ -51,4 +51,5 @@ a {
 
 a:hover {
   color: #c77638;
+  font-size: 1.2rem;
 }
