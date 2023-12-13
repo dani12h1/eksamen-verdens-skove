@@ -28,7 +28,7 @@ const Card = () => {
             <Image className="h-[62vh] lg:h-[85vh]  lg:w-full lg:object-cover" src={hero} alt="Picture of workers" />
           </div>
           <div className="lg:flex">
-            <div className="absolute top-[21rem] lg:top-52 md:top-52 w-full h-full flex justify-center lg:justify-end md:justify-end md:pr-20 lg:pr-48  items-center ">
+            <div className="absolute top-[24rem] lg:top-52 md:top-52 w-full h-full flex justify-center lg:justify-end md:justify-end md:pr-20 lg:pr-48  items-center ">
               <ProgressBar className="" />
             </div>
           </div>
@@ -36,7 +36,7 @@ const Card = () => {
 
         <div className="bg-white m-4 lg:m-28 md:m-22">
           <section className="p-2 pt-18 lg:pt-0 pb-10 text-black flex flex-col">
-            <h2 className="lg:pt-6 pt-[28rem] md:pt-[6rem]  md:pt[6rem]">Hvem er Verdens Skove? </h2>
+            <h2 className="lg:pt-6 pt-[30rem] md:pt-[6rem]  md:pt[6rem]">Hvem er Verdens Skove? </h2>
             <p className="max-w-[1000px] lg:text-[1.4rem]  mb-5">Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
             <div className="">
               <Link href="hvemervi" className="text-orange ">
