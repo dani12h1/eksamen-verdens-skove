@@ -102,7 +102,7 @@ const Card = () => {
             <div>
               <div className="bg-gray-200 p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10   md:m-22 ">
                 <Image className="h-full w-full lg:max-w-[400px] md:max-w-[500px] mx-auto" src={bw} alt="Picture of the old days" />
-                <div className=" md:p-20 flex justify-center flex-col">
+                <div className=" md:p-20 flex justify-center flex-col lg:px-24">
                   <h2 className="pt-12 md:pt-6 lg:pt-6">Hvordan arbejder vi? </h2>
                   <p className="">Vi samarbejde med folk, som lever i og af skoven. Vi arbejder i områder med særlig høj biodiversitet. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
                   <div>

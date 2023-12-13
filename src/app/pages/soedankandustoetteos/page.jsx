@@ -37,7 +37,7 @@ function page() {
               <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
 
               <div className="mx-auto pt-10 ">
-                <Link href="stot" className="text-orange text-[1.4rem] ">
+                <Link href="stot" className="text-orange">
                   Doner her →
                 </Link>
               </div>
@@ -49,7 +49,7 @@ function page() {
               <h3>Besøg vores webshop</h3>
               <p>Støt os ved køb af plakater, kaffe og meget mere.</p>
               <div className="mx-auto pt-10 ">
-                <Link href="#" className="text-orange text-[1.4rem] ">
+                <Link href="#" className="text-orange">
                   Gå til webshop →
                 </Link>
               </div>
@@ -61,7 +61,7 @@ function page() {
               <h3>Regnskovscertifikat</h3>
               <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
               <div className="mx-auto pt-10 ">
-                <Link href="#" className="text-orange text-[1.4rem] ">
+                <Link href="#" className="text-orange">
                   Køb her →
                 </Link>
               </div>
@@ -76,7 +76,7 @@ function page() {
               <h3>Greenspeak</h3>
               <p>Støt skoven gennem dit mobilregning med Greenspeak</p>
               <div className="mx-auto pt-10 ">
-                <Link href="#" className="text-orange text-[1.4rem] ">
+                <Link href="#" className="text-orange">
                   Læs mere →
                 </Link>
               </div>
@@ -88,7 +88,7 @@ function page() {
               <h3>Skriv under</h3>
               <p>Med flere underskrifter kan vi øge presset på politikerne. </p>
               <div className="mx-auto pt-10 ">
-                <Link href="#" className="text-orange text-[1.4rem] ">
+                <Link href="#" className="text-orange">
                   Læs mere →
                 </Link>
               </div>
@@ -101,7 +101,7 @@ function page() {
               <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
 
               <div className="mx-auto pt-10 ">
-                <Link href="#" className="text-orange text-[1.4rem] ">
+                <Link href="#" className="text-orange">
                   Læs mere →
                 </Link>
               </div>
