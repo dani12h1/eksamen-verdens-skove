@@ -30,9 +30,9 @@ function page() {
           </section>
         </div>
         <div className="m-9 grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center ">
-          <div className="shadow-xl rounded-[20px] min-h-[400px] max-w-[500px] ">
-            <Image className="rounded-t-lg " src={truck} width={500} height={500} alt="Picture of workers " />
-            <div className="p-6">
+          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px] ">
+            <Image className="rounded-t-[10px] " src={truck} width={500} height={500} alt="Picture of workers " />
+            <div className="p-6 ">
               <h3>Doner til vores arbejde</h3>
               <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
 
@@ -43,8 +43,8 @@ function page() {
               </div>
             </div>
           </div>
-          <div className="shadow-xl rounded-[20px] min-h-[400px] max-w-[500px]">
-            <Image className="rounded-t-lg" src={totebag} width={500} height={500} alt="Picture of totebag" />
+          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px]">
+            <Image className="rounded-t-[10px]" src={totebag} width={500} height={500} alt="Picture of totebag" />
             <div className="p-6">
               <h3>Besøg vores webshop</h3>
               <p>Støt os ved køb af plakater, kaffe og meget mere.</p>
@@ -54,9 +54,9 @@ function page() {
               </Link>
             </div>
           </div>
-          <div className="shadow-xl rounded-[20px] min-h-[400px] max-w-[500px] ">
-            <Image className="rounded-t-lg" src={certificat} width={500} height={500} alt="Picture of certificate" />
-            <div className="p-6">
+          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px] ">
+            <Image className="rounded-t-[10px]" src={certificat} width={500} height={500} alt="Picture of certificate" />
+            <div className="p-6 ">
               <h3>Regnskovscertifikat</h3>
               <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
 
@@ -68,8 +68,8 @@ function page() {
         </div>
 
         <div className="m-9 pt-20 pb-20 grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center ">
-          <div className="shadow-xl rounded-[20px] min-h-[400px] max-w-[500px]">
-            <Image className="rounded-t-lg " src={mobil} width={500} height={500} alt="Picture of greenspeak " />
+          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px]">
+            <Image className="rounded-t-[10px] " src={mobil} width={500} height={500} alt="Picture of greenspeak " />
             <div className="p-6 ">
               <h3>Greenspeak</h3>
               <p>Støt skoven gennem dit mobilregning med Greenspeak</p>
@@ -78,8 +78,8 @@ function page() {
               </Link>
             </div>
           </div>
-          <div className="shadow-xl rounded-[20px] min-h-[400px] max-w-[500px]">
-            <Image className="rounded-t-lg" src={hsnds} width={500} height={500} alt="Picture of hands" />
+          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px]">
+            <Image className="rounded-t-[10px]" src={hsnds} width={500} height={500} alt="Picture of hands" />
             <div className="p-6 ">
               <h3>Skriv under</h3>
               <p>Med flere underskrifter kan vi øge presset på politikerne. </p>
@@ -88,8 +88,8 @@ function page() {
               </Link>
             </div>
           </div>
-          <div className="shadow-xl rounded-[20px] min-h-[400px] max-w-[500px] ">
-            <Image className="rounded-t-lg  " src={testamente} width={500} height={500} alt="Picture of testamente" />
+          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px] ">
+            <Image className="rounded-t-[10px]  " src={testamente} width={500} height={500} alt="Picture of testamente" />
             <div className="p-6 ">
               <h3>Testamenter penge</h3>
               <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
