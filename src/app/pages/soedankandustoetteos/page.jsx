@@ -17,10 +17,10 @@ function page() {
       <Navigation />
       <section className="relative">
         <Image src={cover2} className="w-full h-full brightness-[0.6]" alt="Picture of global work" />
-        <h1 className="text-white absolute top-[6rem] lg:pl-[6vw] pl-[4vw] lg:pt-[25vw]  md:pl-[6vw] md:pt-[20vw] pb-4">Sådan kan du støtte os</h1>
+        <h1 className="text-white absolute top-[5rem] lg:pl-[6vw] pl-[4vw] lg:pt-[25vw]  md:pl-[6vw] md:pt-[20vw] pb-4">Sådan kan du støtte os</h1>
       </section>
 
-      <main className="leading-7 ">
+      <main className="leading-8 ">
         <div className=" lg:p-0 mx-22 my-14">
           <section className="p-3 lg:mx-44 lg:my-20">
             <div className="mx-auto lg:max-w-[1000px]">
@@ -29,73 +29,82 @@ function page() {
             </div>
           </section>
         </div>
-        <div className="m-9 grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center ">
-          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px] ">
-            <Image className="rounded-t-[10px] " src={truck} width={500} height={500} alt="Picture of workers " />
+        <div className="m-9 grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex-row sm:justify-center ">
+          <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full ">
+            <Image className="rounded-t-[10px] object-cover  w-full h-[300px] " src={truck} width={500} height={500} alt="Picture of workers " />
             <div className="p-6 ">
               <h3>Doner til vores arbejde</h3>
               <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
 
-              <div className="mx-auto ">
+              <div className="mx-auto pt-10 ">
                 <Link href="stot" className="text-orange text-lg ">
                   Doner her →
                 </Link>
               </div>
             </div>
           </div>
-          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px]">
-            <Image className="rounded-t-[10px]" src={totebag} width={500} height={500} alt="Picture of totebag" />
+          <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full">
+            <Image className="rounded-t-[10px] object-cover  w-full h-[300px]" src={totebag} width={500} height={500} alt="Picture of totebag" />
             <div className="p-6">
               <h3>Besøg vores webshop</h3>
               <p>Støt os ved køb af plakater, kaffe og meget mere.</p>
-
-              <Link href="#" className="text-orange text-lg ">
-                Gå til webshop →
-              </Link>
+              <div className="mx-auto pt-10 ">
+                <Link href="#" className="text-orange text-lg ">
+                  Gå til webshop →
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px] ">
-            <Image className="rounded-t-[10px]" src={certificat} width={500} height={500} alt="Picture of certificate" />
+          <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full ">
+            <Image className="rounded-t-[10px] object-cover  w-full h-[300px]" src={certificat} width={500} height={500} alt="Picture of certificate" />
             <div className="p-6 ">
               <h3>Regnskovscertifikat</h3>
               <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
-
-              <Link href="#" className="text-orange text-lg ">
-                Køb her →
-              </Link>
+              <div className="mx-auto pt-10 ">
+                <Link href="#" className="text-orange text-lg ">
+                  Køb her →
+                </Link>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="m-9 pt-20 pb-20 grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center ">
-          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px]">
-            <Image className="rounded-t-[10px] " src={mobil} width={500} height={500} alt="Picture of greenspeak " />
+        <div className="m-9 pt-20 pb-20 grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex-row sm:justify-center ">
+          <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full">
+            <Image className="rounded-t-[10px] object-cover  w-full h-[300px]" src={mobil} width={500} height={500} alt="Picture of greenspeak " />
             <div className="p-6 ">
               <h3>Greenspeak</h3>
               <p>Støt skoven gennem dit mobilregning med Greenspeak</p>
-              <Link href="#" className="text-orange text-lg ">
-                Læs mere →
-              </Link>
+              <div className="mx-auto pt-10 ">
+                <Link href="#" className="text-orange text-lg ">
+                  Læs mere →
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px]">
-            <Image className="rounded-t-[10px]" src={hsnds} width={500} height={500} alt="Picture of hands" />
+          <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full">
+            <Image className="rounded-t-[10px] object-cover  w-full h-[300px]" src={hsnds} width={500} height={500} alt="Picture of hands" />
             <div className="p-6 ">
               <h3>Skriv under</h3>
               <p>Med flere underskrifter kan vi øge presset på politikerne. </p>
-              <Link href="#" className="text-orange text-lg ">
-                Læs mere →
-              </Link>
+              <div className="mx-auto pt-10 ">
+                <Link href="#" className="text-orange text-lg ">
+                  Læs mere →
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="shadow-xl rounded-[10px] min-h-[400px] max-w-[500px] ">
-            <Image className="rounded-t-[10px]  " src={testamente} width={500} height={500} alt="Picture of testamente" />
+          <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full ">
+            <Image className="rounded-t-[10px] object-cover  w-full h-[300px] " src={testamente} width={500} height={500} alt="Picture of testamente" />
             <div className="p-6 ">
               <h3>Testamenter penge</h3>
               <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
-              <Link href="#" className="text-orange text-lg ">
-                Læs mere →
-              </Link>
+
+              <div className="mx-auto pt-10 ">
+                <Link href="#" className="text-orange text-lg ">
+                  Læs mere →
+                </Link>
+              </div>
             </div>
           </div>
         </div>

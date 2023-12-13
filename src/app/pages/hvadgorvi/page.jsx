@@ -25,7 +25,7 @@ function page() {
         </section>
 
         <div className=" lg:p-0 mx-auto my-14 ">
-          <section className="p-3 lg:mx-44 lg:my-20 flex">
+          <section className="p-4 lg:mx-44 lg:my-20 flex">
             <div className="lg:max-w-[1000px] mx-auto">
               <h2 className="">Hvordan arbejder vi? </h2>
               <p className="flex pb-3  md:pb-10 lg:pb-3 lg:text-[1.4rem]">Vi samarbejder med folk, som lever i og af skoven. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
@@ -56,9 +56,9 @@ function page() {
             </div>
           </div>
         </section>
-        <section className="w-full h-full  mx-auto  lg:pt-20 p-12 mb-12 pb-10">
+        <section className="w-full h-full  mx-auto  lg:pt-20 p-4 mb-12 pb-10">
           <div className=" flex-col justify-center pt-10 ">
-            <h2 className="flex justify-center">Vores arbejdsområder</h2>
+            <h2 className="flex justify-center ">Vores arbejdsområder</h2>
           </div>
 
           <div className="gap-9 md:gap-3 lg:gap-10 lg:flex md:grid md:grid-cols-2 md:grid-rows-2 ">
@@ -66,7 +66,7 @@ function page() {
               <Image className="rounded-t-lg" src={vild} width={500} height={500} alt="Picture of nature " />
               <div className="p-6 ">
                 <h3>Vild Dansk Natur</h3>
-                <Link href="#" className="text-orange text-lg  ">
+                <Link href="#" className="text-orange text-[1.4rem]  ">
                   Læs mere →
                 </Link>
               </div>
@@ -76,7 +76,7 @@ function page() {
               <Image className="rounded-t-lg" src={politik} width={500} height={500} alt="Picture of politics" />
               <div className="p-6">
                 <h3>Politisk Udvikling</h3>
-                <Link href="" className="text-orange  text-lg  ">
+                <Link href="" className="text-orange  text-[1.4rem]  ">
                   Læs mere →
                 </Link>{" "}
               </div>
@@ -85,7 +85,7 @@ function page() {
               <Image className="rounded-t-lg" src={klima} width={500} height={500} alt="Picture of poster" />
               <div className="p-6">
                 <h3>Klima</h3>
-                <Link href="#" className="text-orange text-lg  ">
+                <Link href="#" className="text-orange text-[1.4rem]  ">
                   Læs mere →
                 </Link>
               </div>
@@ -95,7 +95,7 @@ function page() {
               <Image className="rounded-t-lg" src={globalt} width={500} height={500} alt="Picture of global work" />
               <div className="p-6">
                 <h3>Globalt Arbejde</h3>
-                <Link href="globaltarbejde" className="text-orange text-lg  ">
+                <Link href="globaltarbejde" className="text-orange text-[1.4rem]  ">
                   Læs mere →
                 </Link>
               </div>
@@ -103,45 +103,51 @@ function page() {
           </div>
         </section>
 
-        <section className="bg-gray-200 lg:justify-center p-5 lg:flex lg:flex-row md:flex-col md:p-10 mx-0 pb-16 lg:p-10">
+        <section className="bg-gray-200 lg:justify-center 4 lg:flex lg:flex-row md:flex-col md:p-10 mx-0 pb-16 lg:p-10">
           <div className="p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 rounded-2xl items-center">
             <Image className="h-full w-full  lg:max-w-[400px] md:max-w-[500px] mx-auto" src={planetb} alt="Picture of there is not planet b" />
             <div className="md:p-8 flex justify-center flex-col order-2 ">
               <h2 className="pt-10 md:pt-6 ">Hvad kan du gøre? </h2>
               <p className="max-w-[700px] ">ressourceforbrug, der overstiger planetens kapacitet, og CO2-udledning, der overbelaster atmosfæren. En gennemsnitsdansker kræver tre jordkloder. For at reducere klimapåvirkningen anbefales alternativer som cykling eller offentlig transport.</p>
-              <Link href="globaltarbejde" className="text-orange text-lg pt-4">
+              <Link href="globaltarbejde" className="text-orange text-[1.4rem] pt-4">
                 Læs mere →
               </Link>
             </div>
           </div>
         </section>
 
-        <div className=" pb-6 lg:m-28 md:m-22">
-          <section className="  mx-auto   ">
+        <div className=" pb-4 lg:m-28 md:m-22">
+          <section className=" mx-auto">
             <div className=" flex-col justify-center pt-3 ">
               <h2 className="flex justify-center pt-16 lg:pb-20">Kampagner</h2>
             </div>
 
-            <div className="grid gap-10 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center ">
-              <div className="shadow-xl rounded-lg">
-                <Image className="rounded-t-lg" src={hand} width={500} height={500} alt="Picture of hand " />
+            <div className="grid gap-10 md:gap-3 lg:gap-10 lg:flex md:flex-row sm:justify-center m-4 ">
+              <div className="shadow-xl rounded-lg h-[450px] lg:w-[400px] sm:w-full">
+                <Image className="rounded-t-lg object-cover  w-full h-[300px]" src={hand} width={500} height={500} alt="Picture of hand " />
                 <div className="p-6">
                   <h3>KANALSAGEN</h3>
-                  <button className="text-orange hover:text-hover_orange">Læs mere →</button>
+                  <div className="mx-auto pt-6 ">
+                    <button className="text-orange hover:text-hover_orange  text-[1.4rem]">Læs mere →</button>
+                  </div>
                 </div>
               </div>
-              <div className="shadow-xl rounded-lg">
-                <Image className="rounded-t-lg" src={karlo} width={500} height={500} alt="Picture of development" />
+              <div className="shadow-xl rounded-lg h-[450px] lg:w-[400px] sm:w-full">
+                <Image className="rounded-t-lg object-cover  w-full h-[300px]" src={karlo} width={500} height={500} alt="Picture of development" />
                 <div className="p-6">
                   <h3>STOP KAFFE, DER RYDDER REGNSKOV</h3>
-                  <button className="text-orange hover:text-hover_orange">Læs mere →</button>
+                  <div className="mx-auto ">
+                    <button className="text-orange hover:text-hover_orange  text-[1.4rem]">Læs mere →</button>
+                  </div>
                 </div>
               </div>
-              <div className="shadow-xl rounded-lg ">
-                <Image className="rounded-t-lg" src={plakat} width={500} height={500} alt="Picture of climate" />
+              <div className="shadow-xl rounded-lg h-[450px] lg:w-[400px] sm:w-full ">
+                <Image className="rounded-t-lg object-cover  w-full h-[300px]" src={plakat} width={500} height={500} alt="Picture of climate" />
                 <div className="p-6">
                   <h3>REGNSKOVEN OM SØERNE</h3>
-                  <button className="text-orange hover:text-hover_orange ">Læs mere →</button>
+                  <div className="mx-auto pt-6 ">
+                    <button className="text-orange hover:text-hover_orange  text-[1.4rem] ">Læs mere →</button>
+                  </div>
                 </div>
               </div>
             </div>

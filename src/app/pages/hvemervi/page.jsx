@@ -13,7 +13,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Thunderstrike Metal Festival</title>
+        <title></title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />

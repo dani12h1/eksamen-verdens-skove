@@ -44,14 +44,14 @@ const Card = () => {
               </Link>
             </div>
           </section>
-          <section className="w-full h-full  mx-auto  lg:pt-20 border-black m-4">
-            <div className=" flex-col justify-center pt-10 ">
+          <section className="w-full h-full  mx-auto  border-black m-4">
+            <div className=" flex-col justify-center pt-10 m-4">
               <h2 className="flex justify-center">Sådan kan du støtte vores arbejde</h2>
             </div>
 
-            <div className="grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center lg:m-28 md:m-22 m-4">
-              <div className="shadow-xl rounded-[10px]">
-                <Image className="rounded-t-lg object-cover lg:min-w-[450px]" src={truck} width={450} height={450} alt="Picture of workers " />
+            <div className="grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex-row sm:justify-center  md:m-4 m-4">
+              <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full">
+                <Image className="rounded-t-lg object-cover  w-full h-[300px] " src={truck} width={500} height={500} alt="Picture of workers " />
                 <div className="p-6">
                   <h3>Doner til vores arbejde</h3>
                   <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
@@ -63,8 +63,8 @@ const Card = () => {
                   </div>
                 </div>
               </div>
-              <div className="shadow-xl rounded-[10px]">
-                <Image className="rounded-t-lg object-cover lg:min-w-[450px]" src={totebag} width={450} height={450} alt="Picture of totebag" />
+              <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full">
+                <Image className="rounded-t-lg object-cover  w-full h-[300px]" src={totebag} width={500} height={500} alt="Picture of totebag" />
                 <div className="p-6">
                   <h3>Besøg vores webshop</h3>
                   <p>Støt os ved køb af plakater, kaffe og meget mere</p>
@@ -76,8 +76,8 @@ const Card = () => {
                   </div>
                 </div>
               </div>
-              <div className="shadow-xl rounded-[10px] ">
-                <Image className="rounded-t-lg object-cover lg:min-w-[450px]" src={certificat} width={450} height={450} alt="Picture of certificate" />
+              <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full">
+                <Image className="rounded-t-lg object-cover  w-full h-[300px] " src={certificat} width={500} height={500} alt="Picture of certificate" />
                 <div className="p-6">
                   <h3>Regnskovscertifikat</h3>
                   <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
@@ -135,7 +135,7 @@ const Card = () => {
                     <div className="p-4">
                       <h3>Støtte af tolupanfolket</h3>
                       <p> Oprindelige folk og civilsamfundet i Honduras blev ikke kun udfordret af sundhedsrelateret pres under COVID-19 pandemien.</p>
-                      <button className="text-orange text-[1.5rem] ">Læs mere →</button>
+                      <button className="text-orange hover:text-hover_orange text-[1.5rem] ">Læs mere →</button>
                     </div>
                   </div>
                   <div className="w-[23rem]  relative border-2  rounded-[10px] bg-hvid">
