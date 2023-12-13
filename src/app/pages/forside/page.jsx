@@ -28,7 +28,7 @@ const Card = () => {
             <Image className="h-[62vh] lg:h-[85vh]  lg:w-full lg:object-cover" src={hero} alt="Picture of workers" />
           </div>
           <div className="lg:flex">
-            <div className="absolute top-[18rem] lg:top-52 md:top-52 w-full h-full flex justify-center lg:justify-end md:justify-end md:pr-20 lg:pr-48  items-center ">
+            <div className="absolute top-[21rem] lg:top-52 md:top-52 w-full h-full flex justify-center lg:justify-end md:justify-end md:pr-20 lg:pr-48  items-center ">
               <ProgressBar className="" />
             </div>
           </div>
@@ -36,10 +36,10 @@ const Card = () => {
 
         <div className="bg-white m-4 lg:m-28 md:m-22">
           <section className="p-2 pt-18 lg:pt-0 pb-10 text-black flex flex-col">
-            <h2 className="lg:pt-6 pt-[24rem] md:pt-[6rem]  md:pt[6rem]">Hvem er Verdens Skove? </h2>
+            <h2 className="lg:pt-6 pt-[28rem] md:pt-[6rem]  md:pt[6rem]">Hvem er Verdens Skove? </h2>
             <p className="max-w-[1000px] lg:text-[1.4rem]  mb-5">Verdens Skove er en dansk miljøorganisation, der gennem 40 år har arbejdet for en verden med en rig skovnatur gennem bl.a. bevarelse af skovene. Vores fokus er på klima, biodiversitet og de oprindelige folks rettigheder. </p>
             <div className="">
-              <Link href="hvemervi" className="text-orange text-lg">
+              <Link href="hvemervi" className="text-orange ">
                 Læs mere →
               </Link>
             </div>
@@ -51,39 +51,39 @@ const Card = () => {
 
             <div className="grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex sm:justify-center ">
               <div className="shadow-xl rounded-[20px]">
-                <Image className="rounded-t-lg lg:max-h-[400px]" src={truck} width={500} height={500} alt="Picture of workers " />
+                <Image className="rounded-t-lg object-cover lg:min-w-[450px]" src={truck} width={450} height={450} alt="Picture of workers " />
                 <div className="p-6">
                   <h3>Doner til vores arbejde</h3>
                   <p>Giv et valgfrit beløb, og vær med til at redde skoven nu!</p>
 
                   <div className="mx-auto pt-10 ">
-                    <Link href="stot" className="text-orange text-lg ">
+                    <Link href="stot" className="text-orange text-[1.5rem] ">
                       Doner her →
                     </Link>
                   </div>
                 </div>
               </div>
               <div className="shadow-xl rounded-[20px]">
-                <Image className="rounded-t-lg" src={totebag} width={500} height={500} alt="Picture of totebag" />
+                <Image className="rounded-t-lg object-cover lg:min-w-[450px]" src={totebag} width={450} height={450} alt="Picture of totebag" />
                 <div className="p-6">
                   <h3>Besøg vores webshop</h3>
                   <p>Støt os ved køb af plakater, kaffe og meget mere</p>
 
                   <div className="mx-auto pt-10 ">
-                    <Link href="#" className="text-orange text-lg ">
+                    <Link href="#" className="text-orange text-[1.5rem] ">
                       Gå til webshop →
                     </Link>
                   </div>
                 </div>
               </div>
               <div className="shadow-xl rounded-[20px] ">
-                <Image className="rounded-t-lg" src={certificat} width={500} height={500} alt="Picture of certificate" />
+                <Image className="rounded-t-lg object-cover lg:min-w-[450px]" src={certificat} width={450} height={450} alt="Picture of certificate" />
                 <div className="p-6">
                   <h3>Regnskovscertifikat</h3>
                   <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
 
                   <div className="mx-auto pt-10 ">
-                    <Link href="#" className="text-orange text-lg ">
+                    <Link href="#" className="text-orange text-[1.5rem] ">
                       Køb her →
                     </Link>
                   </div>
@@ -92,7 +92,7 @@ const Card = () => {
             </div>
 
             <div className="py-10 text-center">
-              <Link href="soedankandustoetteos" className="text-orange text-lg ">
+              <Link href="soedankandustoetteos" className="text-orange text-[1.5rem] ">
                 Se flere støttemuligheder →
               </Link>
             </div>
@@ -107,7 +107,7 @@ const Card = () => {
                   <p className="">Vi samarbejde med folk, som lever i og af skoven. Vi arbejder i områder med særlig høj biodiversitet. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
                   <div>
                     <div className="mx-auto pt-8 ">
-                      <Link href="hvadgorvi" className="text-orange text-lg ">
+                      <Link href="hvadgorvi" className="text-orange text-[1.5rem] ">
                         Læs mere →
                       </Link>
                     </div>
@@ -135,7 +135,7 @@ const Card = () => {
                     <div className="p-4">
                       <h3>Støtte af tolupanfolket</h3>
                       <p> Oprindelige folk og civilsamfundet i Honduras blev ikke kun udfordret af sundhedsrelateret pres under COVID-19 pandemien.</p>
-                      <button className="text-orange text-lg ">Læs mere →</button>
+                      <button className="text-orange text-[1.5rem] ">Læs mere →</button>
                     </div>
                   </div>
                   <div className="w-[23rem]  relative border-2  rounded-[20px]">
@@ -153,7 +153,7 @@ const Card = () => {
                       <h3>Nyt initiativ: forbedring af skovovervågning</h3>
                       <p>Verdens Skove arbejder på et projekt i det sydvestlige Etiopien.</p>
 
-                      <button className="text-orange  hover:text-hover_orange text-lg absolute bottom-4">Læs mere →</button>
+                      <button className="text-orange  hover:text-hover_orange text-[1.5rem] absolute bottom-4">Læs mere →</button>
                     </div>
                   </div>
 
@@ -171,7 +171,7 @@ const Card = () => {
                     <div className="p-4  ">
                       <h3>Tropiske skove forsvinder</h3>
                       <p>Nye tal viser en bekymrende udvikling i tab af skovdække i Bolivia. </p>
-                      <button className="text-orange hover:text-hover_orange absolute bottom-4 text-lg ">Læs mere →</button>
+                      <button className="text-orange hover:text-hover_orange absolute bottom-4 text-[1.5rem] ">Læs mere →</button>
                     </div>
                   </div>
                   <div className="w-[23rem] relative  border-2 rounded-[20px]">
@@ -188,14 +188,14 @@ const Card = () => {
                     <div className="p-4">
                       <h3>”Danskernes regnskov”</h3>
                       <p>Nye tal viser en bekymrende udvikling i tab af skovdække i Bolivia. Landet er et af de steder i verden, kun overgået af Brasilien. </p>
-                      <button className="text-orange  hover:text-hover_orange absolute bottom-4 justify-end text-lg">Læs mere →</button>
+                      <button className="text-orange  hover:text-hover_orange absolute bottom-4 justify-end text-[1.5rem]">Læs mere →</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className=" text-center">
-              <button className="text-orange  hover:text-hover_orange pt-14 text-lg">Flere artikler →</button>
+              <button className="text-orange  hover:text-hover_orange pt-14 text-[1.5rem]">Flere artikler →</button>
             </div>
           </section>
         </div>
