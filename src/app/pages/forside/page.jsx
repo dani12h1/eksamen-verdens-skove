@@ -50,7 +50,7 @@ const Card = () => {
             </div>
 
             <div className="grid gap-6 md:gap-3 lg:gap-10 lg:flex md:flex-row sm:justify-center  md:m-4 m-4">
-              <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full">
+              <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[450px] sm:w-full">
                 <Image className="rounded-t-lg object-cover  w-full h-[300px] " src={truck} width={500} height={500} alt="Picture of workers " />
                 <div className="p-6">
                   <h3>Doner til vores arbejde</h3>
@@ -63,7 +63,7 @@ const Card = () => {
                   </div>
                 </div>
               </div>
-              <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full">
+              <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[450px] sm:w-full">
                 <Image className="rounded-t-lg object-cover  w-full h-[300px]" src={totebag} width={500} height={500} alt="Picture of totebag" />
                 <div className="p-6">
                   <h3>Besøg vores webshop</h3>
@@ -76,7 +76,7 @@ const Card = () => {
                   </div>
                 </div>
               </div>
-              <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[400px] sm:w-full">
+              <div className="shadow-xl rounded-[10px] h-[520px] lg:w-[450px] sm:w-full">
                 <Image className="rounded-t-lg object-cover  w-full h-[300px] " src={certificat} width={500} height={500} alt="Picture of certificate" />
                 <div className="p-6">
                   <h3>Regnskovscertifikat</h3>
@@ -92,36 +92,30 @@ const Card = () => {
             </div>
 
             <div className="py-10 text-center">
-              <Link href="soedankandustoetteos" className="text-orange text-[1.5rem] ">
+              <Link href="soedankandustoetteos" className="text-orange  ">
                 Se flere støttemuligheder →
               </Link>
             </div>
           </section>
-          <section className="mb-12"></section>
-          <section>
-            <div>
-              <div className="bg-gray-200 p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10   md:m-22 ">
-                <Image className="h-full w-full lg:max-w-[400px] md:max-w-[500px] mx-auto" src={bw} alt="Picture of the old days" />
-                <div className=" md:p-20 flex justify-center flex-col lg:px-24">
-                  <h2 className="pt-12 md:pt-6 lg:pt-6">Hvordan arbejder vi? </h2>
-                  <p className="">Vi samarbejde med folk, som lever i og af skoven. Vi arbejder i områder med særlig høj biodiversitet. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark. </p>
-                  <div>
-                    <div className="mx-auto pt-8 ">
-                      <Link href="hvadgorvi" className="text-orange text-[1.5rem] ">
-                        Læs mere →
-                      </Link>
-                    </div>
-                  </div>
-                </div>
+          <section className="bg-gray-200 lg:justify-center 4 lg:flex lg:flex-row md:flex-col md:p-10 mx-0 pb-16 lg:p-10">
+            <div className="p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-auto rounded-2xl items-center">
+              <Image className="h-full w-full  lg:max-w-[400px] md:max-w-[500px] mx-auto" src={bw} alt="Picture of there is not planet b" />
+              <div className="md:p-8 flex justify-center flex-col order-2 ">
+                <h2 className="pt-10 md:pt-6 ">Hvordan arbejder vi? </h2>
+                <p className="max-w-[700px] ">Vi samarbejde med folk, som lever i og af skoven. Vi arbejder i områder med særlig høj biodiversitet. I dag har Verdens Skove indsatser i Danmark, Latinamerika og Østafrika. Verdens Skove samarbejder med lokale partnerorganisationer i det globale syd og har dedikeret gruppe frivillige i Danmark.</p>
+                <Link href="globaltarbejde" className="text-orange  pt-4">
+                  Læs mere →
+                </Link>
               </div>
             </div>
           </section>
-          <section className="lg:pb-28 bg-neutral-300 pl-6">
+
+          <section className="lg:pb-28 pl-6">
             <h2 className="flex pt-12 lg:pt-28 justify-center">Aktuelt nyt</h2>
-            <div className="flex lg:pl-[18vw]">
-              <div className="flex overflow-scroll scroll-smooth h-[100%]">
-                <div className=" flex gap-4 justify-center ">
-                  <div className=" w-[23rem] border-2  rounded-[10px] bg-hvid">
+            <div className="flex lg:pl-[4vw]">
+              <div className="flex overflow-scroll h-[100%]">
+                <div className=" flex gap-4 justify-center">
+                  <div className=" w-[23rem] border-2  rounded-[10px] bg-hvid ">
                     <Image className="rounded-t-[10px]" src={pink} alt="Picture of origin people" />
                     <div className="flex p-4 justify-between">
                       <p>6 NOVEMBER 2023</p>
@@ -138,6 +132,7 @@ const Card = () => {
                       <button className="text-orange hover:text-hover_orange text-[1.5rem] ">Læs mere →</button>
                     </div>
                   </div>
+
                   <div className="w-[23rem]  relative border-2  rounded-[10px] bg-hvid">
                     <Image className="rounded-t-[10px]" src={people} alt="Picture of people in the forest" />
                     <div className="flex p-4 justify-between">
@@ -174,6 +169,7 @@ const Card = () => {
                       <button className="text-orange hover:text-hover_orange absolute bottom-4 text-[1.5rem] ">Læs mere →</button>
                     </div>
                   </div>
+
                   <div className="w-[23rem] relative  border-2 rounded-[10px] bg-hvid">
                     <Image className="rounded-t-[10px]" src={danskernes} alt="Picture of animal" />
                     <div className="flex p-4 justify-between">
@@ -191,6 +187,7 @@ const Card = () => {
                       <button className="text-orange  hover:text-hover_orange absolute bottom-4 justify-end text-[1.5rem]">Læs mere →</button>
                     </div>
                   </div>
+
                   <div className="w-[23rem] relative  border-2 rounded-[10px] bg-hvid">
                     <Image className="rounded-t-[10px]" src={danskernes} alt="Picture of animal" />
                     <div className="flex p-4 justify-between">
@@ -208,6 +205,7 @@ const Card = () => {
                       <button className="text-orange  hover:text-hover_orange absolute bottom-4 justify-end text-[1.5rem]">Læs mere →</button>
                     </div>
                   </div>
+
                   <div className="w-[23rem] relative  border-2 rounded-[10px] bg-hvid">
                     <Image className="rounded-t-[10px]" src={danskernes} alt="Picture of animal" />
                     <div className="flex p-4 justify-between">

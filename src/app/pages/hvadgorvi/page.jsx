@@ -104,7 +104,7 @@ function page() {
         </section>
 
         <section className="bg-gray-200 lg:justify-center 4 lg:flex lg:flex-row md:flex-col md:p-10 mx-0 pb-16 lg:p-10">
-          <div className="p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 rounded-2xl items-center">
+          <div className="p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-auto rounded-2xl items-center">
             <Image className="h-full w-full  lg:max-w-[400px] md:max-w-[500px] mx-auto" src={planetb} alt="Picture of there is not planet b" />
             <div className="md:p-8 flex justify-center flex-col order-2 ">
               <h2 className="pt-10 md:pt-6 ">Hvad kan du gøre? </h2>
@@ -123,7 +123,7 @@ function page() {
             </div>
 
             <div className="grid gap-10 md:gap-3 lg:gap-10 lg:flex md:flex-row sm:justify-center m-4 ">
-              <div className="shadow-xl rounded-lg h-[450px] lg:w-[400px] sm:w-full">
+              <div className="shadow-xl rounded-lg h-[450px] lg:w-[450px] sm:w-full">
                 <Image className="rounded-t-lg object-cover  w-full h-[300px]" src={hand} width={500} height={500} alt="Picture of hand " />
                 <div className="p-6">
                   <h3>KANALSAGEN</h3>
@@ -132,7 +132,7 @@ function page() {
                   </div>
                 </div>
               </div>
-              <div className="shadow-xl rounded-lg h-[450px] lg:w-[400px] sm:w-full">
+              <div className="shadow-xl rounded-lg h-[450px] lg:w-[450px] sm:w-full">
                 <Image className="rounded-t-lg object-cover  w-full h-[300px]" src={karlo} width={500} height={500} alt="Picture of development" />
                 <div className="p-6">
                   <h3>STOP KAFFE, DER RYDDER REGNSKOV</h3>
@@ -141,7 +141,7 @@ function page() {
                   </div>
                 </div>
               </div>
-              <div className="shadow-xl rounded-lg h-[450px] lg:w-[400px] sm:w-full ">
+              <div className="shadow-xl rounded-lg h-[450px] lg:w-[450px] sm:w-full ">
                 <Image className="rounded-t-lg object-cover  w-full h-[300px]" src={plakat} width={500} height={500} alt="Picture of climate" />
                 <div className="p-6">
                   <h3>REGNSKOVEN OM SØERNE</h3>
