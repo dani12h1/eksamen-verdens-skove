@@ -37,7 +37,7 @@ const Stot = () => {
             <div className="lg:flex lg:flex-col grid grid-rows lg:items-end mt-22 mx-auto">
               {/* boks 1 */}
 
-              <div className="mt-20 lg:flex lg:flex-col  flex flex-col mx-auto lg:mr-24 ">
+              <div className="mt-20 lg:flex lg:flex-col  flex flex-col mx-auto lg:mr-[2rem] ">
                 <h2 className="text-center">STØT VERDENS SKOVE</h2>
                 <p className="text-center ">Dit bidrag gør en forskel</p>
               </div>

@@ -13,7 +13,7 @@
 h1 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2rem, 4vw, 3.05em);
   padding-bottom: 3%;
   padding-top: 3%;
 }
@@ -21,14 +21,14 @@ h1 {
 h2 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2rem, 3vw, 2.44em);
   padding-bottom: 3%;
 }
 
 h3 {
   font-family: "Sintony", sans-serif;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: clamp(1.5em, 3vw, 1.56em);
 }
 
 p {

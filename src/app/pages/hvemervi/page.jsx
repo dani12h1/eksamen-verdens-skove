@@ -50,7 +50,7 @@ const Page = () => {
               <div className="p-5 lg:flex lg:flex-row md:flex-col md:p-10 lg:p-10 mx-0 rounded-2xl items-center">
                 <Image className="h-full w-full lg:max-w-[600px] md:max-w-[500px] mx-auto order-1" src={Tree} alt="Picture of trees" />
                 <div className="md:p-10 flex justify-center flex-col order-2 pt-5">
-                  <h2 className="pt-10 md:pt-6 ">Verdens Skove internationalt og lokalt </h2>
+                  <h2 className="pt-10 md:pt-6 leading-[2.7rem] ">Verdens Skove internationalt og lokalt </h2>
                   <p className="max-w-[700px]">
                     Vi arbejder i områder med særlig høj biodiversitet sammen med vores partnere i Honduras, Nicaragua, Panama og Bolivia forsvarer vi regnskoven. Logikken bag vores løsninger er, at vi ser regnskoven som en ressource, der gennem bæredygtig anvendelse kan sikre, at regnskoven bliver bevaret for fremtidige generationer. I Danmark kæmper vi for at stoppe tabet af skovenes biologiske mangfoldighed. Vi vil skabe et nyt dansk landskab med mere vild skovnatur, der er rig på biologisk mangfoldighed. Vi hjælper virksomheder, stater og forbrugere med at tage ansvar ude og hjemme og sikrer derved en bæredygtig anvendelse af skovens ressourcer. Vi sætter skoven på den politiske dagsorden og oplyser om de problemer, der opstår - særligt i forhold til klimaet - når skovene ødelægges, og
                     den vilde natur forsvinder.
