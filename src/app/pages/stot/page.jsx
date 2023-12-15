@@ -9,10 +9,11 @@ import Head from "next/head";
 const Stot = () => {
   // State to track the selected amount
   const [selectedButton, setSelectedButton] = useState(null);
+  const isStotFastSelected = selectedButton === "option2";
 
   // Function to handle button click and toggle selection
   const handleButtonClick = (button) => {
-    setSelectedButton(button === setSelectedButton ? null : button);
+    setSelectedButton(button === selectedButton ? null : button);
   };
 
   // Add an onChange event handler to the input field to handle the removal of the toggle
@@ -46,15 +47,15 @@ const Stot = () => {
                 <p className="text-black pb-4">Vælg hvordan du vil støtte</p>
                 <div className="">
                   <label className="flex flex-row gap-2">
-                    <input className="accent-grå" type="radio" name="supportType" value="option1" />
+                    <input className="accent-grå" type="radio" name="supportType" value="option1" onChange={() => handleButtonClick("option1")} />
                     Enkelt donation
                   </label>
                   <label className="flex flex-row gap-2">
-                    <input className="accent-grå" type="radio" name="supportType" value="option2" />
+                    <input className="accent-grå" type="radio" name="supportType" value="option2" onChange={() => handleButtonClick("option2")} />
                     Støt fast
                   </label>
                 </div>
-                <div className="flex gap-4 pt-5 ">
+                <div className="flex gap-4 pt-5">
                   <button className={`border border-1 rounded-lg p-1 w-20 text-center text-grå ${selectedButton === 100 ? "bg-orange text-hvid" : "bg-white"}`} onClick={() => handleButtonClick(100)}>
                     100 kr
                   </button>
@@ -70,18 +71,34 @@ const Stot = () => {
                     <input className="border border-1 rounded-lg p-2 w-56 text-grå" placeholder="Valgfrit beløb" type="text" onChange={handleInputFieldChange} />
                   </label>
                 </div>
+
                 <form>
-                  <div className="lg:flex-row md:flex flex-col gap-2 pt-4 ">
+                  <div className="lg:flex-row md:flex flex-col gap-2 pt-4">
                     <label className="flex flex-row gap-2">
-                      <input className="accent-grå" type="radio" name="supportType" value="option1" />
+                      <input className="accent-grå" type="radio" name="supportType" value="option3" />
                       Betalingskort
                     </label>
                     <label className="flex flex-row gap-2">
-                      <input className="accent-grå" type="radio" name="supportType" value="option2" />
+                      <input className="accent-grå" type="radio" name="supportType" value="option4" />
                       Mobilepay
                     </label>
                   </div>
                 </form>
+                <form>
+                  {isStotFastSelected && (
+                    <div className="lg:flex-row md:flex flex-col gap-2">
+                      <label className="flex flex-row gap-2">
+                        <input className="accent-grå" type="radio" name="supportType" value="option5" />
+                        Månedligt
+                      </label>
+                      <label className="flex flex-row gap-2">
+                        <input className="accent-grå" type="radio" name="supportType" value="option6" />
+                        Årligt
+                      </label>
+                    </div>
+                  )}
+                </form>
+
                 <div className="pt-4">
                   <button className="bg-orange px-2 py-2 rounded-lg hover:bg-hover_orange text-white ">STØT NU</button>
                 </div>
