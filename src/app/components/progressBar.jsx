@@ -90,7 +90,7 @@ const ProgressBar = () => {
           </div>
         )}
         <p className="py-3  text-hvid">Der ryddes årligt omkring 120.000 hektar skov på grund af kaffedyrkning. Støt vores appel for at stoppe skadelig kaffedyrkning og redde regnskovene.</p>
-        <p className="underline text-orange">Læs mere</p>
+        <p className="underline text-orange hover:text-hover_orange cursor-pointer">Læs mere</p>
         {fetchError && <p className="text-red-500">{fetchError}</p>}
         <div className="flex flex-col gap-3 pt-3">
           <input className="p-1 pt-3 lg:h-14 lg:text-lg text-black input_progress" value={name} placeholder="Navn" type="text" onChange={(e) => setName(e.target.value)} />
