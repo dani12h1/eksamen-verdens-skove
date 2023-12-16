@@ -25,7 +25,7 @@ function page() {
           <section className="p-3 lg:mx-44 lg:my-20">
             <div className="mx-auto lg:max-w-[1000px]">
               <h2 className=" ">Dine penge gør en kæmpe forskel </h2>
-              <p className="flex  pb-10  md:pb-10 lg:text-[1.4rem]">Brænder du for Når du støtter os, er du med til at bremse den enorme CO2-forurening, der kommer fra skovrydning, bevare regnskoven sammen med de mennesker, der bor i og omkring skoven, redde de tusindvis af dyre- og plantearter, der lever i regnskoven og skaber større rigdom af dyr og planter i Danmark.</p>
+              <p className="flex  pb-10  md:pb-10 lg:text-[1.4rem]">Brænder du også for en bedre verden? Når du støtter os, bliver du en afgørende brik i kampen mod den betydelige CO2-forurening, som skyldes skovrydning. Sammen bevares regnskoven, og vi står side om side med de mennesker, der lever i og omkring skovene. Du er med til at redde tusindvis af dyre- og plantearter, som trives i regnskoven, og skaber samtidig en større mangfoldighed af flora og fauna, der beriger også Danmark. Lad os sammen skabe en bæredygtig fremtid for vores planet!</p>
             </div>
           </section>
         </div>
@@ -47,7 +47,7 @@ function page() {
             <Image className="rounded-t-[10px] object-cover  w-full h-[300px]" src={totebag} width={500} height={500} alt="Picture of totebag" />
             <div className="p-6">
               <h3>Besøg vores webshop</h3>
-              <p>Støt os ved køb af plakater, kaffe og meget mere.</p>
+              <p>Støt naturen ved køb af plakater, kaffe og meget mere..</p>
               <div className="mx-auto pt-10 ">
                 <Link href="#" className="text-orange">
                   Gå til webshop →
@@ -59,7 +59,7 @@ function page() {
             <Image className="rounded-t-[10px] object-cover  w-full h-[300px]" src={certificat} width={500} height={500} alt="Picture of certificate" />
             <div className="p-6 ">
               <h3>Regnskovscertifikat</h3>
-              <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
+              <p>Køb et stykke jord og hjælp med at bevare regnskoven nu.</p>
               <div className="mx-auto pt-10 ">
                 <Link href="#" className="text-orange">
                   Køb her →
@@ -74,7 +74,7 @@ function page() {
             <Image className="rounded-t-[10px] object-cover  w-full h-[300px]" src={mobil} width={500} height={500} alt="Picture of greenspeak " />
             <div className="p-6 ">
               <h3>Greenspeak</h3>
-              <p>Støt skoven gennem dit mobilregning med Greenspeak</p>
+              <p>Støt skoven gennem dit mobilregning med Greenspeak.</p>
               <div className="mx-auto pt-10 ">
                 <Link href="#" className="text-orange">
                   Læs mere →
@@ -86,7 +86,7 @@ function page() {
             <Image className="rounded-t-[10px] object-cover  w-full h-[300px]" src={hsnds} width={500} height={500} alt="Picture of hands" />
             <div className="p-6 ">
               <h3>Skriv under</h3>
-              <p>Med flere underskrifter kan vi øge presset på politikerne. </p>
+              <p>Med flere underskrifter kan vi gøre en forskel sammen. </p>
               <div className="mx-auto pt-10 ">
                 <Link href="#" className="text-orange">
                   Læs mere →
@@ -98,7 +98,7 @@ function page() {
             <Image className="rounded-t-[10px] object-cover  w-full h-[300px] " src={testamente} width={500} height={500} alt="Picture of testamente" />
             <div className="p-6 ">
               <h3>Testamenter penge</h3>
-              <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
+              <p>Hjælp naturen, dine efterkommere og dig selv.</p>
 
               <div className="mx-auto pt-10 ">
                 <Link href="#" className="text-orange">

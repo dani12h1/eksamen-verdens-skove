@@ -108,7 +108,9 @@ function page() {
             <Image className="h-full w-full  lg:max-w-[400px] md:max-w-[500px] mx-auto" src={planetb} alt="Picture of there is not planet b" />
             <div className="md:p-8 flex justify-center flex-col order-2 ">
               <h2 className="pt-10 md:pt-6 ">Hvad kan du gøre? </h2>
-              <p className="max-w-[700px] ">ressourceforbrug, der overstiger planetens kapacitet, og CO2-udledning, der overbelaster atmosfæren. En gennemsnitsdansker kræver tre jordkloder. For at reducere klimapåvirkningen anbefales alternativer som cykling eller offentlig transport.</p>
+              <p className="max-w-[700px] ">
+                Udover at støtte Verdens Skoves arbejde, har vi samlet en række tips til, hvordan man belaster klimaet mindre, her er nogle af dem: <br></br> <br></br>• Køb færre ting og af en kvalitet<br></br> • Spis så vidt muligt vegetarisk <br></br>• Kør med cykel, tog og bus<br></br> • Flyv så lidt som muligt <br></br>• Energioptimer din bolig <br></br> <br></br> Hver handling gør en forkskel!
+              </p>
               <Link href="globaltarbejde" className="text-orange text-[1.4rem] pt-4">
                 Læs mere →
               </Link>

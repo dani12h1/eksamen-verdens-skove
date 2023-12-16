@@ -28,7 +28,10 @@ const Page = () => {
             <section className="p-3 lg:mx-44 lg:my-20 flex">
               <div className="lg:max-w-[1000px] mx-auto">
                 <h2 className="">Verdens Skove siden 1983 </h2>
-                <p className="flex pb-3  md:pb-10 lg:pb-3 lg:text-[1.4rem]">I år, 2023, er det 40 år siden, at Verdens Skove blev grundlagt. I dag er det velkendt, at afskovning skader klimaet, koster oprindelige folk og andre lokale deres hjem, og at det er en af de væsentligste årsager til den hurtigste udryddelse af arter, siden meteoren ramte jorden for 66 millioner år siden. I 1983 var problemerne med rydning af de tropiske skove derimod ikke kendt blandt danskerne. En gruppe entusiastiske og modige biologistuderende fra Aarhus ønskede derfor at sætte rydning af regnskove på dagsordenen og øge indsatsen for at bevare verdens skove. De grundlagde derfor foreningen og lige siden har vi kæmpet for artsrige skove kloden over.</p>
+                <p className="flex pb-3  md:pb-10 lg:pb-3 lg:text-[1.4rem]">
+                  I år fejrer Verdens Skove sit 40-års jubilæum, en periode præget af en dybere forståelse af de udfordringer, vores planet står overfor. I dag er vi alle klar over, at afskovning ikke blot truer klimaet, men også berøver oprindelige folk og lokalsamfund deres hjem. Dette komplekse problem udgør en af de primære årsager til den hastige udryddelse af arter – en trussel, der ikke er set siden meteoren ramte jorden for 66 millioner år siden. I 1983 var danskerne dog ikke bevidste om tropiske skoves skæbnesvangre situation. En gruppe visionære biologistuderende fra Aarhus besluttede sig derfor for at tage affære. Deres modige handling var at bringe rydning af regnskove ind i danskernes bevidsthed og intensivere indsatsen for at bevare vores globale skatte – verdens skove.
+                  Grundlæggelsen af Verdens Skove dengang markerede begyndelsen på en vedvarende kamp for at bevare biodiversiteten i skove over hele kloden
+                </p>
               </div>
             </section>
           </div>
@@ -39,7 +42,7 @@ const Page = () => {
                 <div className=" flex justify-center flex-col lg:order-1  ">
                   <h2 className="pt-12 md:pt-6 lg:pt-6">Verden Skoves mission og vision</h2>
                   <p className="lg:max-w-[700px]">
-                    Den vision vil vi gerne arbejde for og derfor er vi stolte af at kunne præsentere en ny strategi, der skal sikre, at vi, de næste fem år, fortsat kan styrke skovens rolle og kæmpe for de mennesker, der lever i og med skoven.
+                    Den vision vi gerne vil arbejde for og derfor er vi stolte af at kunne præsentere en ny strategi, der skal sikre, at vi, de næste fem år, fortsat kan styrke skovens rolle og kæmpe for de mennesker, der lever i og med skoven.
                     <p>Verdens Skoves nye strategi har tre strategiske prioriteter: Grønne handlinger, et stærkt civilsamfund og politisk forandring. Grønne løsninger for mere klimahandling, global lighed og biodiversitet kræver, at vi mobiliserer civilsamfundet og skaber politisk velvilje. De tre strategiske prioriteter hænger uløseligt sammen og vil undervejs i strategiperioden gensidigt styrke hinanden. Det gælder i alle de lande, Verdens Skove arbejder i, inklusiv Danmark.</p>
                   </p>
                 </div>
