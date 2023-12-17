@@ -5,22 +5,37 @@ import Navigation from "../../components/Navigation";
 import hero from "../../billeder/stot.png";
 import Head from "next/head";
 
-// Your functional component
 const Stot = () => {
-  // State to track the selected amount
+  // State to track the selected amount and support type
   const [selectedButton, setSelectedButton] = useState(null);
-  const isStotFastSelected = selectedButton === "option2";
+  const [supportType, setSupportType] = useState("");
 
   // Function to handle button click and toggle selection
   const handleButtonClick = (button) => {
     setSelectedButton(button === selectedButton ? null : button);
   };
 
-  // Add an onChange event handler to the input field to handle the removal of the toggle
-  const handleInputFieldChange = () => {
-    // Remove the toggle by setting selectedButton to null
-    setSelectedButton(null);
+  // Function to handle radio button change for support type
+  const handleSupportTypeChange = (event) => {
+    setSupportType(event.target.value);
   };
+
+  // Function to handle input field change
+  const handleInputFieldChange = (event) => {
+    // Remove the toggle only if "Enkelt donation" is not selected
+    if (!isStotFastSelected) {
+      setSelectedButton(null);
+    }
+
+    // Additional logic to clear selection if something is written in the input field
+    const inputValue = event.target.value.trim();
+    if (inputValue !== "") {
+      setSelectedButton(null);
+    }
+  };
+
+  // Determine if "Støt fast" is selected
+  const isStotFastSelected = supportType === "option2";
 
   return (
     <>
@@ -31,13 +46,19 @@ const Stot = () => {
 
         <Navigation />
         {/* bg */}
-        <main className="bg-gray-400 h-full w-screen flex justify-center items-center" style={{ backgroundImage: `url(${hero.src})`, backgroundSize: "cover", backgroundPosition: "center" }}>
+        <main
+          className="bg-gray-400 h-full w-screen flex justify-center items-center"
+          style={{
+            backgroundImage: `url(${hero.src})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
           {/* wrap om container 1 og 2 */}
           <div className="grid lg:grid-rows-2 lg:grid-cols-2 grid-cols-1 grid-rows-1 lg:ml-[15vw] ">
             {/* Your content goes here */}
             <div className="lg:flex lg:flex-col grid grid-rows lg:items-end mt-22 mx-auto">
               {/* boks 1 */}
-
               <div className="mt-20 lg:flex lg:flex-col  flex flex-col mx-auto lg:mr-[2rem] ">
                 <h2 className="text-center">STØT VERDENS SKOVE</h2>
                 <p className="text-center ">Dit bidrag gør en forskel</p>
@@ -45,16 +66,18 @@ const Stot = () => {
               {/* boks 2 */}
               <div className=" p-10 bg-white rounded-lg bg-opacity-80 mx-8 my-10 lg:w-[450px] lg:h-[500px] lg:max-w-[500px] max-w-[310px] text-[20px]">
                 <p className="text-black pb-4">Vælg hvordan du vil støtte</p>
-                <div className="">
-                  <label className="flex flex-row gap-2">
-                    <input className="accent-grå" type="radio" name="supportType" value="option1" onChange={() => handleButtonClick("option1")} />
-                    Enkelt donation
-                  </label>
-                  <label className="flex flex-row gap-2">
-                    <input className="accent-grå" type="radio" name="supportType" value="option2" onChange={() => handleButtonClick("option2")} />
-                    Støt fast
-                  </label>
-                </div>
+                <form>
+                  <div className="">
+                    <label className="flex flex-row gap-2">
+                      <input className="accent-grå" type="radio" name="supportType" value="option1" checked={supportType === "option1"} onChange={handleSupportTypeChange} />
+                      Enkelt donation
+                    </label>
+                    <label className="flex flex-row gap-2">
+                      <input className="accent-grå" type="radio" name="supportType" value="option2" checked={supportType === "option2"} onChange={handleSupportTypeChange} />
+                      Støt fast
+                    </label>
+                  </div>
+                </form>
                 <div className="flex gap-4 pt-5">
                   <button className={`border border-1 rounded-lg p-1 w-20 text-center text-grå ${selectedButton === 100 ? "bg-orange text-hvid" : "bg-white"}`} onClick={() => handleButtonClick(100)}>
                     100 kr
