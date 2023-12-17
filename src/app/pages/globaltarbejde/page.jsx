@@ -31,7 +31,7 @@ function globaltarbejde() {
           <section className="bg-lys_grå md:p-10 p-4">
             <h2 className="p-3 flex justify-center lg:p-8">Her arbejder vi</h2>
             <div className="flex md:overflow-scroll overflow-scroll p-6 gap-5 lg:gap-20 lg:justify-center lg:items-center">
-              <div className="rounded-full">
+              <div className="rounded-full cursor-pointer">
                 <Image className="rounded-full mb-4 border-gray border-2 min-w-[120px] min-h-[120px] lg:max-w-[150px] p-3 bg-hvid   " src={honduras} alt="Picture of Honduras" />
                 <p className="flex justify-center">Honduras</p>
               </div>

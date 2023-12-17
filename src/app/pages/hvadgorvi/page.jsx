@@ -66,7 +66,7 @@ function page() {
               <Image className="rounded-t-lg" src={vild} width={500} height={500} alt="Picture of nature " />
               <div className="p-6 ">
                 <h3>Vild Dansk Natur</h3>
-                <Link href="#" className="text-orange text-[1.4rem]  ">
+                <Link href="#" className="text-orange  ">
                   Læs mere →
                 </Link>
               </div>
@@ -76,7 +76,7 @@ function page() {
               <Image className="rounded-t-lg" src={politik} width={500} height={500} alt="Picture of politics" />
               <div className="p-6">
                 <h3>Politisk Udvikling</h3>
-                <Link href="" className="text-orange  text-[1.4rem]  ">
+                <Link href="" className="text-orange   ">
                   Læs mere →
                 </Link>{" "}
               </div>
@@ -85,7 +85,7 @@ function page() {
               <Image className="rounded-t-lg" src={klima} width={500} height={500} alt="Picture of poster" />
               <div className="p-6">
                 <h3>Klima</h3>
-                <Link href="#" className="text-orange text-[1.4rem]  ">
+                <Link href="#" className="text-orange  ">
                   Læs mere →
                 </Link>
               </div>
@@ -95,7 +95,7 @@ function page() {
               <Image className="rounded-t-lg" src={globalt} width={500} height={500} alt="Picture of global work" />
               <div className="p-6">
                 <h3>Globalt Arbejde</h3>
-                <Link href="globaltarbejde" className="text-orange text-[1.4rem]  ">
+                <Link href="globaltarbejde" className="text-orange  ">
                   Læs mere →
                 </Link>
               </div>
@@ -111,7 +111,7 @@ function page() {
               <p className="max-w-[700px] ">
                 Udover at støtte Verdens Skoves arbejde, har vi samlet en række tips til, hvordan man belaster klimaet mindre, her er nogle af dem: <br></br> <br></br>• Køb færre ting og af en kvalitet<br></br> • Spis så vidt muligt vegetarisk <br></br>• Kør med cykel, tog og bus<br></br> • Flyv så lidt som muligt <br></br>• Energioptimer din bolig <br></br> <br></br> Hver handling gør en forkskel!
               </p>
-              <Link href="globaltarbejde" className="text-orange text-[1.4rem] pt-4">
+              <Link href="globaltarbejde" className="text-orange pt-4">
                 Læs mere →
               </Link>
             </div>
