@@ -28,10 +28,7 @@ const Page = () => {
             <section className="p-3 lg:mx-44 lg:my-20 flex">
               <div className="lg:max-w-[1000px] mx-auto">
                 <h2 className="">Verdens Skove siden 1983 </h2>
-                <p className="flex pb-3  md:pb-10 lg:pb-3 lg:text-[1.4rem]">
-                  I år fejrer Verdens Skove sit 40-års jubilæum, en periode præget af en dybere forståelse af de udfordringer, vores planet står overfor. I dag er vi alle klar over, at afskovning ikke blot truer klimaet, men også berøver oprindelige folk og lokalsamfund deres hjem. Dette komplekse problem udgør en af de primære årsager til den hastige udryddelse af arter – en trussel, der ikke er set siden meteoren ramte jorden for 66 millioner år siden. I 1983 var danskerne dog ikke bevidste om tropiske skoves skæbnesvangre situation. En gruppe visionære biologistuderende fra Aarhus besluttede sig derfor for at tage affære. Deres modige handling var at bringe rydning af regnskove ind i danskernes bevidsthed og intensivere indsatsen for at bevare vores globale skatte – verdens skove.
-                  Grundlæggelsen af Verdens Skove dengang markerede begyndelsen på en vedvarende kamp for at bevare biodiversiteten i skove over hele kloden
-                </p>
+                <p className="flex pb-3  md:pb-10 lg:pb-3 lg:text-[1.4rem]">I 40 år har Verdens Skove kæmpet for at bevare og informere om vigtigheden af at bevare verdens skove. Afskovning truer ikke kun klimaet, men også oprindelige folk og lokalsamfund. I 1983 tog visionære biologistuderende fra Aarhus affære ved at skabe bevidsthed om rydning af regnskove. Grundlæggelsen af Verdens Skove markerede starten på en vedvarende kamp for at bevare biodiversiteten globalt.</p>
               </div>
             </section>
           </div>

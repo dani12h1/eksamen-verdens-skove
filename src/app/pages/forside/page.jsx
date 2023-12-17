@@ -69,7 +69,7 @@ const Card = () => {
                 <Image className="rounded-t-lg object-cover  w-full h-[300px]" src={totebag} width={500} height={500} alt="Picture of totebag" />
                 <div className="p-6">
                   <h3>Besøg vores webshop</h3>
-                  <p>Støt os ved køb af plakater, kaffe og meget mere</p>
+                  <p>Støt naturen ved køb af plakater, kaffe og meget mere..</p>
 
                   <div className="mx-auto pt-10 ">
                     <Link href="#" className="text-orange text-[1.5rem] ">
@@ -82,7 +82,7 @@ const Card = () => {
                 <Image className="rounded-t-lg object-cover  w-full h-[300px] " src={certificat} width={500} height={500} alt="Picture of certificate" />
                 <div className="p-6">
                   <h3>Regnskovscertifikat</h3>
-                  <p>Køb et stykke jord og hjælp med at bevare regnskoven</p>
+                  <p>Køb et stykke jord og hjælp med at bevare regnskoven nu.</p>
 
                   <div className="mx-auto pt-10 ">
                     <Link href="#" className="text-orange text-[1.5rem] ">

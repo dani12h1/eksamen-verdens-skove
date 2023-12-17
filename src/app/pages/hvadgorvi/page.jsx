@@ -18,7 +18,7 @@ function page() {
   return (
     <>
       <Navigation />
-      <main className="leading-7 ">
+      <main className="leading-8 ">
         <section className="relative">
           <Image src={cover1} className="w-full h-full brightness-[0.6]" alt="Picture of global work" />
           <h1 className="text-white absolute top-[6rem] lg:pl-[6vw] pl-[6vw] lg:pt-[25vw]  md:pl-[6vw] md:pt-[20vw]">Hvad gør vi</h1>
@@ -56,7 +56,7 @@ function page() {
             </div>
           </div>
         </section>
-        <section className="w-full h-full  mx-auto  lg:pt-20 p-4 mb-12 pb-10">
+        <section className="w-full h-full  mx-auto  lg:pt-20 lg:p-12 p-4 mb-12 pb-10">
           <div className=" flex-col justify-center pt-10 ">
             <h2 className="flex justify-center ">Vores arbejdsområder</h2>
           </div>
